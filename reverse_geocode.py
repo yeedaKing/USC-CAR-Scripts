@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-INPUT_FILE  = Path("data/gps_points.csv")
+INPUT_FILE  = Path("data/tweets_raw.csv")
 OUTPUT_FILE = Path("data/gps_points_geocoded.csv")
 
 CACHE_DIR = Path("data/.geo_cache")
@@ -135,11 +135,12 @@ def nominatim_revgeo(lat, lon):
     save_cache(lat, lon, "nominatim", out)
     return out
 
-def revgeo_worker(row_id, lat, lon):
+def revgeo_worker(row_id, lat, lon, sentiment, timestamp):
     g = google_revgeo(lat, lon)
     n = nominatim_revgeo(lat, lon)
     return {
         "row_id": row_id,
+        "timestamp": timestamp,
         "lat": lat, "lon": lon,
         "latlon": f"{round(lat,6)},{round(lon,6)}",
         "google_address": g.get("google_formatted_address"),
@@ -153,6 +154,7 @@ def revgeo_worker(row_id, lat, lon):
         "nominatim_city": n.get("nominatim_city"),
         "nominatim_country": n.get("nominatim_country"),
         "nominatim_state": n.get("nominatim_state"),
+        "sentiment": sentiment,
     }
 
 def main(max_workers=None):
@@ -160,7 +162,16 @@ def main(max_workers=None):
     if max_workers is None:
         max_workers = min(8, (os.cpu_count() or 2) * 4)
 
-    df = pd.read_csv(INPUT_FILE)
+    # timestamp	location_type	longitude	latitude	sentiment
+    df = pd.read_csv(INPUT_FILE, low_memory=False)
+
+    df = df[
+        pd.to_numeric(df["latitude"], errors="coerce").between(-90, 90)
+        & pd.to_numeric(df["longitude"], errors="coerce").between(-180, 180)
+    ].reset_index(drop=True)
+
+    df.insert(0, "row_id", range(1, len(df)+1))
+
     rows = []
     with ThreadPoolExecutor(max_workers=max_workers) as ex:
         # FUTURES VARIABLE (dict): {Future: row_id}
@@ -170,6 +181,8 @@ def main(max_workers=None):
                 int(row.row_id),
                 float(row.latitude),
                 float(row.longitude),
+                getattr(row, "sentiment", None),
+                getattr(row, "timestamp", None),
             ): int(row.row_id)
             for row in df.itertuples(index=False)
         }
