@@ -83,7 +83,8 @@ def google_revgeo(lat, lon):
             "google_city": comp("locality") or comp("postal_town") or comp("sublocality") or comp("administrative_area_level_2"),
             "google_state": comp("administrative_area_level_1"),
             "google_country": comp("country"),
-            "google_poi": None
+            "google_poi": None,
+            "google_neighborhood": (comp("neighborhood") or comp("sublocality") or comp("sublocality_level_1") or comp("colloquial_area"))
         }
 
         # Try to find a nearby POI by inspecting place types in this or next result
@@ -98,8 +99,8 @@ def google_revgeo(lat, lon):
 
     else:
         print("GOOGLE status not OK")
-        out = {"google_formatted_address": None, "google_zip": None, "google_city": None,
-               "google_state": None, "google_country": None, "google_poi": None}
+        out = {"google_formatted_address": None, "google_zip": None, "google_city": None, "google_state": None,
+                "google_country": None, "google_poi": None, "google_neighborhood": None}
 
     save_cache(lat, lon, "google", out)
     return out
@@ -129,10 +130,20 @@ def nominatim_revgeo(lat, lon):
             "nominatim_state": addr.get("state"),
             "nominatim_country": addr.get("country"),
         }
+        out.update({
+            "nominatim_neighborhood": addr.get("neighbourhood") or addr.get("neighborhood"),
+            "nominatim_suburb": addr.get("suburb"),
+            "nominatim_city_district": addr.get("city_district"),
+            "nominatim_quarter": addr.get("quarter"),
+            "nominatim_borough": addr.get("borough"),
+        })
+
     else:
         print("NOMINATIM status not OK")
         out = {"nominatim_address": None, "nominatim_zip": None, "nominatim_city": None,
-               "nominatim_state": None, "nominatim_country": None}
+               "nominatim_state": None, "nominatim_country": None, "nominatim_neighbourhood": None,
+               "nominatim_suburb": None, "nominatim_city_district": None, "nominatim_quarter": None,
+               "nominatim_borough": None}
 
     save_cache(lat, lon, "nominatim", out)
     return out
@@ -157,6 +168,15 @@ def revgeo_worker(row_id, lat, lon, sentiment, timestamp):
         "nominatim_country": n.get("nominatim_country"),
         "nominatim_state": n.get("nominatim_state"),
         "sentiment": sentiment,
+        "google_neighborhood": g.get("google_neighborhood"),
+        "nhood_best": (
+            g.get("google_neighborhood")
+            or n.get("nominatim_neighbourhood")
+            or n.get("nominatim_suburb")
+            or n.get("nominatim_city_district")
+            or n.get("nominatim_quarter")
+            or n.get("nominatim_borough")
+        )
     }
 
 def main(max_workers=None):

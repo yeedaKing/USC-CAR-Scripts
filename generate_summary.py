@@ -9,7 +9,7 @@ parser.add_argument("--file", '-f', type=str, required=True, help="Path to rever
 
 def create_dict():
     locations = {
-        "St Louis; MO": {},
+        "St. Louis": {},
         "Carondelet": {},
         "Central West End": {},
         "Cherokee Antique Row": {},
@@ -70,7 +70,7 @@ def create_dict():
 
     return locations
 
-def get_date_key(month, day):
+def get_date_range_key(month, day):
     assert day >= 1
     bins = [1, 8, 15, 22, 29]
     indx = 4
@@ -83,22 +83,41 @@ def get_date_key(month, day):
     mon = "Feb" if month == 2 else "Mar"
     return f"{mon} {str(bins[indx]).zfill(2)} - {mon} {str(bins[indx+1]-1).zfill(2)} 2023"
 
-def get_location_key():
-    pass
-
 def main(file):
     df = pd.read_csv(file)
     res = create_dict()
     for (row_id,time_stamp,lat,lon,latlon,google_address,google_zip_code,google_city,google_country,
         google_state,google_nearest_poi,nominatim_address,nominatim_zip_code,nominatim_city,nominatim_country,
-        nominatim_state,sentiment) in df.itertuples(index=False, name=None):
+        nominatim_state,sentiment,google_neighborhood,nhood_best) in df.itertuples(index=False, name=None):
 
-        date = datetime.strptime(time_stamp, "%m/%d/%Y %H:%M:%S")
-        month, day, year = dt.month, dt.day, dt.year
-        date_key = get_date_key(month, day)
-        print(date_key)
+        if google_neighborhood in res:
+            location = google_neighborhood
+
+        elif nhood_best in res:
+            location = nhood_best
+
+        else:
+            print("Location outside of queried set")
+            continue
+
+        sentiment = sentiment.capitalize()
+        date = datetime.strptime(time_stamp, "%m/%d/%y %H:%M")
+        month, day, year = date.month, date.day, date.year
+        date_range_key = get_date_range_key(month, day)
+        date_key = ("Feb " if month == 2 else "Mar ") + str(day).zfill(2) + " 2023"
+
+        res[location][date_range_key] += 1
+        res[location][date_key] += 1
+        res[location][date_range_key + " - " + str(sentiment)] += 1
+        res[location][date_key + " - " + str(sentiment)] += 1
+        res[location][date_key[:-7]] += 1
+        res[location][date_key[:-7] + " - " + str(sentiment)] += 1
+
+        res[location]["Total"] += 1
+        res[location]["Total - " + str(sentiment)] += 1
         
 
 if __name__ == "__main__":
     args = parser.parse_args()
+
     main(args.file)
