@@ -97,7 +97,7 @@ def google_revgeo(lat, lon):
         out["google_poi"] = poi_name
 
     else:
-        print("status not OK")
+        print("GOOGLE status not OK")
         out = {"google_formatted_address": None, "google_zip": None, "google_city": None,
                "google_state": None, "google_country": None, "google_poi": None}
 
@@ -130,6 +130,7 @@ def nominatim_revgeo(lat, lon):
             "nominatim_country": addr.get("country"),
         }
     else:
+        print("NOMINATIM status not OK")
         out = {"nominatim_address": None, "nominatim_zip": None, "nominatim_city": None,
                "nominatim_state": None, "nominatim_country": None}
 
