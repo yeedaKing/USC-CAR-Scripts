@@ -54,7 +54,7 @@ def save_cache(lat, lon, service, data):
 
 def google_revgeo(lat, lon):
     if not GOOGLE_KEY:
-        return {}
+        raise RuntimeError("GOOGLE_API_KEY is not set in the environment")
 
     cached = load_cache(lat, lon, "google")
     if cached is not None:
