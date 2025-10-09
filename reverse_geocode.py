@@ -97,6 +97,7 @@ def google_revgeo(lat, lon):
         out["google_poi"] = poi_name
 
     else:
+        print("status not OK")
         out = {"google_formatted_address": None, "google_zip": None, "google_city": None,
                "google_state": None, "google_country": None, "google_poi": None}
 
