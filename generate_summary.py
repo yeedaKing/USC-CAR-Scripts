@@ -154,6 +154,10 @@ def main(file):
 
         dt = datetime.strptime(time_stamp, "%m/%d/%y %H:%M")
         month, day, year = dt.month, dt.day, dt.year
+        if month not in [2, 3] and year != 2023:
+            skip += 1
+            continue
+            
         date_range_key = get_date_range_key(month, day)
         date_key = ("Feb " if month == 2 else "Mar ") + str(day).zfill(2) + " 2023"
 
@@ -177,7 +181,7 @@ def main(file):
     for loc, metrics in res.items():
         for k, v in metrics.items():
             out.append({"location": loc, "metric": k, "count": v})
-            
+
     pd.DataFrame(out).to_csv("data/summary_counts.csv", index=False)
 
 if __name__ == "__main__":
