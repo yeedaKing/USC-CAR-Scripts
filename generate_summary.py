@@ -52,7 +52,7 @@ def create_dict():
     value_keys = [
         "Total", "Total - Neutral", "Total - Negative", "Total - Positive",
         "Feb", "Feb - Neutral", "Feb - Negative", "Feb - Positive",
-        "March", "March - Neutral", "March - Negative", "March - Positive",
+        "Mar", "Mar - Neutral", "Mar - Negative", "Mar - Positive",
         "Feb 01 - Feb 07 2023", "Feb 01 - Feb 07 2023 - Neutral", "Feb 01 - Feb 07 2023 - Negative", "Feb 01 - Feb 07 2023 - Positive",
         "Feb 08 - Feb 14 2023", "Feb 08 - Feb 14 2023 - Neutral", "Feb 08 - Feb 14 2023 - Negative", "Feb 08 - Feb 14 2023 - Positive",
         "Feb 15 - Feb 21 2023", "Feb 15 - Feb 21 2023 - Neutral", "Feb 15 - Feb 21 2023 - Negative", "Feb 15 - Feb 21 2023 - Positive",
@@ -83,39 +83,102 @@ def get_date_range_key(month, day):
     mon = "Feb" if month == 2 else "Mar"
     return f"{mon} {str(bins[indx]).zfill(2)} - {mon} {str(bins[indx+1]-1).zfill(2)} 2023"
 
+# canonical list
+CANON = {
+    "St. Louis","Carondelet","Central West End","Cherokee Antique Row","Cherokee Street",
+    "Chesterfield","Clayton","Downtown St. Louis","Eureka","Forest Park","Grand Center Arts District",
+    "Kimmswick","Kirkwood","Laclede's Landing","Lafayette Square","Maplewood","Maryland Heights",
+    "North County","Soulard","South Grand","The Delmar Loop","The Grove","The Hill","The Ville",
+    "Webster Groves","Washington University in St. Louis"
+}
+
+# common local aliases -> canonical
+ALIASES = {
+    "Forest Park Southeast": "The Grove",
+    "Downtown": "Downtown St. Louis",
+    "Downtown West": "Downtown St. Louis",
+    "CWE": "Central West End",
+    "WashU": "Washington University in St. Louis",
+    "Washington University": "Washington University in St. Louis",
+    "Lacledes Landing": "Laclede's Landing",
+}
+
+def canonize(name: str | None) -> str | None:
+    if not isinstance(name, str): 
+        return None
+
+    s = name.strip()
+    if s in CANON: 
+        return s
+
+    if s in ALIASES: 
+        s = ALIASES[s]
+        return s if s in CANON else None
+
+    s2 = s.replace("St Louis", "St. Louis")
+    s2 = s.replace("Saint Louis", "St. Louis")
+    return s2 if s2 in CANON else None
+
+def pick_neighborhood(g, n, poi, n_address) -> str | None:
+    loc = canonize(g)
+    if loc:
+        return loc
+
+    loc = canonize(n)
+    if loc:
+        return loc
+
+    hay = " | ".join([
+        str(poi or ""),
+        str(n_address or "")
+    ])
+    for cand in sorted(CANON | set(ALIASES.keys()), key=len, reverse=True):
+        if cand.lower() in hay.lower():
+            return canonize(cand)
+
+    return None
+
 def main(file):
     df = pd.read_csv(file)
     res = create_dict()
+    skip = 0
+    total = 0 
     for (row_id,time_stamp,lat,lon,latlon,google_address,google_zip_code,google_city,google_country,
         google_state,google_nearest_poi,nominatim_address,nominatim_zip_code,nominatim_city,nominatim_country,
         nominatim_state,sentiment,google_neighborhood,nhood_best) in df.itertuples(index=False, name=None):
-
-        if google_neighborhood in res:
-            location = google_neighborhood
-
-        elif nhood_best in res:
-            location = nhood_best
-
-        else:
-            print("Location outside of queried set")
+        total += 1
+        location = pick_neighborhood(google_neighborhood, nhood_best, google_nearest_poi, nominatim_address)
+        if location is None:
+            skip += 1
             continue
 
-        sentiment = sentiment.capitalize()
-        date = datetime.strptime(time_stamp, "%m/%d/%y %H:%M")
-        month, day, year = date.month, date.day, date.year
+        dt = datetime.strptime(time_stamp, "%m/%d/%y %H:%M")
+        month, day, year = dt.month, dt.day, dt.year
         date_range_key = get_date_range_key(month, day)
         date_key = ("Feb " if month == 2 else "Mar ") + str(day).zfill(2) + " 2023"
 
         res[location][date_range_key] += 1
         res[location][date_key] += 1
-        res[location][date_range_key + " - " + str(sentiment)] += 1
-        res[location][date_key + " - " + str(sentiment)] += 1
-        res[location][date_key[:-7]] += 1
-        res[location][date_key[:-7] + " - " + str(sentiment)] += 1
+        res[location][date_key[:-8]] += 1
+            
+        if isinstance(sentiment, str):
+            sentiment = sentiment.capitalize()
+            if sentiment in ["Neutral", "Positive", "Negative"]:
+                res[location][date_range_key + " - " + str(sentiment)] += 1
+                res[location][date_key + " - " + str(sentiment)] += 1
+                res[location][date_key[:-8] + " - " + str(sentiment)] += 1
+                res[location]["Total - " + str(sentiment)] += 1
 
         res[location]["Total"] += 1
-        res[location]["Total - " + str(sentiment)] += 1
         
+    print(skip, total)
+
+    out = []
+    for loc, metrics in res.items():
+        for k, v in metrics.items():
+            out.append({"location": loc, "metric": k, "count": v})
+            
+    pd.DataFrame(out).to_csv("data/summary_counts.csv", index=False)
 
 if __name__ == "__main__":
     args = parser.parse_args()
