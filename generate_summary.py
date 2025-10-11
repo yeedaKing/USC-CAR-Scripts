@@ -107,7 +107,7 @@ def canonize(name: str | None) -> str | None:
     if not isinstance(name, str): 
         return None
 
-    s = name.strip()
+    s = name.strip().title()
     if s in CANON: 
         return s
 
@@ -116,7 +116,7 @@ def canonize(name: str | None) -> str | None:
         return s if s in CANON else None
 
     s2 = s.replace("St Louis", "St. Louis")
-    s2 = s.replace("Saint Louis", "St. Louis")
+    s2 = s2.replace("Saint Louis", "St. Louis")
     return s2 if s2 in CANON else None
 
 def pick_neighborhood(g, n, poi, n_address) -> str | None:
@@ -154,16 +154,21 @@ def main(file):
 
         dt = datetime.strptime(time_stamp, "%m/%d/%y %H:%M")
         month, day, year = dt.month, dt.day, dt.year
-        if month not in [2, 3] and year != 2023:
+
+        # We only care about dates in February or March 2023, with the exception of April 1-4th 2023
+        if year != 2023 or month not in [2, 3] and not (month == 4 and day < 5):
             skip += 1
             continue
-            
+
         date_range_key = get_date_range_key(month, day)
         date_key = ("Feb " if month == 2 else "Mar ") + str(day).zfill(2) + " 2023"
 
         res[location][date_range_key] += 1
-        res[location][date_key] += 1
-        res[location][date_key[:-8]] += 1
+
+        # No "April {day} 2023" column
+        if month != 4:
+            res[location][date_key] += 1
+            res[location][date_key[:-8]] += 1
             
         if isinstance(sentiment, str):
             sentiment = sentiment.capitalize()

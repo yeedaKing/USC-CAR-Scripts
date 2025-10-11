@@ -1,16 +1,16 @@
 location,metric,count
-St. Louis,Total,58860
-St. Louis,Total - Neutral,24327
-St. Louis,Total - Negative,16044
-St. Louis,Total - Positive,14149
+St. Louis,Total,26849
+St. Louis,Total - Neutral,11030
+St. Louis,Total - Negative,7277
+St. Louis,Total - Positive,6549
 St. Louis,Feb,26794
 St. Louis,Feb - Neutral,11004
 St. Louis,Feb - Negative,7258
 St. Louis,Feb - Positive,6540
-St. Louis,Mar,32066
-St. Louis,Mar - Neutral,13323
-St. Louis,Mar - Negative,8786
-St. Louis,Mar - Positive,7609
+St. Louis,Mar,55
+St. Louis,Mar - Neutral,26
+St. Louis,Mar - Negative,19
+St. Louis,Mar - Positive,9
 St. Louis,Feb 01 - Feb 07 2023,6935
 St. Louis,Feb 01 - Feb 07 2023 - Neutral,2825
 St. Louis,Feb 01 - Feb 07 2023 - Negative,1930
@@ -27,26 +27,26 @@ St. Louis,Feb 22 - Feb 28 2023,7058
 St. Louis,Feb 22 - Feb 28 2023 - Neutral,2931
 St. Louis,Feb 22 - Feb 28 2023 - Negative,1923
 St. Louis,Feb 22 - Feb 28 2023 - Positive,1718
-St. Louis,Mar 01 - Mar 07 2023,7571
-St. Louis,Mar 01 - Mar 07 2023 - Neutral,3042
-St. Louis,Mar 01 - Mar 07 2023 - Negative,1906
-St. Louis,Mar 01 - Mar 07 2023 - Positive,1969
-St. Louis,Mar 08 - Mar 14 2023,6468
-St. Louis,Mar 08 - Mar 14 2023 - Neutral,2688
-St. Louis,Mar 08 - Mar 14 2023 - Negative,1876
-St. Louis,Mar 08 - Mar 14 2023 - Positive,1502
-St. Louis,Mar 15 - Mar 21 2023,6984
-St. Louis,Mar 15 - Mar 21 2023 - Neutral,2927
-St. Louis,Mar 15 - Mar 21 2023 - Negative,1856
-St. Louis,Mar 15 - Mar 21 2023 - Positive,1675
-St. Louis,Mar 22 - Mar 28 2023,7807
-St. Louis,Mar 22 - Mar 28 2023 - Neutral,3291
-St. Louis,Mar 22 - Mar 28 2023 - Negative,2212
-St. Louis,Mar 22 - Mar 28 2023 - Positive,1771
-St. Louis,Mar 29 - Apr 04 2023,3236
-St. Louis,Mar 29 - Apr 04 2023 - Neutral,1375
-St. Louis,Mar 29 - Apr 04 2023 - Negative,936
-St. Louis,Mar 29 - Apr 04 2023 - Positive,692
+St. Louis,Mar 01 - Mar 07 2023,55
+St. Louis,Mar 01 - Mar 07 2023 - Neutral,26
+St. Louis,Mar 01 - Mar 07 2023 - Negative,19
+St. Louis,Mar 01 - Mar 07 2023 - Positive,9
+St. Louis,Mar 08 - Mar 14 2023,0
+St. Louis,Mar 08 - Mar 14 2023 - Neutral,0
+St. Louis,Mar 08 - Mar 14 2023 - Negative,0
+St. Louis,Mar 08 - Mar 14 2023 - Positive,0
+St. Louis,Mar 15 - Mar 21 2023,0
+St. Louis,Mar 15 - Mar 21 2023 - Neutral,0
+St. Louis,Mar 15 - Mar 21 2023 - Negative,0
+St. Louis,Mar 15 - Mar 21 2023 - Positive,0
+St. Louis,Mar 22 - Mar 28 2023,0
+St. Louis,Mar 22 - Mar 28 2023 - Neutral,0
+St. Louis,Mar 22 - Mar 28 2023 - Negative,0
+St. Louis,Mar 22 - Mar 28 2023 - Positive,0
+St. Louis,Mar 29 - Apr 04 2023,0
+St. Louis,Mar 29 - Apr 04 2023 - Neutral,0
+St. Louis,Mar 29 - Apr 04 2023 - Negative,0
+St. Louis,Mar 29 - Apr 04 2023 - Positive,0
 St. Louis,Feb 01 2023,940
 St. Louis,Feb 01 2023 - Neutral,387
 St. Louis,Feb 01 2023 - Negative,229
@@ -159,142 +159,142 @@ St. Louis,Feb 28 2023,925
 St. Louis,Feb 28 2023 - Neutral,363
 St. Louis,Feb 28 2023 - Negative,262
 St. Louis,Feb 28 2023 - Positive,229
-St. Louis,Mar 01 2023,1271
-St. Louis,Mar 01 2023 - Neutral,484
-St. Louis,Mar 01 2023 - Negative,274
-St. Louis,Mar 01 2023 - Positive,433
-St. Louis,Mar 02 2023,1228
-St. Louis,Mar 02 2023 - Neutral,479
-St. Louis,Mar 02 2023 - Negative,326
-St. Louis,Mar 02 2023 - Positive,302
-St. Louis,Mar 03 2023,1161
-St. Louis,Mar 03 2023 - Neutral,464
-St. Louis,Mar 03 2023 - Negative,311
-St. Louis,Mar 03 2023 - Positive,277
-St. Louis,Mar 04 2023,1184
-St. Louis,Mar 04 2023 - Neutral,502
-St. Louis,Mar 04 2023 - Negative,298
-St. Louis,Mar 04 2023 - Positive,270
-St. Louis,Mar 05 2023,945
-St. Louis,Mar 05 2023 - Neutral,386
-St. Louis,Mar 05 2023 - Negative,236
-St. Louis,Mar 05 2023 - Positive,219
-St. Louis,Mar 06 2023,932
-St. Louis,Mar 06 2023 - Neutral,382
-St. Louis,Mar 06 2023 - Negative,236
-St. Louis,Mar 06 2023 - Positive,251
-St. Louis,Mar 07 2023,850
-St. Louis,Mar 07 2023 - Neutral,345
-St. Louis,Mar 07 2023 - Negative,225
-St. Louis,Mar 07 2023 - Positive,217
-St. Louis,Mar 08 2023,875
-St. Louis,Mar 08 2023 - Neutral,364
-St. Louis,Mar 08 2023 - Negative,219
-St. Louis,Mar 08 2023 - Positive,226
-St. Louis,Mar 09 2023,789
-St. Louis,Mar 09 2023 - Neutral,311
-St. Louis,Mar 09 2023 - Negative,230
-St. Louis,Mar 09 2023 - Positive,189
-St. Louis,Mar 10 2023,1009
-St. Louis,Mar 10 2023 - Neutral,410
-St. Louis,Mar 10 2023 - Negative,281
-St. Louis,Mar 10 2023 - Positive,262
-St. Louis,Mar 11 2023,1064
-St. Louis,Mar 11 2023 - Neutral,435
-St. Louis,Mar 11 2023 - Negative,310
-St. Louis,Mar 11 2023 - Positive,252
-St. Louis,Mar 12 2023,907
-St. Louis,Mar 12 2023 - Neutral,402
-St. Louis,Mar 12 2023 - Negative,270
-St. Louis,Mar 12 2023 - Positive,174
-St. Louis,Mar 13 2023,895
-St. Louis,Mar 13 2023 - Neutral,385
-St. Louis,Mar 13 2023 - Negative,272
-St. Louis,Mar 13 2023 - Positive,194
-St. Louis,Mar 14 2023,929
-St. Louis,Mar 14 2023 - Neutral,381
-St. Louis,Mar 14 2023 - Negative,294
-St. Louis,Mar 14 2023 - Positive,205
-St. Louis,Mar 15 2023,1137
-St. Louis,Mar 15 2023 - Neutral,463
-St. Louis,Mar 15 2023 - Negative,300
-St. Louis,Mar 15 2023 - Positive,313
-St. Louis,Mar 16 2023,949
-St. Louis,Mar 16 2023 - Neutral,390
-St. Louis,Mar 16 2023 - Negative,249
-St. Louis,Mar 16 2023 - Positive,232
-St. Louis,Mar 17 2023,927
-St. Louis,Mar 17 2023 - Neutral,403
-St. Louis,Mar 17 2023 - Negative,243
-St. Louis,Mar 17 2023 - Positive,207
-St. Louis,Mar 18 2023,881
-St. Louis,Mar 18 2023 - Neutral,365
-St. Louis,Mar 18 2023 - Negative,254
-St. Louis,Mar 18 2023 - Positive,199
-St. Louis,Mar 19 2023,1154
-St. Louis,Mar 19 2023 - Neutral,478
-St. Louis,Mar 19 2023 - Negative,332
-St. Louis,Mar 19 2023 - Positive,242
-St. Louis,Mar 20 2023,950
-St. Louis,Mar 20 2023 - Neutral,392
-St. Louis,Mar 20 2023 - Negative,250
-St. Louis,Mar 20 2023 - Positive,228
-St. Louis,Mar 21 2023,986
-St. Louis,Mar 21 2023 - Neutral,436
-St. Louis,Mar 21 2023 - Negative,228
-St. Louis,Mar 21 2023 - Positive,254
-St. Louis,Mar 22 2023,1083
-St. Louis,Mar 22 2023 - Neutral,471
-St. Louis,Mar 22 2023 - Negative,274
-St. Louis,Mar 22 2023 - Positive,263
-St. Louis,Mar 23 2023,1105
-St. Louis,Mar 23 2023 - Neutral,477
-St. Louis,Mar 23 2023 - Negative,323
-St. Louis,Mar 23 2023 - Positive,220
-St. Louis,Mar 24 2023,1120
-St. Louis,Mar 24 2023 - Neutral,476
-St. Louis,Mar 24 2023 - Negative,312
-St. Louis,Mar 24 2023 - Positive,269
-St. Louis,Mar 25 2023,1045
-St. Louis,Mar 25 2023 - Neutral,427
-St. Louis,Mar 25 2023 - Negative,295
-St. Louis,Mar 25 2023 - Positive,247
-St. Louis,Mar 26 2023,1238
-St. Louis,Mar 26 2023 - Neutral,494
-St. Louis,Mar 26 2023 - Negative,378
-St. Louis,Mar 26 2023 - Positive,281
-St. Louis,Mar 27 2023,1119
-St. Louis,Mar 27 2023 - Neutral,475
-St. Louis,Mar 27 2023 - Negative,320
-St. Louis,Mar 27 2023 - Positive,245
-St. Louis,Mar 28 2023,1097
-St. Louis,Mar 28 2023 - Neutral,471
-St. Louis,Mar 28 2023 - Negative,310
-St. Louis,Mar 28 2023 - Positive,246
-St. Louis,Mar 29 2023,1097
-St. Louis,Mar 29 2023 - Neutral,498
-St. Louis,Mar 29 2023 - Negative,314
-St. Louis,Mar 29 2023 - Positive,208
-St. Louis,Mar 30 2023,1176
-St. Louis,Mar 30 2023 - Neutral,456
-St. Louis,Mar 30 2023 - Negative,355
-St. Louis,Mar 30 2023 - Positive,286
-St. Louis,Mar 31 2023,963
-St. Louis,Mar 31 2023 - Neutral,421
-St. Louis,Mar 31 2023 - Negative,267
-St. Louis,Mar 31 2023 - Positive,198
-Carondelet,Total,14
+St. Louis,Mar 01 2023,54
+St. Louis,Mar 01 2023 - Neutral,26
+St. Louis,Mar 01 2023 - Negative,19
+St. Louis,Mar 01 2023 - Positive,8
+St. Louis,Mar 02 2023,1
+St. Louis,Mar 02 2023 - Neutral,0
+St. Louis,Mar 02 2023 - Negative,0
+St. Louis,Mar 02 2023 - Positive,1
+St. Louis,Mar 03 2023,0
+St. Louis,Mar 03 2023 - Neutral,0
+St. Louis,Mar 03 2023 - Negative,0
+St. Louis,Mar 03 2023 - Positive,0
+St. Louis,Mar 04 2023,0
+St. Louis,Mar 04 2023 - Neutral,0
+St. Louis,Mar 04 2023 - Negative,0
+St. Louis,Mar 04 2023 - Positive,0
+St. Louis,Mar 05 2023,0
+St. Louis,Mar 05 2023 - Neutral,0
+St. Louis,Mar 05 2023 - Negative,0
+St. Louis,Mar 05 2023 - Positive,0
+St. Louis,Mar 06 2023,0
+St. Louis,Mar 06 2023 - Neutral,0
+St. Louis,Mar 06 2023 - Negative,0
+St. Louis,Mar 06 2023 - Positive,0
+St. Louis,Mar 07 2023,0
+St. Louis,Mar 07 2023 - Neutral,0
+St. Louis,Mar 07 2023 - Negative,0
+St. Louis,Mar 07 2023 - Positive,0
+St. Louis,Mar 08 2023,0
+St. Louis,Mar 08 2023 - Neutral,0
+St. Louis,Mar 08 2023 - Negative,0
+St. Louis,Mar 08 2023 - Positive,0
+St. Louis,Mar 09 2023,0
+St. Louis,Mar 09 2023 - Neutral,0
+St. Louis,Mar 09 2023 - Negative,0
+St. Louis,Mar 09 2023 - Positive,0
+St. Louis,Mar 10 2023,0
+St. Louis,Mar 10 2023 - Neutral,0
+St. Louis,Mar 10 2023 - Negative,0
+St. Louis,Mar 10 2023 - Positive,0
+St. Louis,Mar 11 2023,0
+St. Louis,Mar 11 2023 - Neutral,0
+St. Louis,Mar 11 2023 - Negative,0
+St. Louis,Mar 11 2023 - Positive,0
+St. Louis,Mar 12 2023,0
+St. Louis,Mar 12 2023 - Neutral,0
+St. Louis,Mar 12 2023 - Negative,0
+St. Louis,Mar 12 2023 - Positive,0
+St. Louis,Mar 13 2023,0
+St. Louis,Mar 13 2023 - Neutral,0
+St. Louis,Mar 13 2023 - Negative,0
+St. Louis,Mar 13 2023 - Positive,0
+St. Louis,Mar 14 2023,0
+St. Louis,Mar 14 2023 - Neutral,0
+St. Louis,Mar 14 2023 - Negative,0
+St. Louis,Mar 14 2023 - Positive,0
+St. Louis,Mar 15 2023,0
+St. Louis,Mar 15 2023 - Neutral,0
+St. Louis,Mar 15 2023 - Negative,0
+St. Louis,Mar 15 2023 - Positive,0
+St. Louis,Mar 16 2023,0
+St. Louis,Mar 16 2023 - Neutral,0
+St. Louis,Mar 16 2023 - Negative,0
+St. Louis,Mar 16 2023 - Positive,0
+St. Louis,Mar 17 2023,0
+St. Louis,Mar 17 2023 - Neutral,0
+St. Louis,Mar 17 2023 - Negative,0
+St. Louis,Mar 17 2023 - Positive,0
+St. Louis,Mar 18 2023,0
+St. Louis,Mar 18 2023 - Neutral,0
+St. Louis,Mar 18 2023 - Negative,0
+St. Louis,Mar 18 2023 - Positive,0
+St. Louis,Mar 19 2023,0
+St. Louis,Mar 19 2023 - Neutral,0
+St. Louis,Mar 19 2023 - Negative,0
+St. Louis,Mar 19 2023 - Positive,0
+St. Louis,Mar 20 2023,0
+St. Louis,Mar 20 2023 - Neutral,0
+St. Louis,Mar 20 2023 - Negative,0
+St. Louis,Mar 20 2023 - Positive,0
+St. Louis,Mar 21 2023,0
+St. Louis,Mar 21 2023 - Neutral,0
+St. Louis,Mar 21 2023 - Negative,0
+St. Louis,Mar 21 2023 - Positive,0
+St. Louis,Mar 22 2023,0
+St. Louis,Mar 22 2023 - Neutral,0
+St. Louis,Mar 22 2023 - Negative,0
+St. Louis,Mar 22 2023 - Positive,0
+St. Louis,Mar 23 2023,0
+St. Louis,Mar 23 2023 - Neutral,0
+St. Louis,Mar 23 2023 - Negative,0
+St. Louis,Mar 23 2023 - Positive,0
+St. Louis,Mar 24 2023,0
+St. Louis,Mar 24 2023 - Neutral,0
+St. Louis,Mar 24 2023 - Negative,0
+St. Louis,Mar 24 2023 - Positive,0
+St. Louis,Mar 25 2023,0
+St. Louis,Mar 25 2023 - Neutral,0
+St. Louis,Mar 25 2023 - Negative,0
+St. Louis,Mar 25 2023 - Positive,0
+St. Louis,Mar 26 2023,0
+St. Louis,Mar 26 2023 - Neutral,0
+St. Louis,Mar 26 2023 - Negative,0
+St. Louis,Mar 26 2023 - Positive,0
+St. Louis,Mar 27 2023,0
+St. Louis,Mar 27 2023 - Neutral,0
+St. Louis,Mar 27 2023 - Negative,0
+St. Louis,Mar 27 2023 - Positive,0
+St. Louis,Mar 28 2023,0
+St. Louis,Mar 28 2023 - Neutral,0
+St. Louis,Mar 28 2023 - Negative,0
+St. Louis,Mar 28 2023 - Positive,0
+St. Louis,Mar 29 2023,0
+St. Louis,Mar 29 2023 - Neutral,0
+St. Louis,Mar 29 2023 - Negative,0
+St. Louis,Mar 29 2023 - Positive,0
+St. Louis,Mar 30 2023,0
+St. Louis,Mar 30 2023 - Neutral,0
+St. Louis,Mar 30 2023 - Negative,0
+St. Louis,Mar 30 2023 - Positive,0
+St. Louis,Mar 31 2023,0
+St. Louis,Mar 31 2023 - Neutral,0
+St. Louis,Mar 31 2023 - Negative,0
+St. Louis,Mar 31 2023 - Positive,0
+Carondelet,Total,6
 Carondelet,Total - Neutral,3
 Carondelet,Total - Negative,2
-Carondelet,Total - Positive,9
+Carondelet,Total - Positive,1
 Carondelet,Feb,6
 Carondelet,Feb - Neutral,3
 Carondelet,Feb - Negative,2
 Carondelet,Feb - Positive,1
-Carondelet,Mar,8
+Carondelet,Mar,0
 Carondelet,Mar - Neutral,0
 Carondelet,Mar - Negative,0
-Carondelet,Mar - Positive,8
+Carondelet,Mar - Positive,0
 Carondelet,Feb 01 - Feb 07 2023,3
 Carondelet,Feb 01 - Feb 07 2023 - Neutral,2
 Carondelet,Feb 01 - Feb 07 2023 - Negative,0
@@ -311,14 +311,14 @@ Carondelet,Feb 22 - Feb 28 2023,3
 Carondelet,Feb 22 - Feb 28 2023 - Neutral,1
 Carondelet,Feb 22 - Feb 28 2023 - Negative,2
 Carondelet,Feb 22 - Feb 28 2023 - Positive,0
-Carondelet,Mar 01 - Mar 07 2023,4
+Carondelet,Mar 01 - Mar 07 2023,0
 Carondelet,Mar 01 - Mar 07 2023 - Neutral,0
 Carondelet,Mar 01 - Mar 07 2023 - Negative,0
-Carondelet,Mar 01 - Mar 07 2023 - Positive,4
-Carondelet,Mar 08 - Mar 14 2023,4
+Carondelet,Mar 01 - Mar 07 2023 - Positive,0
+Carondelet,Mar 08 - Mar 14 2023,0
 Carondelet,Mar 08 - Mar 14 2023 - Neutral,0
 Carondelet,Mar 08 - Mar 14 2023 - Negative,0
-Carondelet,Mar 08 - Mar 14 2023 - Positive,4
+Carondelet,Mar 08 - Mar 14 2023 - Positive,0
 Carondelet,Mar 15 - Mar 21 2023,0
 Carondelet,Mar 15 - Mar 21 2023 - Neutral,0
 Carondelet,Mar 15 - Mar 21 2023 - Negative,0
@@ -443,18 +443,18 @@ Carondelet,Feb 28 2023,0
 Carondelet,Feb 28 2023 - Neutral,0
 Carondelet,Feb 28 2023 - Negative,0
 Carondelet,Feb 28 2023 - Positive,0
-Carondelet,Mar 01 2023,2
+Carondelet,Mar 01 2023,0
 Carondelet,Mar 01 2023 - Neutral,0
 Carondelet,Mar 01 2023 - Negative,0
-Carondelet,Mar 01 2023 - Positive,2
+Carondelet,Mar 01 2023 - Positive,0
 Carondelet,Mar 02 2023,0
 Carondelet,Mar 02 2023 - Neutral,0
 Carondelet,Mar 02 2023 - Negative,0
 Carondelet,Mar 02 2023 - Positive,0
-Carondelet,Mar 03 2023,1
+Carondelet,Mar 03 2023,0
 Carondelet,Mar 03 2023 - Neutral,0
 Carondelet,Mar 03 2023 - Negative,0
-Carondelet,Mar 03 2023 - Positive,1
+Carondelet,Mar 03 2023 - Positive,0
 Carondelet,Mar 04 2023,0
 Carondelet,Mar 04 2023 - Neutral,0
 Carondelet,Mar 04 2023 - Negative,0
@@ -467,10 +467,10 @@ Carondelet,Mar 06 2023,0
 Carondelet,Mar 06 2023 - Neutral,0
 Carondelet,Mar 06 2023 - Negative,0
 Carondelet,Mar 06 2023 - Positive,0
-Carondelet,Mar 07 2023,1
+Carondelet,Mar 07 2023,0
 Carondelet,Mar 07 2023 - Neutral,0
 Carondelet,Mar 07 2023 - Negative,0
-Carondelet,Mar 07 2023 - Positive,1
+Carondelet,Mar 07 2023 - Positive,0
 Carondelet,Mar 08 2023,0
 Carondelet,Mar 08 2023 - Neutral,0
 Carondelet,Mar 08 2023 - Negative,0
@@ -479,10 +479,10 @@ Carondelet,Mar 09 2023,0
 Carondelet,Mar 09 2023 - Neutral,0
 Carondelet,Mar 09 2023 - Negative,0
 Carondelet,Mar 09 2023 - Positive,0
-Carondelet,Mar 10 2023,1
+Carondelet,Mar 10 2023,0
 Carondelet,Mar 10 2023 - Neutral,0
 Carondelet,Mar 10 2023 - Negative,0
-Carondelet,Mar 10 2023 - Positive,1
+Carondelet,Mar 10 2023 - Positive,0
 Carondelet,Mar 11 2023,0
 Carondelet,Mar 11 2023 - Neutral,0
 Carondelet,Mar 11 2023 - Negative,0
@@ -495,10 +495,10 @@ Carondelet,Mar 13 2023,0
 Carondelet,Mar 13 2023 - Neutral,0
 Carondelet,Mar 13 2023 - Negative,0
 Carondelet,Mar 13 2023 - Positive,0
-Carondelet,Mar 14 2023,3
+Carondelet,Mar 14 2023,0
 Carondelet,Mar 14 2023 - Neutral,0
 Carondelet,Mar 14 2023 - Negative,0
-Carondelet,Mar 14 2023 - Positive,3
+Carondelet,Mar 14 2023 - Positive,0
 Carondelet,Mar 15 2023,0
 Carondelet,Mar 15 2023 - Neutral,0
 Carondelet,Mar 15 2023 - Negative,0
@@ -567,18 +567,18 @@ Carondelet,Mar 31 2023,0
 Carondelet,Mar 31 2023 - Neutral,0
 Carondelet,Mar 31 2023 - Negative,0
 Carondelet,Mar 31 2023 - Positive,0
-Central West End,Total,170
-Central West End,Total - Neutral,127
-Central West End,Total - Negative,9
-Central West End,Total - Positive,31
+Central West End,Total,71
+Central West End,Total - Neutral,54
+Central West End,Total - Negative,5
+Central West End,Total - Positive,12
 Central West End,Feb,70
 Central West End,Feb - Neutral,53
 Central West End,Feb - Negative,5
 Central West End,Feb - Positive,12
-Central West End,Mar,100
-Central West End,Mar - Neutral,74
-Central West End,Mar - Negative,4
-Central West End,Mar - Positive,19
+Central West End,Mar,1
+Central West End,Mar - Neutral,1
+Central West End,Mar - Negative,0
+Central West End,Mar - Positive,0
 Central West End,Feb 01 - Feb 07 2023,24
 Central West End,Feb 01 - Feb 07 2023 - Neutral,16
 Central West End,Feb 01 - Feb 07 2023 - Negative,4
@@ -595,26 +595,26 @@ Central West End,Feb 22 - Feb 28 2023,12
 Central West End,Feb 22 - Feb 28 2023 - Neutral,9
 Central West End,Feb 22 - Feb 28 2023 - Negative,1
 Central West End,Feb 22 - Feb 28 2023 - Positive,2
-Central West End,Mar 01 - Mar 07 2023,18
-Central West End,Mar 01 - Mar 07 2023 - Neutral,12
+Central West End,Mar 01 - Mar 07 2023,1
+Central West End,Mar 01 - Mar 07 2023 - Neutral,1
 Central West End,Mar 01 - Mar 07 2023 - Negative,0
-Central West End,Mar 01 - Mar 07 2023 - Positive,5
-Central West End,Mar 08 - Mar 14 2023,37
-Central West End,Mar 08 - Mar 14 2023 - Neutral,28
-Central West End,Mar 08 - Mar 14 2023 - Negative,2
-Central West End,Mar 08 - Mar 14 2023 - Positive,6
-Central West End,Mar 15 - Mar 21 2023,20
-Central West End,Mar 15 - Mar 21 2023 - Neutral,13
-Central West End,Mar 15 - Mar 21 2023 - Negative,2
-Central West End,Mar 15 - Mar 21 2023 - Positive,5
-Central West End,Mar 22 - Mar 28 2023,16
-Central West End,Mar 22 - Mar 28 2023 - Neutral,14
+Central West End,Mar 01 - Mar 07 2023 - Positive,0
+Central West End,Mar 08 - Mar 14 2023,0
+Central West End,Mar 08 - Mar 14 2023 - Neutral,0
+Central West End,Mar 08 - Mar 14 2023 - Negative,0
+Central West End,Mar 08 - Mar 14 2023 - Positive,0
+Central West End,Mar 15 - Mar 21 2023,0
+Central West End,Mar 15 - Mar 21 2023 - Neutral,0
+Central West End,Mar 15 - Mar 21 2023 - Negative,0
+Central West End,Mar 15 - Mar 21 2023 - Positive,0
+Central West End,Mar 22 - Mar 28 2023,0
+Central West End,Mar 22 - Mar 28 2023 - Neutral,0
 Central West End,Mar 22 - Mar 28 2023 - Negative,0
-Central West End,Mar 22 - Mar 28 2023 - Positive,1
-Central West End,Mar 29 - Apr 04 2023,9
-Central West End,Mar 29 - Apr 04 2023 - Neutral,7
+Central West End,Mar 22 - Mar 28 2023 - Positive,0
+Central West End,Mar 29 - Apr 04 2023,0
+Central West End,Mar 29 - Apr 04 2023 - Neutral,0
 Central West End,Mar 29 - Apr 04 2023 - Negative,0
-Central West End,Mar 29 - Apr 04 2023 - Positive,2
+Central West End,Mar 29 - Apr 04 2023 - Positive,0
 Central West End,Feb 01 2023,2
 Central West End,Feb 01 2023 - Neutral,0
 Central West End,Feb 01 2023 - Negative,1
@@ -727,130 +727,130 @@ Central West End,Feb 28 2023,3
 Central West End,Feb 28 2023 - Neutral,3
 Central West End,Feb 28 2023 - Negative,0
 Central West End,Feb 28 2023 - Positive,0
-Central West End,Mar 01 2023,2
+Central West End,Mar 01 2023,1
 Central West End,Mar 01 2023 - Neutral,1
 Central West End,Mar 01 2023 - Negative,0
-Central West End,Mar 01 2023 - Positive,1
+Central West End,Mar 01 2023 - Positive,0
 Central West End,Mar 02 2023,0
 Central West End,Mar 02 2023 - Neutral,0
 Central West End,Mar 02 2023 - Negative,0
 Central West End,Mar 02 2023 - Positive,0
-Central West End,Mar 03 2023,4
-Central West End,Mar 03 2023 - Neutral,3
+Central West End,Mar 03 2023,0
+Central West End,Mar 03 2023 - Neutral,0
 Central West End,Mar 03 2023 - Negative,0
 Central West End,Mar 03 2023 - Positive,0
-Central West End,Mar 04 2023,2
-Central West End,Mar 04 2023 - Neutral,2
+Central West End,Mar 04 2023,0
+Central West End,Mar 04 2023 - Neutral,0
 Central West End,Mar 04 2023 - Negative,0
 Central West End,Mar 04 2023 - Positive,0
-Central West End,Mar 05 2023,6
-Central West End,Mar 05 2023 - Neutral,3
+Central West End,Mar 05 2023,0
+Central West End,Mar 05 2023 - Neutral,0
 Central West End,Mar 05 2023 - Negative,0
-Central West End,Mar 05 2023 - Positive,3
-Central West End,Mar 06 2023,3
-Central West End,Mar 06 2023 - Neutral,2
+Central West End,Mar 05 2023 - Positive,0
+Central West End,Mar 06 2023,0
+Central West End,Mar 06 2023 - Neutral,0
 Central West End,Mar 06 2023 - Negative,0
-Central West End,Mar 06 2023 - Positive,1
-Central West End,Mar 07 2023,1
-Central West End,Mar 07 2023 - Neutral,1
+Central West End,Mar 06 2023 - Positive,0
+Central West End,Mar 07 2023,0
+Central West End,Mar 07 2023 - Neutral,0
 Central West End,Mar 07 2023 - Negative,0
 Central West End,Mar 07 2023 - Positive,0
-Central West End,Mar 08 2023,15
-Central West End,Mar 08 2023 - Neutral,12
-Central West End,Mar 08 2023 - Negative,2
-Central West End,Mar 08 2023 - Positive,1
-Central West End,Mar 09 2023,5
-Central West End,Mar 09 2023 - Neutral,5
+Central West End,Mar 08 2023,0
+Central West End,Mar 08 2023 - Neutral,0
+Central West End,Mar 08 2023 - Negative,0
+Central West End,Mar 08 2023 - Positive,0
+Central West End,Mar 09 2023,0
+Central West End,Mar 09 2023 - Neutral,0
 Central West End,Mar 09 2023 - Negative,0
 Central West End,Mar 09 2023 - Positive,0
-Central West End,Mar 10 2023,6
-Central West End,Mar 10 2023 - Neutral,3
+Central West End,Mar 10 2023,0
+Central West End,Mar 10 2023 - Neutral,0
 Central West End,Mar 10 2023 - Negative,0
-Central West End,Mar 10 2023 - Positive,2
-Central West End,Mar 11 2023,3
-Central West End,Mar 11 2023 - Neutral,3
+Central West End,Mar 10 2023 - Positive,0
+Central West End,Mar 11 2023,0
+Central West End,Mar 11 2023 - Neutral,0
 Central West End,Mar 11 2023 - Negative,0
 Central West End,Mar 11 2023 - Positive,0
-Central West End,Mar 12 2023,4
-Central West End,Mar 12 2023 - Neutral,2
+Central West End,Mar 12 2023,0
+Central West End,Mar 12 2023 - Neutral,0
 Central West End,Mar 12 2023 - Negative,0
-Central West End,Mar 12 2023 - Positive,2
-Central West End,Mar 13 2023,3
-Central West End,Mar 13 2023 - Neutral,2
+Central West End,Mar 12 2023 - Positive,0
+Central West End,Mar 13 2023,0
+Central West End,Mar 13 2023 - Neutral,0
 Central West End,Mar 13 2023 - Negative,0
-Central West End,Mar 13 2023 - Positive,1
-Central West End,Mar 14 2023,1
-Central West End,Mar 14 2023 - Neutral,1
+Central West End,Mar 13 2023 - Positive,0
+Central West End,Mar 14 2023,0
+Central West End,Mar 14 2023 - Neutral,0
 Central West End,Mar 14 2023 - Negative,0
 Central West End,Mar 14 2023 - Positive,0
-Central West End,Mar 15 2023,3
-Central West End,Mar 15 2023 - Neutral,3
+Central West End,Mar 15 2023,0
+Central West End,Mar 15 2023 - Neutral,0
 Central West End,Mar 15 2023 - Negative,0
 Central West End,Mar 15 2023 - Positive,0
-Central West End,Mar 16 2023,1
+Central West End,Mar 16 2023,0
 Central West End,Mar 16 2023 - Neutral,0
-Central West End,Mar 16 2023 - Negative,1
+Central West End,Mar 16 2023 - Negative,0
 Central West End,Mar 16 2023 - Positive,0
-Central West End,Mar 17 2023,5
-Central West End,Mar 17 2023 - Neutral,3
+Central West End,Mar 17 2023,0
+Central West End,Mar 17 2023 - Neutral,0
 Central West End,Mar 17 2023 - Negative,0
-Central West End,Mar 17 2023 - Positive,2
-Central West End,Mar 18 2023,3
-Central West End,Mar 18 2023 - Neutral,1
+Central West End,Mar 17 2023 - Positive,0
+Central West End,Mar 18 2023,0
+Central West End,Mar 18 2023 - Neutral,0
 Central West End,Mar 18 2023 - Negative,0
-Central West End,Mar 18 2023 - Positive,2
-Central West End,Mar 19 2023,2
-Central West End,Mar 19 2023 - Neutral,2
+Central West End,Mar 18 2023 - Positive,0
+Central West End,Mar 19 2023,0
+Central West End,Mar 19 2023 - Neutral,0
 Central West End,Mar 19 2023 - Negative,0
 Central West End,Mar 19 2023 - Positive,0
-Central West End,Mar 20 2023,2
-Central West End,Mar 20 2023 - Neutral,2
+Central West End,Mar 20 2023,0
+Central West End,Mar 20 2023 - Neutral,0
 Central West End,Mar 20 2023 - Negative,0
 Central West End,Mar 20 2023 - Positive,0
-Central West End,Mar 21 2023,4
-Central West End,Mar 21 2023 - Neutral,2
-Central West End,Mar 21 2023 - Negative,1
-Central West End,Mar 21 2023 - Positive,1
-Central West End,Mar 22 2023,1
-Central West End,Mar 22 2023 - Neutral,1
+Central West End,Mar 21 2023,0
+Central West End,Mar 21 2023 - Neutral,0
+Central West End,Mar 21 2023 - Negative,0
+Central West End,Mar 21 2023 - Positive,0
+Central West End,Mar 22 2023,0
+Central West End,Mar 22 2023 - Neutral,0
 Central West End,Mar 22 2023 - Negative,0
 Central West End,Mar 22 2023 - Positive,0
-Central West End,Mar 23 2023,4
-Central West End,Mar 23 2023 - Neutral,4
+Central West End,Mar 23 2023,0
+Central West End,Mar 23 2023 - Neutral,0
 Central West End,Mar 23 2023 - Negative,0
 Central West End,Mar 23 2023 - Positive,0
-Central West End,Mar 24 2023,4
-Central West End,Mar 24 2023 - Neutral,4
+Central West End,Mar 24 2023,0
+Central West End,Mar 24 2023 - Neutral,0
 Central West End,Mar 24 2023 - Negative,0
 Central West End,Mar 24 2023 - Positive,0
-Central West End,Mar 25 2023,2
-Central West End,Mar 25 2023 - Neutral,2
+Central West End,Mar 25 2023,0
+Central West End,Mar 25 2023 - Neutral,0
 Central West End,Mar 25 2023 - Negative,0
 Central West End,Mar 25 2023 - Positive,0
-Central West End,Mar 26 2023,1
-Central West End,Mar 26 2023 - Neutral,1
+Central West End,Mar 26 2023,0
+Central West End,Mar 26 2023 - Neutral,0
 Central West End,Mar 26 2023 - Negative,0
 Central West End,Mar 26 2023 - Positive,0
-Central West End,Mar 27 2023,2
-Central West End,Mar 27 2023 - Neutral,1
+Central West End,Mar 27 2023,0
+Central West End,Mar 27 2023 - Neutral,0
 Central West End,Mar 27 2023 - Negative,0
 Central West End,Mar 27 2023 - Positive,0
-Central West End,Mar 28 2023,2
-Central West End,Mar 28 2023 - Neutral,1
+Central West End,Mar 28 2023,0
+Central West End,Mar 28 2023 - Neutral,0
 Central West End,Mar 28 2023 - Negative,0
-Central West End,Mar 28 2023 - Positive,1
-Central West End,Mar 29 2023,2
-Central West End,Mar 29 2023 - Neutral,2
+Central West End,Mar 28 2023 - Positive,0
+Central West End,Mar 29 2023,0
+Central West End,Mar 29 2023 - Neutral,0
 Central West End,Mar 29 2023 - Negative,0
 Central West End,Mar 29 2023 - Positive,0
-Central West End,Mar 30 2023,3
-Central West End,Mar 30 2023 - Neutral,2
+Central West End,Mar 30 2023,0
+Central West End,Mar 30 2023 - Neutral,0
 Central West End,Mar 30 2023 - Negative,0
-Central West End,Mar 30 2023 - Positive,1
-Central West End,Mar 31 2023,4
-Central West End,Mar 31 2023 - Neutral,3
+Central West End,Mar 30 2023 - Positive,0
+Central West End,Mar 31 2023,0
+Central West End,Mar 31 2023 - Neutral,0
 Central West End,Mar 31 2023 - Negative,0
-Central West End,Mar 31 2023 - Positive,1
+Central West End,Mar 31 2023 - Positive,0
 Cherokee Antique Row,Total,0
 Cherokee Antique Row,Total - Neutral,0
 Cherokee Antique Row,Total - Negative,0
@@ -1135,18 +1135,18 @@ Cherokee Antique Row,Mar 31 2023,0
 Cherokee Antique Row,Mar 31 2023 - Neutral,0
 Cherokee Antique Row,Mar 31 2023 - Negative,0
 Cherokee Antique Row,Mar 31 2023 - Positive,0
-Cherokee Street,Total,64
-Cherokee Street,Total - Neutral,40
+Cherokee Street,Total,38
+Cherokee Street,Total - Neutral,28
 Cherokee Street,Total - Negative,0
-Cherokee Street,Total - Positive,22
+Cherokee Street,Total - Positive,9
 Cherokee Street,Feb,38
 Cherokee Street,Feb - Neutral,28
 Cherokee Street,Feb - Negative,0
 Cherokee Street,Feb - Positive,9
-Cherokee Street,Mar,26
-Cherokee Street,Mar - Neutral,12
+Cherokee Street,Mar,0
+Cherokee Street,Mar - Neutral,0
 Cherokee Street,Mar - Negative,0
-Cherokee Street,Mar - Positive,13
+Cherokee Street,Mar - Positive,0
 Cherokee Street,Feb 01 - Feb 07 2023,6
 Cherokee Street,Feb 01 - Feb 07 2023 - Neutral,4
 Cherokee Street,Feb 01 - Feb 07 2023 - Negative,0
@@ -1163,26 +1163,26 @@ Cherokee Street,Feb 22 - Feb 28 2023,11
 Cherokee Street,Feb 22 - Feb 28 2023 - Neutral,7
 Cherokee Street,Feb 22 - Feb 28 2023 - Negative,0
 Cherokee Street,Feb 22 - Feb 28 2023 - Positive,3
-Cherokee Street,Mar 01 - Mar 07 2023,2
-Cherokee Street,Mar 01 - Mar 07 2023 - Neutral,1
+Cherokee Street,Mar 01 - Mar 07 2023,0
+Cherokee Street,Mar 01 - Mar 07 2023 - Neutral,0
 Cherokee Street,Mar 01 - Mar 07 2023 - Negative,0
-Cherokee Street,Mar 01 - Mar 07 2023 - Positive,1
-Cherokee Street,Mar 08 - Mar 14 2023,3
-Cherokee Street,Mar 08 - Mar 14 2023 - Neutral,2
+Cherokee Street,Mar 01 - Mar 07 2023 - Positive,0
+Cherokee Street,Mar 08 - Mar 14 2023,0
+Cherokee Street,Mar 08 - Mar 14 2023 - Neutral,0
 Cherokee Street,Mar 08 - Mar 14 2023 - Negative,0
-Cherokee Street,Mar 08 - Mar 14 2023 - Positive,1
-Cherokee Street,Mar 15 - Mar 21 2023,11
-Cherokee Street,Mar 15 - Mar 21 2023 - Neutral,7
+Cherokee Street,Mar 08 - Mar 14 2023 - Positive,0
+Cherokee Street,Mar 15 - Mar 21 2023,0
+Cherokee Street,Mar 15 - Mar 21 2023 - Neutral,0
 Cherokee Street,Mar 15 - Mar 21 2023 - Negative,0
-Cherokee Street,Mar 15 - Mar 21 2023 - Positive,3
-Cherokee Street,Mar 22 - Mar 28 2023,9
-Cherokee Street,Mar 22 - Mar 28 2023 - Neutral,2
+Cherokee Street,Mar 15 - Mar 21 2023 - Positive,0
+Cherokee Street,Mar 22 - Mar 28 2023,0
+Cherokee Street,Mar 22 - Mar 28 2023 - Neutral,0
 Cherokee Street,Mar 22 - Mar 28 2023 - Negative,0
-Cherokee Street,Mar 22 - Mar 28 2023 - Positive,7
-Cherokee Street,Mar 29 - Apr 04 2023,1
+Cherokee Street,Mar 22 - Mar 28 2023 - Positive,0
+Cherokee Street,Mar 29 - Apr 04 2023,0
 Cherokee Street,Mar 29 - Apr 04 2023 - Neutral,0
 Cherokee Street,Mar 29 - Apr 04 2023 - Negative,0
-Cherokee Street,Mar 29 - Apr 04 2023 - Positive,1
+Cherokee Street,Mar 29 - Apr 04 2023 - Positive,0
 Cherokee Street,Feb 01 2023,1
 Cherokee Street,Feb 01 2023 - Neutral,0
 Cherokee Street,Feb 01 2023 - Negative,0
@@ -1295,12 +1295,12 @@ Cherokee Street,Feb 28 2023,2
 Cherokee Street,Feb 28 2023 - Neutral,2
 Cherokee Street,Feb 28 2023 - Negative,0
 Cherokee Street,Feb 28 2023 - Positive,0
-Cherokee Street,Mar 01 2023,1
+Cherokee Street,Mar 01 2023,0
 Cherokee Street,Mar 01 2023 - Neutral,0
 Cherokee Street,Mar 01 2023 - Negative,0
-Cherokee Street,Mar 01 2023 - Positive,1
-Cherokee Street,Mar 02 2023,1
-Cherokee Street,Mar 02 2023 - Neutral,1
+Cherokee Street,Mar 01 2023 - Positive,0
+Cherokee Street,Mar 02 2023,0
+Cherokee Street,Mar 02 2023 - Neutral,0
 Cherokee Street,Mar 02 2023 - Negative,0
 Cherokee Street,Mar 02 2023 - Positive,0
 Cherokee Street,Mar 03 2023,0
@@ -1331,18 +1331,18 @@ Cherokee Street,Mar 09 2023,0
 Cherokee Street,Mar 09 2023 - Neutral,0
 Cherokee Street,Mar 09 2023 - Negative,0
 Cherokee Street,Mar 09 2023 - Positive,0
-Cherokee Street,Mar 10 2023,1
-Cherokee Street,Mar 10 2023 - Neutral,1
+Cherokee Street,Mar 10 2023,0
+Cherokee Street,Mar 10 2023 - Neutral,0
 Cherokee Street,Mar 10 2023 - Negative,0
 Cherokee Street,Mar 10 2023 - Positive,0
 Cherokee Street,Mar 11 2023,0
 Cherokee Street,Mar 11 2023 - Neutral,0
 Cherokee Street,Mar 11 2023 - Negative,0
 Cherokee Street,Mar 11 2023 - Positive,0
-Cherokee Street,Mar 12 2023,2
-Cherokee Street,Mar 12 2023 - Neutral,1
+Cherokee Street,Mar 12 2023,0
+Cherokee Street,Mar 12 2023 - Neutral,0
 Cherokee Street,Mar 12 2023 - Negative,0
-Cherokee Street,Mar 12 2023 - Positive,1
+Cherokee Street,Mar 12 2023 - Positive,0
 Cherokee Street,Mar 13 2023,0
 Cherokee Street,Mar 13 2023 - Neutral,0
 Cherokee Street,Mar 13 2023 - Negative,0
@@ -1367,42 +1367,42 @@ Cherokee Street,Mar 18 2023,0
 Cherokee Street,Mar 18 2023 - Neutral,0
 Cherokee Street,Mar 18 2023 - Negative,0
 Cherokee Street,Mar 18 2023 - Positive,0
-Cherokee Street,Mar 19 2023,1
-Cherokee Street,Mar 19 2023 - Neutral,1
+Cherokee Street,Mar 19 2023,0
+Cherokee Street,Mar 19 2023 - Neutral,0
 Cherokee Street,Mar 19 2023 - Negative,0
 Cherokee Street,Mar 19 2023 - Positive,0
-Cherokee Street,Mar 20 2023,3
-Cherokee Street,Mar 20 2023 - Neutral,2
+Cherokee Street,Mar 20 2023,0
+Cherokee Street,Mar 20 2023 - Neutral,0
 Cherokee Street,Mar 20 2023 - Negative,0
-Cherokee Street,Mar 20 2023 - Positive,1
-Cherokee Street,Mar 21 2023,7
-Cherokee Street,Mar 21 2023 - Neutral,4
+Cherokee Street,Mar 20 2023 - Positive,0
+Cherokee Street,Mar 21 2023,0
+Cherokee Street,Mar 21 2023 - Neutral,0
 Cherokee Street,Mar 21 2023 - Negative,0
-Cherokee Street,Mar 21 2023 - Positive,2
-Cherokee Street,Mar 22 2023,1
-Cherokee Street,Mar 22 2023 - Neutral,1
+Cherokee Street,Mar 21 2023 - Positive,0
+Cherokee Street,Mar 22 2023,0
+Cherokee Street,Mar 22 2023 - Neutral,0
 Cherokee Street,Mar 22 2023 - Negative,0
 Cherokee Street,Mar 22 2023 - Positive,0
 Cherokee Street,Mar 23 2023,0
 Cherokee Street,Mar 23 2023 - Neutral,0
 Cherokee Street,Mar 23 2023 - Negative,0
 Cherokee Street,Mar 23 2023 - Positive,0
-Cherokee Street,Mar 24 2023,1
-Cherokee Street,Mar 24 2023 - Neutral,1
+Cherokee Street,Mar 24 2023,0
+Cherokee Street,Mar 24 2023 - Neutral,0
 Cherokee Street,Mar 24 2023 - Negative,0
 Cherokee Street,Mar 24 2023 - Positive,0
-Cherokee Street,Mar 25 2023,2
+Cherokee Street,Mar 25 2023,0
 Cherokee Street,Mar 25 2023 - Neutral,0
 Cherokee Street,Mar 25 2023 - Negative,0
-Cherokee Street,Mar 25 2023 - Positive,2
-Cherokee Street,Mar 26 2023,2
+Cherokee Street,Mar 25 2023 - Positive,0
+Cherokee Street,Mar 26 2023,0
 Cherokee Street,Mar 26 2023 - Neutral,0
 Cherokee Street,Mar 26 2023 - Negative,0
-Cherokee Street,Mar 26 2023 - Positive,2
-Cherokee Street,Mar 27 2023,3
+Cherokee Street,Mar 26 2023 - Positive,0
+Cherokee Street,Mar 27 2023,0
 Cherokee Street,Mar 27 2023 - Neutral,0
 Cherokee Street,Mar 27 2023 - Negative,0
-Cherokee Street,Mar 27 2023 - Positive,3
+Cherokee Street,Mar 27 2023 - Positive,0
 Cherokee Street,Mar 28 2023,0
 Cherokee Street,Mar 28 2023 - Neutral,0
 Cherokee Street,Mar 28 2023 - Negative,0
@@ -1411,26 +1411,26 @@ Cherokee Street,Mar 29 2023,0
 Cherokee Street,Mar 29 2023 - Neutral,0
 Cherokee Street,Mar 29 2023 - Negative,0
 Cherokee Street,Mar 29 2023 - Positive,0
-Cherokee Street,Mar 30 2023,1
+Cherokee Street,Mar 30 2023,0
 Cherokee Street,Mar 30 2023 - Neutral,0
 Cherokee Street,Mar 30 2023 - Negative,0
-Cherokee Street,Mar 30 2023 - Positive,1
+Cherokee Street,Mar 30 2023 - Positive,0
 Cherokee Street,Mar 31 2023,0
 Cherokee Street,Mar 31 2023 - Neutral,0
 Cherokee Street,Mar 31 2023 - Negative,0
 Cherokee Street,Mar 31 2023 - Positive,0
-Chesterfield,Total,5204
-Chesterfield,Total - Neutral,2109
-Chesterfield,Total - Negative,1211
-Chesterfield,Total - Positive,1482
+Chesterfield,Total,2141
+Chesterfield,Total - Neutral,833
+Chesterfield,Total - Negative,478
+Chesterfield,Total - Positive,658
 Chesterfield,Feb,2135
 Chesterfield,Feb - Neutral,830
 Chesterfield,Feb - Negative,478
 Chesterfield,Feb - Positive,655
-Chesterfield,Mar,3069
-Chesterfield,Mar - Neutral,1279
-Chesterfield,Mar - Negative,733
-Chesterfield,Mar - Positive,827
+Chesterfield,Mar,6
+Chesterfield,Mar - Neutral,3
+Chesterfield,Mar - Negative,0
+Chesterfield,Mar - Positive,3
 Chesterfield,Feb 01 - Feb 07 2023,500
 Chesterfield,Feb 01 - Feb 07 2023 - Neutral,209
 Chesterfield,Feb 01 - Feb 07 2023 - Negative,126
@@ -1447,26 +1447,26 @@ Chesterfield,Feb 22 - Feb 28 2023,510
 Chesterfield,Feb 22 - Feb 28 2023 - Neutral,206
 Chesterfield,Feb 22 - Feb 28 2023 - Negative,89
 Chesterfield,Feb 22 - Feb 28 2023 - Positive,161
-Chesterfield,Mar 01 - Mar 07 2023,739
-Chesterfield,Mar 01 - Mar 07 2023 - Neutral,329
-Chesterfield,Mar 01 - Mar 07 2023 - Negative,151
-Chesterfield,Mar 01 - Mar 07 2023 - Positive,189
-Chesterfield,Mar 08 - Mar 14 2023,654
-Chesterfield,Mar 08 - Mar 14 2023 - Neutral,259
-Chesterfield,Mar 08 - Mar 14 2023 - Negative,152
-Chesterfield,Mar 08 - Mar 14 2023 - Positive,189
-Chesterfield,Mar 15 - Mar 21 2023,661
-Chesterfield,Mar 15 - Mar 21 2023 - Neutral,276
-Chesterfield,Mar 15 - Mar 21 2023 - Negative,172
-Chesterfield,Mar 15 - Mar 21 2023 - Positive,164
-Chesterfield,Mar 22 - Mar 28 2023,750
-Chesterfield,Mar 22 - Mar 28 2023 - Neutral,319
-Chesterfield,Mar 22 - Mar 28 2023 - Negative,186
-Chesterfield,Mar 22 - Mar 28 2023 - Positive,204
-Chesterfield,Mar 29 - Apr 04 2023,265
-Chesterfield,Mar 29 - Apr 04 2023 - Neutral,96
-Chesterfield,Mar 29 - Apr 04 2023 - Negative,72
-Chesterfield,Mar 29 - Apr 04 2023 - Positive,81
+Chesterfield,Mar 01 - Mar 07 2023,6
+Chesterfield,Mar 01 - Mar 07 2023 - Neutral,3
+Chesterfield,Mar 01 - Mar 07 2023 - Negative,0
+Chesterfield,Mar 01 - Mar 07 2023 - Positive,3
+Chesterfield,Mar 08 - Mar 14 2023,0
+Chesterfield,Mar 08 - Mar 14 2023 - Neutral,0
+Chesterfield,Mar 08 - Mar 14 2023 - Negative,0
+Chesterfield,Mar 08 - Mar 14 2023 - Positive,0
+Chesterfield,Mar 15 - Mar 21 2023,0
+Chesterfield,Mar 15 - Mar 21 2023 - Neutral,0
+Chesterfield,Mar 15 - Mar 21 2023 - Negative,0
+Chesterfield,Mar 15 - Mar 21 2023 - Positive,0
+Chesterfield,Mar 22 - Mar 28 2023,0
+Chesterfield,Mar 22 - Mar 28 2023 - Neutral,0
+Chesterfield,Mar 22 - Mar 28 2023 - Negative,0
+Chesterfield,Mar 22 - Mar 28 2023 - Positive,0
+Chesterfield,Mar 29 - Apr 04 2023,0
+Chesterfield,Mar 29 - Apr 04 2023 - Neutral,0
+Chesterfield,Mar 29 - Apr 04 2023 - Negative,0
+Chesterfield,Mar 29 - Apr 04 2023 - Positive,0
 Chesterfield,Feb 01 2023,75
 Chesterfield,Feb 01 2023 - Neutral,36
 Chesterfield,Feb 01 2023 - Negative,19
@@ -1579,142 +1579,142 @@ Chesterfield,Feb 28 2023,38
 Chesterfield,Feb 28 2023 - Neutral,18
 Chesterfield,Feb 28 2023 - Negative,5
 Chesterfield,Feb 28 2023 - Positive,13
-Chesterfield,Mar 01 2023,99
-Chesterfield,Mar 01 2023 - Neutral,44
-Chesterfield,Mar 01 2023 - Negative,14
-Chesterfield,Mar 01 2023 - Positive,32
-Chesterfield,Mar 02 2023,113
-Chesterfield,Mar 02 2023 - Neutral,50
-Chesterfield,Mar 02 2023 - Negative,16
-Chesterfield,Mar 02 2023 - Positive,34
-Chesterfield,Mar 03 2023,90
-Chesterfield,Mar 03 2023 - Neutral,32
-Chesterfield,Mar 03 2023 - Negative,17
-Chesterfield,Mar 03 2023 - Positive,25
-Chesterfield,Mar 04 2023,78
-Chesterfield,Mar 04 2023 - Neutral,46
-Chesterfield,Mar 04 2023 - Negative,15
-Chesterfield,Mar 04 2023 - Positive,15
-Chesterfield,Mar 05 2023,138
-Chesterfield,Mar 05 2023 - Neutral,63
-Chesterfield,Mar 05 2023 - Negative,32
-Chesterfield,Mar 05 2023 - Positive,32
-Chesterfield,Mar 06 2023,94
-Chesterfield,Mar 06 2023 - Neutral,42
-Chesterfield,Mar 06 2023 - Negative,24
-Chesterfield,Mar 06 2023 - Positive,18
-Chesterfield,Mar 07 2023,127
-Chesterfield,Mar 07 2023 - Neutral,52
-Chesterfield,Mar 07 2023 - Negative,33
-Chesterfield,Mar 07 2023 - Positive,33
-Chesterfield,Mar 08 2023,128
-Chesterfield,Mar 08 2023 - Neutral,51
-Chesterfield,Mar 08 2023 - Negative,36
-Chesterfield,Mar 08 2023 - Positive,26
-Chesterfield,Mar 09 2023,115
-Chesterfield,Mar 09 2023 - Neutral,50
-Chesterfield,Mar 09 2023 - Negative,14
-Chesterfield,Mar 09 2023 - Positive,42
-Chesterfield,Mar 10 2023,106
-Chesterfield,Mar 10 2023 - Neutral,42
-Chesterfield,Mar 10 2023 - Negative,28
-Chesterfield,Mar 10 2023 - Positive,31
-Chesterfield,Mar 11 2023,86
-Chesterfield,Mar 11 2023 - Neutral,30
-Chesterfield,Mar 11 2023 - Negative,22
-Chesterfield,Mar 11 2023 - Positive,26
-Chesterfield,Mar 12 2023,57
-Chesterfield,Mar 12 2023 - Neutral,22
-Chesterfield,Mar 12 2023 - Negative,13
-Chesterfield,Mar 12 2023 - Positive,18
-Chesterfield,Mar 13 2023,75
-Chesterfield,Mar 13 2023 - Neutral,28
-Chesterfield,Mar 13 2023 - Negative,21
-Chesterfield,Mar 13 2023 - Positive,19
-Chesterfield,Mar 14 2023,87
-Chesterfield,Mar 14 2023 - Neutral,36
-Chesterfield,Mar 14 2023 - Negative,18
-Chesterfield,Mar 14 2023 - Positive,27
-Chesterfield,Mar 15 2023,120
-Chesterfield,Mar 15 2023 - Neutral,56
-Chesterfield,Mar 15 2023 - Negative,33
-Chesterfield,Mar 15 2023 - Positive,23
-Chesterfield,Mar 16 2023,109
-Chesterfield,Mar 16 2023 - Neutral,47
-Chesterfield,Mar 16 2023 - Negative,27
-Chesterfield,Mar 16 2023 - Positive,21
-Chesterfield,Mar 17 2023,79
-Chesterfield,Mar 17 2023 - Neutral,37
-Chesterfield,Mar 17 2023 - Negative,15
-Chesterfield,Mar 17 2023 - Positive,18
-Chesterfield,Mar 18 2023,94
-Chesterfield,Mar 18 2023 - Neutral,36
-Chesterfield,Mar 18 2023 - Negative,19
-Chesterfield,Mar 18 2023 - Positive,33
-Chesterfield,Mar 19 2023,67
-Chesterfield,Mar 19 2023 - Neutral,23
-Chesterfield,Mar 19 2023 - Negative,22
-Chesterfield,Mar 19 2023 - Positive,20
-Chesterfield,Mar 20 2023,87
-Chesterfield,Mar 20 2023 - Neutral,37
-Chesterfield,Mar 20 2023 - Negative,25
-Chesterfield,Mar 20 2023 - Positive,18
-Chesterfield,Mar 21 2023,105
-Chesterfield,Mar 21 2023 - Neutral,40
-Chesterfield,Mar 21 2023 - Negative,31
-Chesterfield,Mar 21 2023 - Positive,31
-Chesterfield,Mar 22 2023,134
-Chesterfield,Mar 22 2023 - Neutral,62
-Chesterfield,Mar 22 2023 - Negative,30
-Chesterfield,Mar 22 2023 - Positive,34
-Chesterfield,Mar 23 2023,81
-Chesterfield,Mar 23 2023 - Neutral,34
-Chesterfield,Mar 23 2023 - Negative,23
-Chesterfield,Mar 23 2023 - Positive,21
-Chesterfield,Mar 24 2023,127
-Chesterfield,Mar 24 2023 - Neutral,60
-Chesterfield,Mar 24 2023 - Negative,31
-Chesterfield,Mar 24 2023 - Positive,31
-Chesterfield,Mar 25 2023,115
-Chesterfield,Mar 25 2023 - Neutral,52
-Chesterfield,Mar 25 2023 - Negative,29
-Chesterfield,Mar 25 2023 - Positive,30
-Chesterfield,Mar 26 2023,105
-Chesterfield,Mar 26 2023 - Neutral,45
-Chesterfield,Mar 26 2023 - Negative,25
-Chesterfield,Mar 26 2023 - Positive,24
-Chesterfield,Mar 27 2023,114
-Chesterfield,Mar 27 2023 - Neutral,44
-Chesterfield,Mar 27 2023 - Negative,20
-Chesterfield,Mar 27 2023 - Positive,43
-Chesterfield,Mar 28 2023,74
-Chesterfield,Mar 28 2023 - Neutral,22
-Chesterfield,Mar 28 2023 - Negative,28
-Chesterfield,Mar 28 2023 - Positive,21
-Chesterfield,Mar 29 2023,140
-Chesterfield,Mar 29 2023 - Neutral,50
-Chesterfield,Mar 29 2023 - Negative,35
-Chesterfield,Mar 29 2023 - Positive,47
-Chesterfield,Mar 30 2023,73
-Chesterfield,Mar 30 2023 - Neutral,32
-Chesterfield,Mar 30 2023 - Negative,18
-Chesterfield,Mar 30 2023 - Positive,17
-Chesterfield,Mar 31 2023,52
-Chesterfield,Mar 31 2023 - Neutral,14
-Chesterfield,Mar 31 2023 - Negative,19
-Chesterfield,Mar 31 2023 - Positive,17
-Clayton,Total,2404
-Clayton,Total - Neutral,953
-Clayton,Total - Negative,665
-Clayton,Total - Positive,594
+Chesterfield,Mar 01 2023,6
+Chesterfield,Mar 01 2023 - Neutral,3
+Chesterfield,Mar 01 2023 - Negative,0
+Chesterfield,Mar 01 2023 - Positive,3
+Chesterfield,Mar 02 2023,0
+Chesterfield,Mar 02 2023 - Neutral,0
+Chesterfield,Mar 02 2023 - Negative,0
+Chesterfield,Mar 02 2023 - Positive,0
+Chesterfield,Mar 03 2023,0
+Chesterfield,Mar 03 2023 - Neutral,0
+Chesterfield,Mar 03 2023 - Negative,0
+Chesterfield,Mar 03 2023 - Positive,0
+Chesterfield,Mar 04 2023,0
+Chesterfield,Mar 04 2023 - Neutral,0
+Chesterfield,Mar 04 2023 - Negative,0
+Chesterfield,Mar 04 2023 - Positive,0
+Chesterfield,Mar 05 2023,0
+Chesterfield,Mar 05 2023 - Neutral,0
+Chesterfield,Mar 05 2023 - Negative,0
+Chesterfield,Mar 05 2023 - Positive,0
+Chesterfield,Mar 06 2023,0
+Chesterfield,Mar 06 2023 - Neutral,0
+Chesterfield,Mar 06 2023 - Negative,0
+Chesterfield,Mar 06 2023 - Positive,0
+Chesterfield,Mar 07 2023,0
+Chesterfield,Mar 07 2023 - Neutral,0
+Chesterfield,Mar 07 2023 - Negative,0
+Chesterfield,Mar 07 2023 - Positive,0
+Chesterfield,Mar 08 2023,0
+Chesterfield,Mar 08 2023 - Neutral,0
+Chesterfield,Mar 08 2023 - Negative,0
+Chesterfield,Mar 08 2023 - Positive,0
+Chesterfield,Mar 09 2023,0
+Chesterfield,Mar 09 2023 - Neutral,0
+Chesterfield,Mar 09 2023 - Negative,0
+Chesterfield,Mar 09 2023 - Positive,0
+Chesterfield,Mar 10 2023,0
+Chesterfield,Mar 10 2023 - Neutral,0
+Chesterfield,Mar 10 2023 - Negative,0
+Chesterfield,Mar 10 2023 - Positive,0
+Chesterfield,Mar 11 2023,0
+Chesterfield,Mar 11 2023 - Neutral,0
+Chesterfield,Mar 11 2023 - Negative,0
+Chesterfield,Mar 11 2023 - Positive,0
+Chesterfield,Mar 12 2023,0
+Chesterfield,Mar 12 2023 - Neutral,0
+Chesterfield,Mar 12 2023 - Negative,0
+Chesterfield,Mar 12 2023 - Positive,0
+Chesterfield,Mar 13 2023,0
+Chesterfield,Mar 13 2023 - Neutral,0
+Chesterfield,Mar 13 2023 - Negative,0
+Chesterfield,Mar 13 2023 - Positive,0
+Chesterfield,Mar 14 2023,0
+Chesterfield,Mar 14 2023 - Neutral,0
+Chesterfield,Mar 14 2023 - Negative,0
+Chesterfield,Mar 14 2023 - Positive,0
+Chesterfield,Mar 15 2023,0
+Chesterfield,Mar 15 2023 - Neutral,0
+Chesterfield,Mar 15 2023 - Negative,0
+Chesterfield,Mar 15 2023 - Positive,0
+Chesterfield,Mar 16 2023,0
+Chesterfield,Mar 16 2023 - Neutral,0
+Chesterfield,Mar 16 2023 - Negative,0
+Chesterfield,Mar 16 2023 - Positive,0
+Chesterfield,Mar 17 2023,0
+Chesterfield,Mar 17 2023 - Neutral,0
+Chesterfield,Mar 17 2023 - Negative,0
+Chesterfield,Mar 17 2023 - Positive,0
+Chesterfield,Mar 18 2023,0
+Chesterfield,Mar 18 2023 - Neutral,0
+Chesterfield,Mar 18 2023 - Negative,0
+Chesterfield,Mar 18 2023 - Positive,0
+Chesterfield,Mar 19 2023,0
+Chesterfield,Mar 19 2023 - Neutral,0
+Chesterfield,Mar 19 2023 - Negative,0
+Chesterfield,Mar 19 2023 - Positive,0
+Chesterfield,Mar 20 2023,0
+Chesterfield,Mar 20 2023 - Neutral,0
+Chesterfield,Mar 20 2023 - Negative,0
+Chesterfield,Mar 20 2023 - Positive,0
+Chesterfield,Mar 21 2023,0
+Chesterfield,Mar 21 2023 - Neutral,0
+Chesterfield,Mar 21 2023 - Negative,0
+Chesterfield,Mar 21 2023 - Positive,0
+Chesterfield,Mar 22 2023,0
+Chesterfield,Mar 22 2023 - Neutral,0
+Chesterfield,Mar 22 2023 - Negative,0
+Chesterfield,Mar 22 2023 - Positive,0
+Chesterfield,Mar 23 2023,0
+Chesterfield,Mar 23 2023 - Neutral,0
+Chesterfield,Mar 23 2023 - Negative,0
+Chesterfield,Mar 23 2023 - Positive,0
+Chesterfield,Mar 24 2023,0
+Chesterfield,Mar 24 2023 - Neutral,0
+Chesterfield,Mar 24 2023 - Negative,0
+Chesterfield,Mar 24 2023 - Positive,0
+Chesterfield,Mar 25 2023,0
+Chesterfield,Mar 25 2023 - Neutral,0
+Chesterfield,Mar 25 2023 - Negative,0
+Chesterfield,Mar 25 2023 - Positive,0
+Chesterfield,Mar 26 2023,0
+Chesterfield,Mar 26 2023 - Neutral,0
+Chesterfield,Mar 26 2023 - Negative,0
+Chesterfield,Mar 26 2023 - Positive,0
+Chesterfield,Mar 27 2023,0
+Chesterfield,Mar 27 2023 - Neutral,0
+Chesterfield,Mar 27 2023 - Negative,0
+Chesterfield,Mar 27 2023 - Positive,0
+Chesterfield,Mar 28 2023,0
+Chesterfield,Mar 28 2023 - Neutral,0
+Chesterfield,Mar 28 2023 - Negative,0
+Chesterfield,Mar 28 2023 - Positive,0
+Chesterfield,Mar 29 2023,0
+Chesterfield,Mar 29 2023 - Neutral,0
+Chesterfield,Mar 29 2023 - Negative,0
+Chesterfield,Mar 29 2023 - Positive,0
+Chesterfield,Mar 30 2023,0
+Chesterfield,Mar 30 2023 - Neutral,0
+Chesterfield,Mar 30 2023 - Negative,0
+Chesterfield,Mar 30 2023 - Positive,0
+Chesterfield,Mar 31 2023,0
+Chesterfield,Mar 31 2023 - Neutral,0
+Chesterfield,Mar 31 2023 - Negative,0
+Chesterfield,Mar 31 2023 - Positive,0
+Clayton,Total,1216
+Clayton,Total - Neutral,499
+Clayton,Total - Negative,332
+Clayton,Total - Positive,290
 Clayton,Feb,1216
 Clayton,Feb - Neutral,499
 Clayton,Feb - Negative,332
 Clayton,Feb - Positive,290
-Clayton,Mar,1188
-Clayton,Mar - Neutral,454
-Clayton,Mar - Negative,333
-Clayton,Mar - Positive,304
+Clayton,Mar,0
+Clayton,Mar - Neutral,0
+Clayton,Mar - Negative,0
+Clayton,Mar - Positive,0
 Clayton,Feb 01 - Feb 07 2023,308
 Clayton,Feb 01 - Feb 07 2023 - Neutral,133
 Clayton,Feb 01 - Feb 07 2023 - Negative,83
@@ -1731,26 +1731,26 @@ Clayton,Feb 22 - Feb 28 2023,253
 Clayton,Feb 22 - Feb 28 2023 - Neutral,94
 Clayton,Feb 22 - Feb 28 2023 - Negative,66
 Clayton,Feb 22 - Feb 28 2023 - Positive,67
-Clayton,Mar 01 - Mar 07 2023,173
-Clayton,Mar 01 - Mar 07 2023 - Neutral,64
-Clayton,Mar 01 - Mar 07 2023 - Negative,41
-Clayton,Mar 01 - Mar 07 2023 - Positive,47
-Clayton,Mar 08 - Mar 14 2023,326
-Clayton,Mar 08 - Mar 14 2023 - Neutral,126
-Clayton,Mar 08 - Mar 14 2023 - Negative,90
-Clayton,Mar 08 - Mar 14 2023 - Positive,87
-Clayton,Mar 15 - Mar 21 2023,281
-Clayton,Mar 15 - Mar 21 2023 - Neutral,118
-Clayton,Mar 15 - Mar 21 2023 - Negative,81
-Clayton,Mar 15 - Mar 21 2023 - Positive,62
-Clayton,Mar 22 - Mar 28 2023,311
-Clayton,Mar 22 - Mar 28 2023 - Neutral,103
-Clayton,Mar 22 - Mar 28 2023 - Negative,89
-Clayton,Mar 22 - Mar 28 2023 - Positive,90
-Clayton,Mar 29 - Apr 04 2023,97
-Clayton,Mar 29 - Apr 04 2023 - Neutral,43
-Clayton,Mar 29 - Apr 04 2023 - Negative,32
-Clayton,Mar 29 - Apr 04 2023 - Positive,18
+Clayton,Mar 01 - Mar 07 2023,0
+Clayton,Mar 01 - Mar 07 2023 - Neutral,0
+Clayton,Mar 01 - Mar 07 2023 - Negative,0
+Clayton,Mar 01 - Mar 07 2023 - Positive,0
+Clayton,Mar 08 - Mar 14 2023,0
+Clayton,Mar 08 - Mar 14 2023 - Neutral,0
+Clayton,Mar 08 - Mar 14 2023 - Negative,0
+Clayton,Mar 08 - Mar 14 2023 - Positive,0
+Clayton,Mar 15 - Mar 21 2023,0
+Clayton,Mar 15 - Mar 21 2023 - Neutral,0
+Clayton,Mar 15 - Mar 21 2023 - Negative,0
+Clayton,Mar 15 - Mar 21 2023 - Positive,0
+Clayton,Mar 22 - Mar 28 2023,0
+Clayton,Mar 22 - Mar 28 2023 - Neutral,0
+Clayton,Mar 22 - Mar 28 2023 - Negative,0
+Clayton,Mar 22 - Mar 28 2023 - Positive,0
+Clayton,Mar 29 - Apr 04 2023,0
+Clayton,Mar 29 - Apr 04 2023 - Neutral,0
+Clayton,Mar 29 - Apr 04 2023 - Negative,0
+Clayton,Mar 29 - Apr 04 2023 - Positive,0
 Clayton,Feb 01 2023,48
 Clayton,Feb 01 2023 - Neutral,19
 Clayton,Feb 01 2023 - Negative,12
@@ -1863,142 +1863,142 @@ Clayton,Feb 28 2023,51
 Clayton,Feb 28 2023 - Neutral,20
 Clayton,Feb 28 2023 - Negative,17
 Clayton,Feb 28 2023 - Positive,8
-Clayton,Mar 01 2023,14
-Clayton,Mar 01 2023 - Neutral,6
-Clayton,Mar 01 2023 - Negative,4
-Clayton,Mar 01 2023 - Positive,3
-Clayton,Mar 02 2023,21
-Clayton,Mar 02 2023 - Neutral,5
-Clayton,Mar 02 2023 - Negative,6
-Clayton,Mar 02 2023 - Positive,6
-Clayton,Mar 03 2023,20
-Clayton,Mar 03 2023 - Neutral,10
-Clayton,Mar 03 2023 - Negative,3
-Clayton,Mar 03 2023 - Positive,5
-Clayton,Mar 04 2023,25
-Clayton,Mar 04 2023 - Neutral,9
-Clayton,Mar 04 2023 - Negative,4
-Clayton,Mar 04 2023 - Positive,6
-Clayton,Mar 05 2023,27
-Clayton,Mar 05 2023 - Neutral,5
-Clayton,Mar 05 2023 - Negative,7
-Clayton,Mar 05 2023 - Positive,9
-Clayton,Mar 06 2023,34
-Clayton,Mar 06 2023 - Neutral,12
-Clayton,Mar 06 2023 - Negative,8
-Clayton,Mar 06 2023 - Positive,13
-Clayton,Mar 07 2023,32
-Clayton,Mar 07 2023 - Neutral,17
-Clayton,Mar 07 2023 - Negative,9
-Clayton,Mar 07 2023 - Positive,5
-Clayton,Mar 08 2023,27
-Clayton,Mar 08 2023 - Neutral,14
-Clayton,Mar 08 2023 - Negative,3
-Clayton,Mar 08 2023 - Positive,10
-Clayton,Mar 09 2023,44
-Clayton,Mar 09 2023 - Neutral,14
-Clayton,Mar 09 2023 - Negative,15
-Clayton,Mar 09 2023 - Positive,11
-Clayton,Mar 10 2023,37
-Clayton,Mar 10 2023 - Neutral,9
-Clayton,Mar 10 2023 - Negative,10
-Clayton,Mar 10 2023 - Positive,15
-Clayton,Mar 11 2023,51
-Clayton,Mar 11 2023 - Neutral,23
-Clayton,Mar 11 2023 - Negative,10
-Clayton,Mar 11 2023 - Positive,14
-Clayton,Mar 12 2023,64
-Clayton,Mar 12 2023 - Neutral,22
-Clayton,Mar 12 2023 - Negative,20
-Clayton,Mar 12 2023 - Positive,14
-Clayton,Mar 13 2023,43
-Clayton,Mar 13 2023 - Neutral,20
-Clayton,Mar 13 2023 - Negative,11
-Clayton,Mar 13 2023 - Positive,11
-Clayton,Mar 14 2023,60
-Clayton,Mar 14 2023 - Neutral,24
-Clayton,Mar 14 2023 - Negative,21
-Clayton,Mar 14 2023 - Positive,12
-Clayton,Mar 15 2023,41
-Clayton,Mar 15 2023 - Neutral,14
-Clayton,Mar 15 2023 - Negative,16
-Clayton,Mar 15 2023 - Positive,10
-Clayton,Mar 16 2023,32
-Clayton,Mar 16 2023 - Neutral,14
-Clayton,Mar 16 2023 - Negative,9
-Clayton,Mar 16 2023 - Positive,7
-Clayton,Mar 17 2023,49
-Clayton,Mar 17 2023 - Neutral,19
-Clayton,Mar 17 2023 - Negative,14
-Clayton,Mar 17 2023 - Positive,12
-Clayton,Mar 18 2023,38
-Clayton,Mar 18 2023 - Neutral,13
-Clayton,Mar 18 2023 - Negative,9
-Clayton,Mar 18 2023 - Positive,11
-Clayton,Mar 19 2023,52
-Clayton,Mar 19 2023 - Neutral,27
-Clayton,Mar 19 2023 - Negative,12
-Clayton,Mar 19 2023 - Positive,9
-Clayton,Mar 20 2023,43
-Clayton,Mar 20 2023 - Neutral,17
-Clayton,Mar 20 2023 - Negative,13
-Clayton,Mar 20 2023 - Positive,9
-Clayton,Mar 21 2023,26
-Clayton,Mar 21 2023 - Neutral,14
-Clayton,Mar 21 2023 - Negative,8
-Clayton,Mar 21 2023 - Positive,4
-Clayton,Mar 22 2023,33
-Clayton,Mar 22 2023 - Neutral,9
-Clayton,Mar 22 2023 - Negative,9
-Clayton,Mar 22 2023 - Positive,11
-Clayton,Mar 23 2023,32
-Clayton,Mar 23 2023 - Neutral,10
-Clayton,Mar 23 2023 - Negative,10
-Clayton,Mar 23 2023 - Positive,8
-Clayton,Mar 24 2023,46
-Clayton,Mar 24 2023 - Neutral,14
-Clayton,Mar 24 2023 - Negative,4
-Clayton,Mar 24 2023 - Positive,22
-Clayton,Mar 25 2023,36
-Clayton,Mar 25 2023 - Neutral,9
-Clayton,Mar 25 2023 - Negative,9
-Clayton,Mar 25 2023 - Positive,12
-Clayton,Mar 26 2023,82
-Clayton,Mar 26 2023 - Neutral,30
-Clayton,Mar 26 2023 - Negative,29
-Clayton,Mar 26 2023 - Positive,16
-Clayton,Mar 27 2023,50
-Clayton,Mar 27 2023 - Neutral,21
-Clayton,Mar 27 2023 - Negative,15
-Clayton,Mar 27 2023 - Positive,12
-Clayton,Mar 28 2023,32
-Clayton,Mar 28 2023 - Neutral,10
-Clayton,Mar 28 2023 - Negative,13
-Clayton,Mar 28 2023 - Positive,9
-Clayton,Mar 29 2023,38
-Clayton,Mar 29 2023 - Neutral,17
-Clayton,Mar 29 2023 - Negative,13
-Clayton,Mar 29 2023 - Positive,6
-Clayton,Mar 30 2023,27
-Clayton,Mar 30 2023 - Neutral,15
-Clayton,Mar 30 2023 - Negative,7
-Clayton,Mar 30 2023 - Positive,4
-Clayton,Mar 31 2023,32
-Clayton,Mar 31 2023 - Neutral,11
-Clayton,Mar 31 2023 - Negative,12
-Clayton,Mar 31 2023 - Positive,8
-Downtown St. Louis,Total,5599
-Downtown St. Louis,Total - Neutral,3927
-Downtown St. Louis,Total - Negative,88
-Downtown St. Louis,Total - Positive,1406
+Clayton,Mar 01 2023,0
+Clayton,Mar 01 2023 - Neutral,0
+Clayton,Mar 01 2023 - Negative,0
+Clayton,Mar 01 2023 - Positive,0
+Clayton,Mar 02 2023,0
+Clayton,Mar 02 2023 - Neutral,0
+Clayton,Mar 02 2023 - Negative,0
+Clayton,Mar 02 2023 - Positive,0
+Clayton,Mar 03 2023,0
+Clayton,Mar 03 2023 - Neutral,0
+Clayton,Mar 03 2023 - Negative,0
+Clayton,Mar 03 2023 - Positive,0
+Clayton,Mar 04 2023,0
+Clayton,Mar 04 2023 - Neutral,0
+Clayton,Mar 04 2023 - Negative,0
+Clayton,Mar 04 2023 - Positive,0
+Clayton,Mar 05 2023,0
+Clayton,Mar 05 2023 - Neutral,0
+Clayton,Mar 05 2023 - Negative,0
+Clayton,Mar 05 2023 - Positive,0
+Clayton,Mar 06 2023,0
+Clayton,Mar 06 2023 - Neutral,0
+Clayton,Mar 06 2023 - Negative,0
+Clayton,Mar 06 2023 - Positive,0
+Clayton,Mar 07 2023,0
+Clayton,Mar 07 2023 - Neutral,0
+Clayton,Mar 07 2023 - Negative,0
+Clayton,Mar 07 2023 - Positive,0
+Clayton,Mar 08 2023,0
+Clayton,Mar 08 2023 - Neutral,0
+Clayton,Mar 08 2023 - Negative,0
+Clayton,Mar 08 2023 - Positive,0
+Clayton,Mar 09 2023,0
+Clayton,Mar 09 2023 - Neutral,0
+Clayton,Mar 09 2023 - Negative,0
+Clayton,Mar 09 2023 - Positive,0
+Clayton,Mar 10 2023,0
+Clayton,Mar 10 2023 - Neutral,0
+Clayton,Mar 10 2023 - Negative,0
+Clayton,Mar 10 2023 - Positive,0
+Clayton,Mar 11 2023,0
+Clayton,Mar 11 2023 - Neutral,0
+Clayton,Mar 11 2023 - Negative,0
+Clayton,Mar 11 2023 - Positive,0
+Clayton,Mar 12 2023,0
+Clayton,Mar 12 2023 - Neutral,0
+Clayton,Mar 12 2023 - Negative,0
+Clayton,Mar 12 2023 - Positive,0
+Clayton,Mar 13 2023,0
+Clayton,Mar 13 2023 - Neutral,0
+Clayton,Mar 13 2023 - Negative,0
+Clayton,Mar 13 2023 - Positive,0
+Clayton,Mar 14 2023,0
+Clayton,Mar 14 2023 - Neutral,0
+Clayton,Mar 14 2023 - Negative,0
+Clayton,Mar 14 2023 - Positive,0
+Clayton,Mar 15 2023,0
+Clayton,Mar 15 2023 - Neutral,0
+Clayton,Mar 15 2023 - Negative,0
+Clayton,Mar 15 2023 - Positive,0
+Clayton,Mar 16 2023,0
+Clayton,Mar 16 2023 - Neutral,0
+Clayton,Mar 16 2023 - Negative,0
+Clayton,Mar 16 2023 - Positive,0
+Clayton,Mar 17 2023,0
+Clayton,Mar 17 2023 - Neutral,0
+Clayton,Mar 17 2023 - Negative,0
+Clayton,Mar 17 2023 - Positive,0
+Clayton,Mar 18 2023,0
+Clayton,Mar 18 2023 - Neutral,0
+Clayton,Mar 18 2023 - Negative,0
+Clayton,Mar 18 2023 - Positive,0
+Clayton,Mar 19 2023,0
+Clayton,Mar 19 2023 - Neutral,0
+Clayton,Mar 19 2023 - Negative,0
+Clayton,Mar 19 2023 - Positive,0
+Clayton,Mar 20 2023,0
+Clayton,Mar 20 2023 - Neutral,0
+Clayton,Mar 20 2023 - Negative,0
+Clayton,Mar 20 2023 - Positive,0
+Clayton,Mar 21 2023,0
+Clayton,Mar 21 2023 - Neutral,0
+Clayton,Mar 21 2023 - Negative,0
+Clayton,Mar 21 2023 - Positive,0
+Clayton,Mar 22 2023,0
+Clayton,Mar 22 2023 - Neutral,0
+Clayton,Mar 22 2023 - Negative,0
+Clayton,Mar 22 2023 - Positive,0
+Clayton,Mar 23 2023,0
+Clayton,Mar 23 2023 - Neutral,0
+Clayton,Mar 23 2023 - Negative,0
+Clayton,Mar 23 2023 - Positive,0
+Clayton,Mar 24 2023,0
+Clayton,Mar 24 2023 - Neutral,0
+Clayton,Mar 24 2023 - Negative,0
+Clayton,Mar 24 2023 - Positive,0
+Clayton,Mar 25 2023,0
+Clayton,Mar 25 2023 - Neutral,0
+Clayton,Mar 25 2023 - Negative,0
+Clayton,Mar 25 2023 - Positive,0
+Clayton,Mar 26 2023,0
+Clayton,Mar 26 2023 - Neutral,0
+Clayton,Mar 26 2023 - Negative,0
+Clayton,Mar 26 2023 - Positive,0
+Clayton,Mar 27 2023,0
+Clayton,Mar 27 2023 - Neutral,0
+Clayton,Mar 27 2023 - Negative,0
+Clayton,Mar 27 2023 - Positive,0
+Clayton,Mar 28 2023,0
+Clayton,Mar 28 2023 - Neutral,0
+Clayton,Mar 28 2023 - Negative,0
+Clayton,Mar 28 2023 - Positive,0
+Clayton,Mar 29 2023,0
+Clayton,Mar 29 2023 - Neutral,0
+Clayton,Mar 29 2023 - Negative,0
+Clayton,Mar 29 2023 - Positive,0
+Clayton,Mar 30 2023,0
+Clayton,Mar 30 2023 - Neutral,0
+Clayton,Mar 30 2023 - Negative,0
+Clayton,Mar 30 2023 - Positive,0
+Clayton,Mar 31 2023,0
+Clayton,Mar 31 2023 - Neutral,0
+Clayton,Mar 31 2023 - Negative,0
+Clayton,Mar 31 2023 - Positive,0
+Downtown St. Louis,Total,2167
+Downtown St. Louis,Total - Neutral,1438
+Downtown St. Louis,Total - Negative,44
+Downtown St. Louis,Total - Positive,605
 Downtown St. Louis,Feb,2085
 Downtown St. Louis,Feb - Neutral,1374
 Downtown St. Louis,Feb - Negative,44
 Downtown St. Louis,Feb - Positive,587
-Downtown St. Louis,Mar,3514
-Downtown St. Louis,Mar - Neutral,2553
-Downtown St. Louis,Mar - Negative,44
-Downtown St. Louis,Mar - Positive,819
+Downtown St. Louis,Mar,82
+Downtown St. Louis,Mar - Neutral,64
+Downtown St. Louis,Mar - Negative,0
+Downtown St. Louis,Mar - Positive,18
 Downtown St. Louis,Feb 01 - Feb 07 2023,831
 Downtown St. Louis,Feb 01 - Feb 07 2023 - Neutral,607
 Downtown St. Louis,Feb 01 - Feb 07 2023 - Negative,14
@@ -2015,26 +2015,26 @@ Downtown St. Louis,Feb 22 - Feb 28 2023,429
 Downtown St. Louis,Feb 22 - Feb 28 2023 - Neutral,286
 Downtown St. Louis,Feb 22 - Feb 28 2023 - Negative,12
 Downtown St. Louis,Feb 22 - Feb 28 2023 - Positive,120
-Downtown St. Louis,Mar 01 - Mar 07 2023,788
-Downtown St. Louis,Mar 01 - Mar 07 2023 - Neutral,554
-Downtown St. Louis,Mar 01 - Mar 07 2023 - Negative,8
-Downtown St. Louis,Mar 01 - Mar 07 2023 - Positive,207
-Downtown St. Louis,Mar 08 - Mar 14 2023,753
-Downtown St. Louis,Mar 08 - Mar 14 2023 - Neutral,550
-Downtown St. Louis,Mar 08 - Mar 14 2023 - Negative,6
-Downtown St. Louis,Mar 08 - Mar 14 2023 - Positive,149
-Downtown St. Louis,Mar 15 - Mar 21 2023,851
-Downtown St. Louis,Mar 15 - Mar 21 2023 - Neutral,609
-Downtown St. Louis,Mar 15 - Mar 21 2023 - Negative,13
-Downtown St. Louis,Mar 15 - Mar 21 2023 - Positive,209
-Downtown St. Louis,Mar 22 - Mar 28 2023,793
-Downtown St. Louis,Mar 22 - Mar 28 2023 - Neutral,590
-Downtown St. Louis,Mar 22 - Mar 28 2023 - Negative,10
-Downtown St. Louis,Mar 22 - Mar 28 2023 - Positive,185
-Downtown St. Louis,Mar 29 - Apr 04 2023,329
-Downtown St. Louis,Mar 29 - Apr 04 2023 - Neutral,250
-Downtown St. Louis,Mar 29 - Apr 04 2023 - Negative,7
-Downtown St. Louis,Mar 29 - Apr 04 2023 - Positive,69
+Downtown St. Louis,Mar 01 - Mar 07 2023,82
+Downtown St. Louis,Mar 01 - Mar 07 2023 - Neutral,64
+Downtown St. Louis,Mar 01 - Mar 07 2023 - Negative,0
+Downtown St. Louis,Mar 01 - Mar 07 2023 - Positive,18
+Downtown St. Louis,Mar 08 - Mar 14 2023,0
+Downtown St. Louis,Mar 08 - Mar 14 2023 - Neutral,0
+Downtown St. Louis,Mar 08 - Mar 14 2023 - Negative,0
+Downtown St. Louis,Mar 08 - Mar 14 2023 - Positive,0
+Downtown St. Louis,Mar 15 - Mar 21 2023,0
+Downtown St. Louis,Mar 15 - Mar 21 2023 - Neutral,0
+Downtown St. Louis,Mar 15 - Mar 21 2023 - Negative,0
+Downtown St. Louis,Mar 15 - Mar 21 2023 - Positive,0
+Downtown St. Louis,Mar 22 - Mar 28 2023,0
+Downtown St. Louis,Mar 22 - Mar 28 2023 - Neutral,0
+Downtown St. Louis,Mar 22 - Mar 28 2023 - Negative,0
+Downtown St. Louis,Mar 22 - Mar 28 2023 - Positive,0
+Downtown St. Louis,Mar 29 - Apr 04 2023,0
+Downtown St. Louis,Mar 29 - Apr 04 2023 - Neutral,0
+Downtown St. Louis,Mar 29 - Apr 04 2023 - Negative,0
+Downtown St. Louis,Mar 29 - Apr 04 2023 - Positive,0
 Downtown St. Louis,Feb 01 2023,110
 Downtown St. Louis,Feb 01 2023 - Neutral,81
 Downtown St. Louis,Feb 01 2023 - Negative,4
@@ -2147,142 +2147,142 @@ Downtown St. Louis,Feb 28 2023,83
 Downtown St. Louis,Feb 28 2023 - Neutral,59
 Downtown St. Louis,Feb 28 2023 - Negative,1
 Downtown St. Louis,Feb 28 2023 - Positive,23
-Downtown St. Louis,Mar 01 2023,175
-Downtown St. Louis,Mar 01 2023 - Neutral,134
-Downtown St. Louis,Mar 01 2023 - Negative,1
-Downtown St. Louis,Mar 01 2023 - Positive,39
-Downtown St. Louis,Mar 02 2023,118
-Downtown St. Louis,Mar 02 2023 - Neutral,85
+Downtown St. Louis,Mar 01 2023,63
+Downtown St. Louis,Mar 01 2023 - Neutral,51
+Downtown St. Louis,Mar 01 2023 - Negative,0
+Downtown St. Louis,Mar 01 2023 - Positive,12
+Downtown St. Louis,Mar 02 2023,19
+Downtown St. Louis,Mar 02 2023 - Neutral,13
 Downtown St. Louis,Mar 02 2023 - Negative,0
-Downtown St. Louis,Mar 02 2023 - Positive,27
-Downtown St. Louis,Mar 03 2023,98
-Downtown St. Louis,Mar 03 2023 - Neutral,70
-Downtown St. Louis,Mar 03 2023 - Negative,2
-Downtown St. Louis,Mar 03 2023 - Positive,26
-Downtown St. Louis,Mar 04 2023,98
-Downtown St. Louis,Mar 04 2023 - Neutral,69
-Downtown St. Louis,Mar 04 2023 - Negative,1
-Downtown St. Louis,Mar 04 2023 - Positive,27
-Downtown St. Louis,Mar 05 2023,96
-Downtown St. Louis,Mar 05 2023 - Neutral,60
-Downtown St. Louis,Mar 05 2023 - Negative,2
-Downtown St. Louis,Mar 05 2023 - Positive,32
-Downtown St. Louis,Mar 06 2023,106
-Downtown St. Louis,Mar 06 2023 - Neutral,65
-Downtown St. Louis,Mar 06 2023 - Negative,2
-Downtown St. Louis,Mar 06 2023 - Positive,33
-Downtown St. Louis,Mar 07 2023,97
-Downtown St. Louis,Mar 07 2023 - Neutral,71
+Downtown St. Louis,Mar 02 2023 - Positive,6
+Downtown St. Louis,Mar 03 2023,0
+Downtown St. Louis,Mar 03 2023 - Neutral,0
+Downtown St. Louis,Mar 03 2023 - Negative,0
+Downtown St. Louis,Mar 03 2023 - Positive,0
+Downtown St. Louis,Mar 04 2023,0
+Downtown St. Louis,Mar 04 2023 - Neutral,0
+Downtown St. Louis,Mar 04 2023 - Negative,0
+Downtown St. Louis,Mar 04 2023 - Positive,0
+Downtown St. Louis,Mar 05 2023,0
+Downtown St. Louis,Mar 05 2023 - Neutral,0
+Downtown St. Louis,Mar 05 2023 - Negative,0
+Downtown St. Louis,Mar 05 2023 - Positive,0
+Downtown St. Louis,Mar 06 2023,0
+Downtown St. Louis,Mar 06 2023 - Neutral,0
+Downtown St. Louis,Mar 06 2023 - Negative,0
+Downtown St. Louis,Mar 06 2023 - Positive,0
+Downtown St. Louis,Mar 07 2023,0
+Downtown St. Louis,Mar 07 2023 - Neutral,0
 Downtown St. Louis,Mar 07 2023 - Negative,0
-Downtown St. Louis,Mar 07 2023 - Positive,23
-Downtown St. Louis,Mar 08 2023,99
-Downtown St. Louis,Mar 08 2023 - Neutral,75
+Downtown St. Louis,Mar 07 2023 - Positive,0
+Downtown St. Louis,Mar 08 2023,0
+Downtown St. Louis,Mar 08 2023 - Neutral,0
 Downtown St. Louis,Mar 08 2023 - Negative,0
-Downtown St. Louis,Mar 08 2023 - Positive,17
-Downtown St. Louis,Mar 09 2023,115
-Downtown St. Louis,Mar 09 2023 - Neutral,92
+Downtown St. Louis,Mar 08 2023 - Positive,0
+Downtown St. Louis,Mar 09 2023,0
+Downtown St. Louis,Mar 09 2023 - Neutral,0
 Downtown St. Louis,Mar 09 2023 - Negative,0
-Downtown St. Louis,Mar 09 2023 - Positive,19
-Downtown St. Louis,Mar 10 2023,117
-Downtown St. Louis,Mar 10 2023 - Neutral,78
-Downtown St. Louis,Mar 10 2023 - Negative,2
-Downtown St. Louis,Mar 10 2023 - Positive,28
-Downtown St. Louis,Mar 11 2023,101
-Downtown St. Louis,Mar 11 2023 - Neutral,75
+Downtown St. Louis,Mar 09 2023 - Positive,0
+Downtown St. Louis,Mar 10 2023,0
+Downtown St. Louis,Mar 10 2023 - Neutral,0
+Downtown St. Louis,Mar 10 2023 - Negative,0
+Downtown St. Louis,Mar 10 2023 - Positive,0
+Downtown St. Louis,Mar 11 2023,0
+Downtown St. Louis,Mar 11 2023 - Neutral,0
 Downtown St. Louis,Mar 11 2023 - Negative,0
-Downtown St. Louis,Mar 11 2023 - Positive,22
-Downtown St. Louis,Mar 12 2023,96
-Downtown St. Louis,Mar 12 2023 - Neutral,67
-Downtown St. Louis,Mar 12 2023 - Negative,1
-Downtown St. Louis,Mar 12 2023 - Positive,22
-Downtown St. Louis,Mar 13 2023,98
-Downtown St. Louis,Mar 13 2023 - Neutral,72
+Downtown St. Louis,Mar 11 2023 - Positive,0
+Downtown St. Louis,Mar 12 2023,0
+Downtown St. Louis,Mar 12 2023 - Neutral,0
+Downtown St. Louis,Mar 12 2023 - Negative,0
+Downtown St. Louis,Mar 12 2023 - Positive,0
+Downtown St. Louis,Mar 13 2023,0
+Downtown St. Louis,Mar 13 2023 - Neutral,0
 Downtown St. Louis,Mar 13 2023 - Negative,0
-Downtown St. Louis,Mar 13 2023 - Positive,20
-Downtown St. Louis,Mar 14 2023,127
-Downtown St. Louis,Mar 14 2023 - Neutral,91
-Downtown St. Louis,Mar 14 2023 - Negative,3
-Downtown St. Louis,Mar 14 2023 - Positive,21
-Downtown St. Louis,Mar 15 2023,121
-Downtown St. Louis,Mar 15 2023 - Neutral,88
-Downtown St. Louis,Mar 15 2023 - Negative,4
-Downtown St. Louis,Mar 15 2023 - Positive,27
-Downtown St. Louis,Mar 16 2023,110
-Downtown St. Louis,Mar 16 2023 - Neutral,78
-Downtown St. Louis,Mar 16 2023 - Negative,1
-Downtown St. Louis,Mar 16 2023 - Positive,29
-Downtown St. Louis,Mar 17 2023,119
-Downtown St. Louis,Mar 17 2023 - Neutral,82
-Downtown St. Louis,Mar 17 2023 - Negative,1
-Downtown St. Louis,Mar 17 2023 - Positive,31
-Downtown St. Louis,Mar 18 2023,113
-Downtown St. Louis,Mar 18 2023 - Neutral,84
-Downtown St. Louis,Mar 18 2023 - Negative,1
-Downtown St. Louis,Mar 18 2023 - Positive,27
-Downtown St. Louis,Mar 19 2023,123
-Downtown St. Louis,Mar 19 2023 - Neutral,88
-Downtown St. Louis,Mar 19 2023 - Negative,1
-Downtown St. Louis,Mar 19 2023 - Positive,31
-Downtown St. Louis,Mar 20 2023,123
-Downtown St. Louis,Mar 20 2023 - Neutral,85
-Downtown St. Louis,Mar 20 2023 - Negative,1
-Downtown St. Louis,Mar 20 2023 - Positive,37
-Downtown St. Louis,Mar 21 2023,142
-Downtown St. Louis,Mar 21 2023 - Neutral,104
-Downtown St. Louis,Mar 21 2023 - Negative,4
-Downtown St. Louis,Mar 21 2023 - Positive,27
-Downtown St. Louis,Mar 22 2023,119
-Downtown St. Louis,Mar 22 2023 - Neutral,86
-Downtown St. Louis,Mar 22 2023 - Negative,2
-Downtown St. Louis,Mar 22 2023 - Positive,27
-Downtown St. Louis,Mar 23 2023,104
-Downtown St. Louis,Mar 23 2023 - Neutral,77
-Downtown St. Louis,Mar 23 2023 - Negative,3
-Downtown St. Louis,Mar 23 2023 - Positive,24
-Downtown St. Louis,Mar 24 2023,110
-Downtown St. Louis,Mar 24 2023 - Neutral,83
-Downtown St. Louis,Mar 24 2023 - Negative,2
-Downtown St. Louis,Mar 24 2023 - Positive,24
-Downtown St. Louis,Mar 25 2023,120
-Downtown St. Louis,Mar 25 2023 - Neutral,87
-Downtown St. Louis,Mar 25 2023 - Negative,1
-Downtown St. Louis,Mar 25 2023 - Positive,32
-Downtown St. Louis,Mar 26 2023,92
-Downtown St. Louis,Mar 26 2023 - Neutral,67
-Downtown St. Louis,Mar 26 2023 - Negative,2
-Downtown St. Louis,Mar 26 2023 - Positive,22
-Downtown St. Louis,Mar 27 2023,122
-Downtown St. Louis,Mar 27 2023 - Neutral,90
+Downtown St. Louis,Mar 13 2023 - Positive,0
+Downtown St. Louis,Mar 14 2023,0
+Downtown St. Louis,Mar 14 2023 - Neutral,0
+Downtown St. Louis,Mar 14 2023 - Negative,0
+Downtown St. Louis,Mar 14 2023 - Positive,0
+Downtown St. Louis,Mar 15 2023,0
+Downtown St. Louis,Mar 15 2023 - Neutral,0
+Downtown St. Louis,Mar 15 2023 - Negative,0
+Downtown St. Louis,Mar 15 2023 - Positive,0
+Downtown St. Louis,Mar 16 2023,0
+Downtown St. Louis,Mar 16 2023 - Neutral,0
+Downtown St. Louis,Mar 16 2023 - Negative,0
+Downtown St. Louis,Mar 16 2023 - Positive,0
+Downtown St. Louis,Mar 17 2023,0
+Downtown St. Louis,Mar 17 2023 - Neutral,0
+Downtown St. Louis,Mar 17 2023 - Negative,0
+Downtown St. Louis,Mar 17 2023 - Positive,0
+Downtown St. Louis,Mar 18 2023,0
+Downtown St. Louis,Mar 18 2023 - Neutral,0
+Downtown St. Louis,Mar 18 2023 - Negative,0
+Downtown St. Louis,Mar 18 2023 - Positive,0
+Downtown St. Louis,Mar 19 2023,0
+Downtown St. Louis,Mar 19 2023 - Neutral,0
+Downtown St. Louis,Mar 19 2023 - Negative,0
+Downtown St. Louis,Mar 19 2023 - Positive,0
+Downtown St. Louis,Mar 20 2023,0
+Downtown St. Louis,Mar 20 2023 - Neutral,0
+Downtown St. Louis,Mar 20 2023 - Negative,0
+Downtown St. Louis,Mar 20 2023 - Positive,0
+Downtown St. Louis,Mar 21 2023,0
+Downtown St. Louis,Mar 21 2023 - Neutral,0
+Downtown St. Louis,Mar 21 2023 - Negative,0
+Downtown St. Louis,Mar 21 2023 - Positive,0
+Downtown St. Louis,Mar 22 2023,0
+Downtown St. Louis,Mar 22 2023 - Neutral,0
+Downtown St. Louis,Mar 22 2023 - Negative,0
+Downtown St. Louis,Mar 22 2023 - Positive,0
+Downtown St. Louis,Mar 23 2023,0
+Downtown St. Louis,Mar 23 2023 - Neutral,0
+Downtown St. Louis,Mar 23 2023 - Negative,0
+Downtown St. Louis,Mar 23 2023 - Positive,0
+Downtown St. Louis,Mar 24 2023,0
+Downtown St. Louis,Mar 24 2023 - Neutral,0
+Downtown St. Louis,Mar 24 2023 - Negative,0
+Downtown St. Louis,Mar 24 2023 - Positive,0
+Downtown St. Louis,Mar 25 2023,0
+Downtown St. Louis,Mar 25 2023 - Neutral,0
+Downtown St. Louis,Mar 25 2023 - Negative,0
+Downtown St. Louis,Mar 25 2023 - Positive,0
+Downtown St. Louis,Mar 26 2023,0
+Downtown St. Louis,Mar 26 2023 - Neutral,0
+Downtown St. Louis,Mar 26 2023 - Negative,0
+Downtown St. Louis,Mar 26 2023 - Positive,0
+Downtown St. Louis,Mar 27 2023,0
+Downtown St. Louis,Mar 27 2023 - Neutral,0
 Downtown St. Louis,Mar 27 2023 - Negative,0
-Downtown St. Louis,Mar 27 2023 - Positive,30
-Downtown St. Louis,Mar 28 2023,126
-Downtown St. Louis,Mar 28 2023 - Neutral,100
+Downtown St. Louis,Mar 27 2023 - Positive,0
+Downtown St. Louis,Mar 28 2023,0
+Downtown St. Louis,Mar 28 2023 - Neutral,0
 Downtown St. Louis,Mar 28 2023 - Negative,0
-Downtown St. Louis,Mar 28 2023 - Positive,26
-Downtown St. Louis,Mar 29 2023,110
-Downtown St. Louis,Mar 29 2023 - Neutral,80
-Downtown St. Louis,Mar 29 2023 - Negative,2
-Downtown St. Louis,Mar 29 2023 - Positive,28
-Downtown St. Louis,Mar 30 2023,115
-Downtown St. Louis,Mar 30 2023 - Neutral,80
-Downtown St. Louis,Mar 30 2023 - Negative,3
-Downtown St. Louis,Mar 30 2023 - Positive,29
-Downtown St. Louis,Mar 31 2023,104
-Downtown St. Louis,Mar 31 2023 - Neutral,90
-Downtown St. Louis,Mar 31 2023 - Negative,2
-Downtown St. Louis,Mar 31 2023 - Positive,12
-Eureka,Total,516
-Eureka,Total - Neutral,215
-Eureka,Total - Negative,80
-Eureka,Total - Positive,175
+Downtown St. Louis,Mar 28 2023 - Positive,0
+Downtown St. Louis,Mar 29 2023,0
+Downtown St. Louis,Mar 29 2023 - Neutral,0
+Downtown St. Louis,Mar 29 2023 - Negative,0
+Downtown St. Louis,Mar 29 2023 - Positive,0
+Downtown St. Louis,Mar 30 2023,0
+Downtown St. Louis,Mar 30 2023 - Neutral,0
+Downtown St. Louis,Mar 30 2023 - Negative,0
+Downtown St. Louis,Mar 30 2023 - Positive,0
+Downtown St. Louis,Mar 31 2023,0
+Downtown St. Louis,Mar 31 2023 - Neutral,0
+Downtown St. Louis,Mar 31 2023 - Negative,0
+Downtown St. Louis,Mar 31 2023 - Positive,0
+Eureka,Total,208
+Eureka,Total - Neutral,86
+Eureka,Total - Negative,39
+Eureka,Total - Positive,59
 Eureka,Feb,206
 Eureka,Feb - Neutral,85
 Eureka,Feb - Negative,39
 Eureka,Feb - Positive,58
-Eureka,Mar,310
-Eureka,Mar - Neutral,130
-Eureka,Mar - Negative,41
-Eureka,Mar - Positive,117
+Eureka,Mar,2
+Eureka,Mar - Neutral,1
+Eureka,Mar - Negative,0
+Eureka,Mar - Positive,1
 Eureka,Feb 01 - Feb 07 2023,61
 Eureka,Feb 01 - Feb 07 2023 - Neutral,25
 Eureka,Feb 01 - Feb 07 2023 - Negative,10
@@ -2299,26 +2299,26 @@ Eureka,Feb 22 - Feb 28 2023,49
 Eureka,Feb 22 - Feb 28 2023 - Neutral,21
 Eureka,Feb 22 - Feb 28 2023 - Negative,5
 Eureka,Feb 22 - Feb 28 2023 - Positive,15
-Eureka,Mar 01 - Mar 07 2023,66
-Eureka,Mar 01 - Mar 07 2023 - Neutral,35
-Eureka,Mar 01 - Mar 07 2023 - Negative,9
-Eureka,Mar 01 - Mar 07 2023 - Positive,14
-Eureka,Mar 08 - Mar 14 2023,56
-Eureka,Mar 08 - Mar 14 2023 - Neutral,19
-Eureka,Mar 08 - Mar 14 2023 - Negative,12
-Eureka,Mar 08 - Mar 14 2023 - Positive,20
-Eureka,Mar 15 - Mar 21 2023,112
-Eureka,Mar 15 - Mar 21 2023 - Neutral,37
-Eureka,Mar 15 - Mar 21 2023 - Negative,12
-Eureka,Mar 15 - Mar 21 2023 - Positive,57
-Eureka,Mar 22 - Mar 28 2023,58
-Eureka,Mar 22 - Mar 28 2023 - Neutral,31
-Eureka,Mar 22 - Mar 28 2023 - Negative,4
-Eureka,Mar 22 - Mar 28 2023 - Positive,21
-Eureka,Mar 29 - Apr 04 2023,18
-Eureka,Mar 29 - Apr 04 2023 - Neutral,8
-Eureka,Mar 29 - Apr 04 2023 - Negative,4
-Eureka,Mar 29 - Apr 04 2023 - Positive,5
+Eureka,Mar 01 - Mar 07 2023,2
+Eureka,Mar 01 - Mar 07 2023 - Neutral,1
+Eureka,Mar 01 - Mar 07 2023 - Negative,0
+Eureka,Mar 01 - Mar 07 2023 - Positive,1
+Eureka,Mar 08 - Mar 14 2023,0
+Eureka,Mar 08 - Mar 14 2023 - Neutral,0
+Eureka,Mar 08 - Mar 14 2023 - Negative,0
+Eureka,Mar 08 - Mar 14 2023 - Positive,0
+Eureka,Mar 15 - Mar 21 2023,0
+Eureka,Mar 15 - Mar 21 2023 - Neutral,0
+Eureka,Mar 15 - Mar 21 2023 - Negative,0
+Eureka,Mar 15 - Mar 21 2023 - Positive,0
+Eureka,Mar 22 - Mar 28 2023,0
+Eureka,Mar 22 - Mar 28 2023 - Neutral,0
+Eureka,Mar 22 - Mar 28 2023 - Negative,0
+Eureka,Mar 22 - Mar 28 2023 - Positive,0
+Eureka,Mar 29 - Apr 04 2023,0
+Eureka,Mar 29 - Apr 04 2023 - Neutral,0
+Eureka,Mar 29 - Apr 04 2023 - Negative,0
+Eureka,Mar 29 - Apr 04 2023 - Positive,0
 Eureka,Feb 01 2023,13
 Eureka,Feb 01 2023 - Neutral,6
 Eureka,Feb 01 2023 - Negative,1
@@ -2431,142 +2431,142 @@ Eureka,Feb 28 2023,6
 Eureka,Feb 28 2023 - Neutral,0
 Eureka,Feb 28 2023 - Negative,0
 Eureka,Feb 28 2023 - Positive,4
-Eureka,Mar 01 2023,8
-Eureka,Mar 01 2023 - Neutral,5
-Eureka,Mar 01 2023 - Negative,1
-Eureka,Mar 01 2023 - Positive,1
-Eureka,Mar 02 2023,5
-Eureka,Mar 02 2023 - Neutral,2
-Eureka,Mar 02 2023 - Negative,1
-Eureka,Mar 02 2023 - Positive,2
-Eureka,Mar 03 2023,15
-Eureka,Mar 03 2023 - Neutral,11
-Eureka,Mar 03 2023 - Negative,2
-Eureka,Mar 03 2023 - Positive,1
-Eureka,Mar 04 2023,16
-Eureka,Mar 04 2023 - Neutral,6
-Eureka,Mar 04 2023 - Negative,2
-Eureka,Mar 04 2023 - Positive,5
-Eureka,Mar 05 2023,10
-Eureka,Mar 05 2023 - Neutral,4
-Eureka,Mar 05 2023 - Negative,1
-Eureka,Mar 05 2023 - Positive,3
-Eureka,Mar 06 2023,7
-Eureka,Mar 06 2023 - Neutral,3
-Eureka,Mar 06 2023 - Negative,2
-Eureka,Mar 06 2023 - Positive,1
-Eureka,Mar 07 2023,5
-Eureka,Mar 07 2023 - Neutral,4
+Eureka,Mar 01 2023,1
+Eureka,Mar 01 2023 - Neutral,1
+Eureka,Mar 01 2023 - Negative,0
+Eureka,Mar 01 2023 - Positive,0
+Eureka,Mar 02 2023,1
+Eureka,Mar 02 2023 - Neutral,0
+Eureka,Mar 02 2023 - Negative,0
+Eureka,Mar 02 2023 - Positive,1
+Eureka,Mar 03 2023,0
+Eureka,Mar 03 2023 - Neutral,0
+Eureka,Mar 03 2023 - Negative,0
+Eureka,Mar 03 2023 - Positive,0
+Eureka,Mar 04 2023,0
+Eureka,Mar 04 2023 - Neutral,0
+Eureka,Mar 04 2023 - Negative,0
+Eureka,Mar 04 2023 - Positive,0
+Eureka,Mar 05 2023,0
+Eureka,Mar 05 2023 - Neutral,0
+Eureka,Mar 05 2023 - Negative,0
+Eureka,Mar 05 2023 - Positive,0
+Eureka,Mar 06 2023,0
+Eureka,Mar 06 2023 - Neutral,0
+Eureka,Mar 06 2023 - Negative,0
+Eureka,Mar 06 2023 - Positive,0
+Eureka,Mar 07 2023,0
+Eureka,Mar 07 2023 - Neutral,0
 Eureka,Mar 07 2023 - Negative,0
-Eureka,Mar 07 2023 - Positive,1
-Eureka,Mar 08 2023,9
-Eureka,Mar 08 2023 - Neutral,1
-Eureka,Mar 08 2023 - Negative,6
-Eureka,Mar 08 2023 - Positive,2
-Eureka,Mar 09 2023,11
-Eureka,Mar 09 2023 - Neutral,6
-Eureka,Mar 09 2023 - Negative,1
-Eureka,Mar 09 2023 - Positive,3
-Eureka,Mar 10 2023,6
-Eureka,Mar 10 2023 - Neutral,2
-Eureka,Mar 10 2023 - Negative,1
-Eureka,Mar 10 2023 - Positive,2
-Eureka,Mar 11 2023,10
-Eureka,Mar 11 2023 - Neutral,2
-Eureka,Mar 11 2023 - Negative,1
-Eureka,Mar 11 2023 - Positive,6
-Eureka,Mar 12 2023,10
-Eureka,Mar 12 2023 - Neutral,4
-Eureka,Mar 12 2023 - Negative,1
-Eureka,Mar 12 2023 - Positive,4
-Eureka,Mar 13 2023,2
-Eureka,Mar 13 2023 - Neutral,2
+Eureka,Mar 07 2023 - Positive,0
+Eureka,Mar 08 2023,0
+Eureka,Mar 08 2023 - Neutral,0
+Eureka,Mar 08 2023 - Negative,0
+Eureka,Mar 08 2023 - Positive,0
+Eureka,Mar 09 2023,0
+Eureka,Mar 09 2023 - Neutral,0
+Eureka,Mar 09 2023 - Negative,0
+Eureka,Mar 09 2023 - Positive,0
+Eureka,Mar 10 2023,0
+Eureka,Mar 10 2023 - Neutral,0
+Eureka,Mar 10 2023 - Negative,0
+Eureka,Mar 10 2023 - Positive,0
+Eureka,Mar 11 2023,0
+Eureka,Mar 11 2023 - Neutral,0
+Eureka,Mar 11 2023 - Negative,0
+Eureka,Mar 11 2023 - Positive,0
+Eureka,Mar 12 2023,0
+Eureka,Mar 12 2023 - Neutral,0
+Eureka,Mar 12 2023 - Negative,0
+Eureka,Mar 12 2023 - Positive,0
+Eureka,Mar 13 2023,0
+Eureka,Mar 13 2023 - Neutral,0
 Eureka,Mar 13 2023 - Negative,0
 Eureka,Mar 13 2023 - Positive,0
-Eureka,Mar 14 2023,8
-Eureka,Mar 14 2023 - Neutral,2
-Eureka,Mar 14 2023 - Negative,2
-Eureka,Mar 14 2023 - Positive,3
-Eureka,Mar 15 2023,6
-Eureka,Mar 15 2023 - Neutral,1
-Eureka,Mar 15 2023 - Negative,1
-Eureka,Mar 15 2023 - Positive,4
-Eureka,Mar 16 2023,11
-Eureka,Mar 16 2023 - Neutral,3
-Eureka,Mar 16 2023 - Negative,2
-Eureka,Mar 16 2023 - Positive,6
-Eureka,Mar 17 2023,27
-Eureka,Mar 17 2023 - Neutral,10
-Eureka,Mar 17 2023 - Negative,3
-Eureka,Mar 17 2023 - Positive,13
-Eureka,Mar 18 2023,11
-Eureka,Mar 18 2023 - Neutral,4
+Eureka,Mar 14 2023,0
+Eureka,Mar 14 2023 - Neutral,0
+Eureka,Mar 14 2023 - Negative,0
+Eureka,Mar 14 2023 - Positive,0
+Eureka,Mar 15 2023,0
+Eureka,Mar 15 2023 - Neutral,0
+Eureka,Mar 15 2023 - Negative,0
+Eureka,Mar 15 2023 - Positive,0
+Eureka,Mar 16 2023,0
+Eureka,Mar 16 2023 - Neutral,0
+Eureka,Mar 16 2023 - Negative,0
+Eureka,Mar 16 2023 - Positive,0
+Eureka,Mar 17 2023,0
+Eureka,Mar 17 2023 - Neutral,0
+Eureka,Mar 17 2023 - Negative,0
+Eureka,Mar 17 2023 - Positive,0
+Eureka,Mar 18 2023,0
+Eureka,Mar 18 2023 - Neutral,0
 Eureka,Mar 18 2023 - Negative,0
-Eureka,Mar 18 2023 - Positive,5
-Eureka,Mar 19 2023,42
-Eureka,Mar 19 2023 - Neutral,13
-Eureka,Mar 19 2023 - Negative,3
-Eureka,Mar 19 2023 - Positive,25
-Eureka,Mar 20 2023,4
-Eureka,Mar 20 2023 - Neutral,1
-Eureka,Mar 20 2023 - Negative,2
+Eureka,Mar 18 2023 - Positive,0
+Eureka,Mar 19 2023,0
+Eureka,Mar 19 2023 - Neutral,0
+Eureka,Mar 19 2023 - Negative,0
+Eureka,Mar 19 2023 - Positive,0
+Eureka,Mar 20 2023,0
+Eureka,Mar 20 2023 - Neutral,0
+Eureka,Mar 20 2023 - Negative,0
 Eureka,Mar 20 2023 - Positive,0
-Eureka,Mar 21 2023,11
-Eureka,Mar 21 2023 - Neutral,5
-Eureka,Mar 21 2023 - Negative,1
-Eureka,Mar 21 2023 - Positive,4
-Eureka,Mar 22 2023,3
+Eureka,Mar 21 2023,0
+Eureka,Mar 21 2023 - Neutral,0
+Eureka,Mar 21 2023 - Negative,0
+Eureka,Mar 21 2023 - Positive,0
+Eureka,Mar 22 2023,0
 Eureka,Mar 22 2023 - Neutral,0
 Eureka,Mar 22 2023 - Negative,0
-Eureka,Mar 22 2023 - Positive,3
-Eureka,Mar 23 2023,3
-Eureka,Mar 23 2023 - Neutral,1
-Eureka,Mar 23 2023 - Negative,1
-Eureka,Mar 23 2023 - Positive,1
-Eureka,Mar 24 2023,20
-Eureka,Mar 24 2023 - Neutral,15
-Eureka,Mar 24 2023 - Negative,2
-Eureka,Mar 24 2023 - Positive,2
-Eureka,Mar 25 2023,8
-Eureka,Mar 25 2023 - Neutral,5
+Eureka,Mar 22 2023 - Positive,0
+Eureka,Mar 23 2023,0
+Eureka,Mar 23 2023 - Neutral,0
+Eureka,Mar 23 2023 - Negative,0
+Eureka,Mar 23 2023 - Positive,0
+Eureka,Mar 24 2023,0
+Eureka,Mar 24 2023 - Neutral,0
+Eureka,Mar 24 2023 - Negative,0
+Eureka,Mar 24 2023 - Positive,0
+Eureka,Mar 25 2023,0
+Eureka,Mar 25 2023 - Neutral,0
 Eureka,Mar 25 2023 - Negative,0
-Eureka,Mar 25 2023 - Positive,3
-Eureka,Mar 26 2023,9
-Eureka,Mar 26 2023 - Neutral,3
-Eureka,Mar 26 2023 - Negative,1
-Eureka,Mar 26 2023 - Positive,5
-Eureka,Mar 27 2023,7
-Eureka,Mar 27 2023 - Neutral,2
+Eureka,Mar 25 2023 - Positive,0
+Eureka,Mar 26 2023,0
+Eureka,Mar 26 2023 - Neutral,0
+Eureka,Mar 26 2023 - Negative,0
+Eureka,Mar 26 2023 - Positive,0
+Eureka,Mar 27 2023,0
+Eureka,Mar 27 2023 - Neutral,0
 Eureka,Mar 27 2023 - Negative,0
-Eureka,Mar 27 2023 - Positive,4
-Eureka,Mar 28 2023,8
-Eureka,Mar 28 2023 - Neutral,5
+Eureka,Mar 27 2023 - Positive,0
+Eureka,Mar 28 2023,0
+Eureka,Mar 28 2023 - Neutral,0
 Eureka,Mar 28 2023 - Negative,0
-Eureka,Mar 28 2023 - Positive,3
-Eureka,Mar 29 2023,4
-Eureka,Mar 29 2023 - Neutral,2
-Eureka,Mar 29 2023 - Negative,1
-Eureka,Mar 29 2023 - Positive,1
-Eureka,Mar 30 2023,5
-Eureka,Mar 30 2023 - Neutral,3
+Eureka,Mar 28 2023 - Positive,0
+Eureka,Mar 29 2023,0
+Eureka,Mar 29 2023 - Neutral,0
+Eureka,Mar 29 2023 - Negative,0
+Eureka,Mar 29 2023 - Positive,0
+Eureka,Mar 30 2023,0
+Eureka,Mar 30 2023 - Neutral,0
 Eureka,Mar 30 2023 - Negative,0
-Eureka,Mar 30 2023 - Positive,1
-Eureka,Mar 31 2023,9
-Eureka,Mar 31 2023 - Neutral,3
-Eureka,Mar 31 2023 - Negative,3
-Eureka,Mar 31 2023 - Positive,3
-Forest Park,Total,32
-Forest Park,Total - Neutral,21
-Forest Park,Total - Negative,2
-Forest Park,Total - Positive,9
+Eureka,Mar 30 2023 - Positive,0
+Eureka,Mar 31 2023,0
+Eureka,Mar 31 2023 - Neutral,0
+Eureka,Mar 31 2023 - Negative,0
+Eureka,Mar 31 2023 - Positive,0
+Forest Park,Total,15
+Forest Park,Total - Neutral,12
+Forest Park,Total - Negative,1
+Forest Park,Total - Positive,2
 Forest Park,Feb,15
 Forest Park,Feb - Neutral,12
 Forest Park,Feb - Negative,1
 Forest Park,Feb - Positive,2
-Forest Park,Mar,17
-Forest Park,Mar - Neutral,9
-Forest Park,Mar - Negative,1
-Forest Park,Mar - Positive,7
+Forest Park,Mar,0
+Forest Park,Mar - Neutral,0
+Forest Park,Mar - Negative,0
+Forest Park,Mar - Positive,0
 Forest Park,Feb 01 - Feb 07 2023,8
 Forest Park,Feb 01 - Feb 07 2023 - Neutral,7
 Forest Park,Feb 01 - Feb 07 2023 - Negative,0
@@ -2583,22 +2583,22 @@ Forest Park,Feb 22 - Feb 28 2023,0
 Forest Park,Feb 22 - Feb 28 2023 - Neutral,0
 Forest Park,Feb 22 - Feb 28 2023 - Negative,0
 Forest Park,Feb 22 - Feb 28 2023 - Positive,0
-Forest Park,Mar 01 - Mar 07 2023,5
-Forest Park,Mar 01 - Mar 07 2023 - Neutral,2
-Forest Park,Mar 01 - Mar 07 2023 - Negative,1
-Forest Park,Mar 01 - Mar 07 2023 - Positive,2
-Forest Park,Mar 08 - Mar 14 2023,2
-Forest Park,Mar 08 - Mar 14 2023 - Neutral,1
+Forest Park,Mar 01 - Mar 07 2023,0
+Forest Park,Mar 01 - Mar 07 2023 - Neutral,0
+Forest Park,Mar 01 - Mar 07 2023 - Negative,0
+Forest Park,Mar 01 - Mar 07 2023 - Positive,0
+Forest Park,Mar 08 - Mar 14 2023,0
+Forest Park,Mar 08 - Mar 14 2023 - Neutral,0
 Forest Park,Mar 08 - Mar 14 2023 - Negative,0
-Forest Park,Mar 08 - Mar 14 2023 - Positive,1
-Forest Park,Mar 15 - Mar 21 2023,6
-Forest Park,Mar 15 - Mar 21 2023 - Neutral,4
+Forest Park,Mar 08 - Mar 14 2023 - Positive,0
+Forest Park,Mar 15 - Mar 21 2023,0
+Forest Park,Mar 15 - Mar 21 2023 - Neutral,0
 Forest Park,Mar 15 - Mar 21 2023 - Negative,0
-Forest Park,Mar 15 - Mar 21 2023 - Positive,2
-Forest Park,Mar 22 - Mar 28 2023,4
-Forest Park,Mar 22 - Mar 28 2023 - Neutral,2
+Forest Park,Mar 15 - Mar 21 2023 - Positive,0
+Forest Park,Mar 22 - Mar 28 2023,0
+Forest Park,Mar 22 - Mar 28 2023 - Neutral,0
 Forest Park,Mar 22 - Mar 28 2023 - Negative,0
-Forest Park,Mar 22 - Mar 28 2023 - Positive,2
+Forest Park,Mar 22 - Mar 28 2023 - Positive,0
 Forest Park,Mar 29 - Apr 04 2023,0
 Forest Park,Mar 29 - Apr 04 2023 - Neutral,0
 Forest Park,Mar 29 - Apr 04 2023 - Negative,0
@@ -2715,18 +2715,18 @@ Forest Park,Feb 28 2023,0
 Forest Park,Feb 28 2023 - Neutral,0
 Forest Park,Feb 28 2023 - Negative,0
 Forest Park,Feb 28 2023 - Positive,0
-Forest Park,Mar 01 2023,1
+Forest Park,Mar 01 2023,0
 Forest Park,Mar 01 2023 - Neutral,0
-Forest Park,Mar 01 2023 - Negative,1
+Forest Park,Mar 01 2023 - Negative,0
 Forest Park,Mar 01 2023 - Positive,0
-Forest Park,Mar 02 2023,2
-Forest Park,Mar 02 2023 - Neutral,1
+Forest Park,Mar 02 2023,0
+Forest Park,Mar 02 2023 - Neutral,0
 Forest Park,Mar 02 2023 - Negative,0
-Forest Park,Mar 02 2023 - Positive,1
-Forest Park,Mar 03 2023,2
-Forest Park,Mar 03 2023 - Neutral,1
+Forest Park,Mar 02 2023 - Positive,0
+Forest Park,Mar 03 2023,0
+Forest Park,Mar 03 2023 - Neutral,0
 Forest Park,Mar 03 2023 - Negative,0
-Forest Park,Mar 03 2023 - Positive,1
+Forest Park,Mar 03 2023 - Positive,0
 Forest Park,Mar 04 2023,0
 Forest Park,Mar 04 2023 - Neutral,0
 Forest Park,Mar 04 2023 - Negative,0
@@ -2743,8 +2743,8 @@ Forest Park,Mar 07 2023,0
 Forest Park,Mar 07 2023 - Neutral,0
 Forest Park,Mar 07 2023 - Negative,0
 Forest Park,Mar 07 2023 - Positive,0
-Forest Park,Mar 08 2023,1
-Forest Park,Mar 08 2023 - Neutral,1
+Forest Park,Mar 08 2023,0
+Forest Park,Mar 08 2023 - Neutral,0
 Forest Park,Mar 08 2023 - Negative,0
 Forest Park,Mar 08 2023 - Positive,0
 Forest Park,Mar 09 2023,0
@@ -2763,20 +2763,20 @@ Forest Park,Mar 12 2023,0
 Forest Park,Mar 12 2023 - Neutral,0
 Forest Park,Mar 12 2023 - Negative,0
 Forest Park,Mar 12 2023 - Positive,0
-Forest Park,Mar 13 2023,1
+Forest Park,Mar 13 2023,0
 Forest Park,Mar 13 2023 - Neutral,0
 Forest Park,Mar 13 2023 - Negative,0
-Forest Park,Mar 13 2023 - Positive,1
+Forest Park,Mar 13 2023 - Positive,0
 Forest Park,Mar 14 2023,0
 Forest Park,Mar 14 2023 - Neutral,0
 Forest Park,Mar 14 2023 - Negative,0
 Forest Park,Mar 14 2023 - Positive,0
-Forest Park,Mar 15 2023,2
-Forest Park,Mar 15 2023 - Neutral,2
+Forest Park,Mar 15 2023,0
+Forest Park,Mar 15 2023 - Neutral,0
 Forest Park,Mar 15 2023 - Negative,0
 Forest Park,Mar 15 2023 - Positive,0
-Forest Park,Mar 16 2023,1
-Forest Park,Mar 16 2023 - Neutral,1
+Forest Park,Mar 16 2023,0
+Forest Park,Mar 16 2023 - Neutral,0
 Forest Park,Mar 16 2023 - Negative,0
 Forest Park,Mar 16 2023 - Positive,0
 Forest Park,Mar 17 2023,0
@@ -2791,14 +2791,14 @@ Forest Park,Mar 19 2023,0
 Forest Park,Mar 19 2023 - Neutral,0
 Forest Park,Mar 19 2023 - Negative,0
 Forest Park,Mar 19 2023 - Positive,0
-Forest Park,Mar 20 2023,1
+Forest Park,Mar 20 2023,0
 Forest Park,Mar 20 2023 - Neutral,0
 Forest Park,Mar 20 2023 - Negative,0
-Forest Park,Mar 20 2023 - Positive,1
-Forest Park,Mar 21 2023,2
-Forest Park,Mar 21 2023 - Neutral,1
+Forest Park,Mar 20 2023 - Positive,0
+Forest Park,Mar 21 2023,0
+Forest Park,Mar 21 2023 - Neutral,0
 Forest Park,Mar 21 2023 - Negative,0
-Forest Park,Mar 21 2023 - Positive,1
+Forest Park,Mar 21 2023 - Positive,0
 Forest Park,Mar 22 2023,0
 Forest Park,Mar 22 2023 - Neutral,0
 Forest Park,Mar 22 2023 - Negative,0
@@ -2811,20 +2811,20 @@ Forest Park,Mar 24 2023,0
 Forest Park,Mar 24 2023 - Neutral,0
 Forest Park,Mar 24 2023 - Negative,0
 Forest Park,Mar 24 2023 - Positive,0
-Forest Park,Mar 25 2023,1
+Forest Park,Mar 25 2023,0
 Forest Park,Mar 25 2023 - Neutral,0
 Forest Park,Mar 25 2023 - Negative,0
-Forest Park,Mar 25 2023 - Positive,1
-Forest Park,Mar 26 2023,2
-Forest Park,Mar 26 2023 - Neutral,1
+Forest Park,Mar 25 2023 - Positive,0
+Forest Park,Mar 26 2023,0
+Forest Park,Mar 26 2023 - Neutral,0
 Forest Park,Mar 26 2023 - Negative,0
-Forest Park,Mar 26 2023 - Positive,1
+Forest Park,Mar 26 2023 - Positive,0
 Forest Park,Mar 27 2023,0
 Forest Park,Mar 27 2023 - Neutral,0
 Forest Park,Mar 27 2023 - Negative,0
 Forest Park,Mar 27 2023 - Positive,0
-Forest Park,Mar 28 2023,1
-Forest Park,Mar 28 2023 - Neutral,1
+Forest Park,Mar 28 2023,0
+Forest Park,Mar 28 2023 - Neutral,0
 Forest Park,Mar 28 2023 - Negative,0
 Forest Park,Mar 28 2023 - Positive,0
 Forest Park,Mar 29 2023,0
@@ -3123,16 +3123,16 @@ Grand Center Arts District,Mar 31 2023,0
 Grand Center Arts District,Mar 31 2023 - Neutral,0
 Grand Center Arts District,Mar 31 2023 - Negative,0
 Grand Center Arts District,Mar 31 2023 - Positive,0
-Kimmswick,Total,4
-Kimmswick,Total - Neutral,3
+Kimmswick,Total,3
+Kimmswick,Total - Neutral,2
 Kimmswick,Total - Negative,0
 Kimmswick,Total - Positive,1
 Kimmswick,Feb,3
 Kimmswick,Feb - Neutral,2
 Kimmswick,Feb - Negative,0
 Kimmswick,Feb - Positive,1
-Kimmswick,Mar,1
-Kimmswick,Mar - Neutral,1
+Kimmswick,Mar,0
+Kimmswick,Mar - Neutral,0
 Kimmswick,Mar - Negative,0
 Kimmswick,Mar - Positive,0
 Kimmswick,Feb 01 - Feb 07 2023,1
@@ -3159,8 +3159,8 @@ Kimmswick,Mar 08 - Mar 14 2023,0
 Kimmswick,Mar 08 - Mar 14 2023 - Neutral,0
 Kimmswick,Mar 08 - Mar 14 2023 - Negative,0
 Kimmswick,Mar 08 - Mar 14 2023 - Positive,0
-Kimmswick,Mar 15 - Mar 21 2023,1
-Kimmswick,Mar 15 - Mar 21 2023 - Neutral,1
+Kimmswick,Mar 15 - Mar 21 2023,0
+Kimmswick,Mar 15 - Mar 21 2023 - Neutral,0
 Kimmswick,Mar 15 - Mar 21 2023 - Negative,0
 Kimmswick,Mar 15 - Mar 21 2023 - Positive,0
 Kimmswick,Mar 22 - Mar 28 2023,0
@@ -3347,8 +3347,8 @@ Kimmswick,Mar 16 2023,0
 Kimmswick,Mar 16 2023 - Neutral,0
 Kimmswick,Mar 16 2023 - Negative,0
 Kimmswick,Mar 16 2023 - Positive,0
-Kimmswick,Mar 17 2023,1
-Kimmswick,Mar 17 2023 - Neutral,1
+Kimmswick,Mar 17 2023,0
+Kimmswick,Mar 17 2023 - Neutral,0
 Kimmswick,Mar 17 2023 - Negative,0
 Kimmswick,Mar 17 2023 - Positive,0
 Kimmswick,Mar 18 2023,0
@@ -3407,18 +3407,18 @@ Kimmswick,Mar 31 2023,0
 Kimmswick,Mar 31 2023 - Neutral,0
 Kimmswick,Mar 31 2023 - Negative,0
 Kimmswick,Mar 31 2023 - Positive,0
-Kirkwood,Total,1170
-Kirkwood,Total - Neutral,449
-Kirkwood,Total - Negative,319
-Kirkwood,Total - Positive,341
+Kirkwood,Total,517
+Kirkwood,Total - Neutral,198
+Kirkwood,Total - Negative,141
+Kirkwood,Total - Positive,154
 Kirkwood,Feb,516
 Kirkwood,Feb - Neutral,198
 Kirkwood,Feb - Negative,141
 Kirkwood,Feb - Positive,153
-Kirkwood,Mar,654
-Kirkwood,Mar - Neutral,251
-Kirkwood,Mar - Negative,178
-Kirkwood,Mar - Positive,188
+Kirkwood,Mar,1
+Kirkwood,Mar - Neutral,0
+Kirkwood,Mar - Negative,0
+Kirkwood,Mar - Positive,1
 Kirkwood,Feb 01 - Feb 07 2023,152
 Kirkwood,Feb 01 - Feb 07 2023 - Neutral,63
 Kirkwood,Feb 01 - Feb 07 2023 - Negative,43
@@ -3435,26 +3435,26 @@ Kirkwood,Feb 22 - Feb 28 2023,103
 Kirkwood,Feb 22 - Feb 28 2023 - Neutral,35
 Kirkwood,Feb 22 - Feb 28 2023 - Negative,30
 Kirkwood,Feb 22 - Feb 28 2023 - Positive,30
-Kirkwood,Mar 01 - Mar 07 2023,199
-Kirkwood,Mar 01 - Mar 07 2023 - Neutral,71
-Kirkwood,Mar 01 - Mar 07 2023 - Negative,54
-Kirkwood,Mar 01 - Mar 07 2023 - Positive,64
-Kirkwood,Mar 08 - Mar 14 2023,132
-Kirkwood,Mar 08 - Mar 14 2023 - Neutral,48
-Kirkwood,Mar 08 - Mar 14 2023 - Negative,39
-Kirkwood,Mar 08 - Mar 14 2023 - Positive,40
-Kirkwood,Mar 15 - Mar 21 2023,121
-Kirkwood,Mar 15 - Mar 21 2023 - Neutral,47
-Kirkwood,Mar 15 - Mar 21 2023 - Negative,32
-Kirkwood,Mar 15 - Mar 21 2023 - Positive,34
-Kirkwood,Mar 22 - Mar 28 2023,136
-Kirkwood,Mar 22 - Mar 28 2023 - Neutral,55
-Kirkwood,Mar 22 - Mar 28 2023 - Negative,34
-Kirkwood,Mar 22 - Mar 28 2023 - Positive,37
-Kirkwood,Mar 29 - Apr 04 2023,66
-Kirkwood,Mar 29 - Apr 04 2023 - Neutral,30
-Kirkwood,Mar 29 - Apr 04 2023 - Negative,19
-Kirkwood,Mar 29 - Apr 04 2023 - Positive,13
+Kirkwood,Mar 01 - Mar 07 2023,1
+Kirkwood,Mar 01 - Mar 07 2023 - Neutral,0
+Kirkwood,Mar 01 - Mar 07 2023 - Negative,0
+Kirkwood,Mar 01 - Mar 07 2023 - Positive,1
+Kirkwood,Mar 08 - Mar 14 2023,0
+Kirkwood,Mar 08 - Mar 14 2023 - Neutral,0
+Kirkwood,Mar 08 - Mar 14 2023 - Negative,0
+Kirkwood,Mar 08 - Mar 14 2023 - Positive,0
+Kirkwood,Mar 15 - Mar 21 2023,0
+Kirkwood,Mar 15 - Mar 21 2023 - Neutral,0
+Kirkwood,Mar 15 - Mar 21 2023 - Negative,0
+Kirkwood,Mar 15 - Mar 21 2023 - Positive,0
+Kirkwood,Mar 22 - Mar 28 2023,0
+Kirkwood,Mar 22 - Mar 28 2023 - Neutral,0
+Kirkwood,Mar 22 - Mar 28 2023 - Negative,0
+Kirkwood,Mar 22 - Mar 28 2023 - Positive,0
+Kirkwood,Mar 29 - Apr 04 2023,0
+Kirkwood,Mar 29 - Apr 04 2023 - Neutral,0
+Kirkwood,Mar 29 - Apr 04 2023 - Negative,0
+Kirkwood,Mar 29 - Apr 04 2023 - Positive,0
 Kirkwood,Feb 01 2023,17
 Kirkwood,Feb 01 2023 - Neutral,11
 Kirkwood,Feb 01 2023 - Negative,3
@@ -3567,130 +3567,130 @@ Kirkwood,Feb 28 2023,26
 Kirkwood,Feb 28 2023 - Neutral,9
 Kirkwood,Feb 28 2023 - Negative,8
 Kirkwood,Feb 28 2023 - Positive,7
-Kirkwood,Mar 01 2023,32
-Kirkwood,Mar 01 2023 - Neutral,11
-Kirkwood,Mar 01 2023 - Negative,7
-Kirkwood,Mar 01 2023 - Positive,12
-Kirkwood,Mar 02 2023,61
-Kirkwood,Mar 02 2023 - Neutral,15
-Kirkwood,Mar 02 2023 - Negative,23
-Kirkwood,Mar 02 2023 - Positive,16
-Kirkwood,Mar 03 2023,17
-Kirkwood,Mar 03 2023 - Neutral,8
-Kirkwood,Mar 03 2023 - Negative,4
-Kirkwood,Mar 03 2023 - Positive,5
-Kirkwood,Mar 04 2023,19
-Kirkwood,Mar 04 2023 - Neutral,7
-Kirkwood,Mar 04 2023 - Negative,4
-Kirkwood,Mar 04 2023 - Positive,8
-Kirkwood,Mar 05 2023,16
-Kirkwood,Mar 05 2023 - Neutral,5
-Kirkwood,Mar 05 2023 - Negative,4
-Kirkwood,Mar 05 2023 - Positive,6
-Kirkwood,Mar 06 2023,22
-Kirkwood,Mar 06 2023 - Neutral,13
-Kirkwood,Mar 06 2023 - Negative,5
-Kirkwood,Mar 06 2023 - Positive,4
-Kirkwood,Mar 07 2023,32
-Kirkwood,Mar 07 2023 - Neutral,12
-Kirkwood,Mar 07 2023 - Negative,7
-Kirkwood,Mar 07 2023 - Positive,13
-Kirkwood,Mar 08 2023,18
-Kirkwood,Mar 08 2023 - Neutral,4
-Kirkwood,Mar 08 2023 - Negative,7
-Kirkwood,Mar 08 2023 - Positive,7
-Kirkwood,Mar 09 2023,18
-Kirkwood,Mar 09 2023 - Neutral,7
-Kirkwood,Mar 09 2023 - Negative,5
-Kirkwood,Mar 09 2023 - Positive,6
-Kirkwood,Mar 10 2023,15
-Kirkwood,Mar 10 2023 - Neutral,8
-Kirkwood,Mar 10 2023 - Negative,2
-Kirkwood,Mar 10 2023 - Positive,4
-Kirkwood,Mar 11 2023,20
-Kirkwood,Mar 11 2023 - Neutral,5
-Kirkwood,Mar 11 2023 - Negative,8
-Kirkwood,Mar 11 2023 - Positive,7
-Kirkwood,Mar 12 2023,15
-Kirkwood,Mar 12 2023 - Neutral,9
-Kirkwood,Mar 12 2023 - Negative,4
-Kirkwood,Mar 12 2023 - Positive,2
-Kirkwood,Mar 13 2023,24
-Kirkwood,Mar 13 2023 - Neutral,7
-Kirkwood,Mar 13 2023 - Negative,3
-Kirkwood,Mar 13 2023 - Positive,11
-Kirkwood,Mar 14 2023,22
-Kirkwood,Mar 14 2023 - Neutral,8
-Kirkwood,Mar 14 2023 - Negative,10
-Kirkwood,Mar 14 2023 - Positive,3
-Kirkwood,Mar 15 2023,13
-Kirkwood,Mar 15 2023 - Neutral,5
-Kirkwood,Mar 15 2023 - Negative,3
-Kirkwood,Mar 15 2023 - Positive,5
-Kirkwood,Mar 16 2023,15
-Kirkwood,Mar 16 2023 - Neutral,6
-Kirkwood,Mar 16 2023 - Negative,5
-Kirkwood,Mar 16 2023 - Positive,3
-Kirkwood,Mar 17 2023,12
-Kirkwood,Mar 17 2023 - Neutral,5
-Kirkwood,Mar 17 2023 - Negative,3
-Kirkwood,Mar 17 2023 - Positive,4
-Kirkwood,Mar 18 2023,23
-Kirkwood,Mar 18 2023 - Neutral,8
-Kirkwood,Mar 18 2023 - Negative,8
-Kirkwood,Mar 18 2023 - Positive,4
-Kirkwood,Mar 19 2023,15
-Kirkwood,Mar 19 2023 - Neutral,5
-Kirkwood,Mar 19 2023 - Negative,5
-Kirkwood,Mar 19 2023 - Positive,5
-Kirkwood,Mar 20 2023,17
-Kirkwood,Mar 20 2023 - Neutral,7
-Kirkwood,Mar 20 2023 - Negative,5
-Kirkwood,Mar 20 2023 - Positive,3
-Kirkwood,Mar 21 2023,26
-Kirkwood,Mar 21 2023 - Neutral,11
-Kirkwood,Mar 21 2023 - Negative,3
-Kirkwood,Mar 21 2023 - Positive,10
-Kirkwood,Mar 22 2023,20
-Kirkwood,Mar 22 2023 - Neutral,7
-Kirkwood,Mar 22 2023 - Negative,6
-Kirkwood,Mar 22 2023 - Positive,7
-Kirkwood,Mar 23 2023,15
-Kirkwood,Mar 23 2023 - Neutral,6
-Kirkwood,Mar 23 2023 - Negative,3
-Kirkwood,Mar 23 2023 - Positive,4
-Kirkwood,Mar 24 2023,18
-Kirkwood,Mar 24 2023 - Neutral,10
-Kirkwood,Mar 24 2023 - Negative,4
-Kirkwood,Mar 24 2023 - Positive,2
-Kirkwood,Mar 25 2023,18
-Kirkwood,Mar 25 2023 - Neutral,8
-Kirkwood,Mar 25 2023 - Negative,7
-Kirkwood,Mar 25 2023 - Positive,3
-Kirkwood,Mar 26 2023,23
-Kirkwood,Mar 26 2023 - Neutral,6
-Kirkwood,Mar 26 2023 - Negative,6
-Kirkwood,Mar 26 2023 - Positive,7
-Kirkwood,Mar 27 2023,17
-Kirkwood,Mar 27 2023 - Neutral,8
-Kirkwood,Mar 27 2023 - Negative,3
-Kirkwood,Mar 27 2023 - Positive,4
-Kirkwood,Mar 28 2023,25
-Kirkwood,Mar 28 2023 - Neutral,10
-Kirkwood,Mar 28 2023 - Negative,5
-Kirkwood,Mar 28 2023 - Positive,10
-Kirkwood,Mar 29 2023,34
-Kirkwood,Mar 29 2023 - Neutral,16
-Kirkwood,Mar 29 2023 - Negative,9
-Kirkwood,Mar 29 2023 - Positive,8
-Kirkwood,Mar 30 2023,11
-Kirkwood,Mar 30 2023 - Neutral,4
-Kirkwood,Mar 30 2023 - Negative,3
-Kirkwood,Mar 30 2023 - Positive,2
-Kirkwood,Mar 31 2023,21
-Kirkwood,Mar 31 2023 - Neutral,10
-Kirkwood,Mar 31 2023 - Negative,7
-Kirkwood,Mar 31 2023 - Positive,3
+Kirkwood,Mar 01 2023,0
+Kirkwood,Mar 01 2023 - Neutral,0
+Kirkwood,Mar 01 2023 - Negative,0
+Kirkwood,Mar 01 2023 - Positive,0
+Kirkwood,Mar 02 2023,1
+Kirkwood,Mar 02 2023 - Neutral,0
+Kirkwood,Mar 02 2023 - Negative,0
+Kirkwood,Mar 02 2023 - Positive,1
+Kirkwood,Mar 03 2023,0
+Kirkwood,Mar 03 2023 - Neutral,0
+Kirkwood,Mar 03 2023 - Negative,0
+Kirkwood,Mar 03 2023 - Positive,0
+Kirkwood,Mar 04 2023,0
+Kirkwood,Mar 04 2023 - Neutral,0
+Kirkwood,Mar 04 2023 - Negative,0
+Kirkwood,Mar 04 2023 - Positive,0
+Kirkwood,Mar 05 2023,0
+Kirkwood,Mar 05 2023 - Neutral,0
+Kirkwood,Mar 05 2023 - Negative,0
+Kirkwood,Mar 05 2023 - Positive,0
+Kirkwood,Mar 06 2023,0
+Kirkwood,Mar 06 2023 - Neutral,0
+Kirkwood,Mar 06 2023 - Negative,0
+Kirkwood,Mar 06 2023 - Positive,0
+Kirkwood,Mar 07 2023,0
+Kirkwood,Mar 07 2023 - Neutral,0
+Kirkwood,Mar 07 2023 - Negative,0
+Kirkwood,Mar 07 2023 - Positive,0
+Kirkwood,Mar 08 2023,0
+Kirkwood,Mar 08 2023 - Neutral,0
+Kirkwood,Mar 08 2023 - Negative,0
+Kirkwood,Mar 08 2023 - Positive,0
+Kirkwood,Mar 09 2023,0
+Kirkwood,Mar 09 2023 - Neutral,0
+Kirkwood,Mar 09 2023 - Negative,0
+Kirkwood,Mar 09 2023 - Positive,0
+Kirkwood,Mar 10 2023,0
+Kirkwood,Mar 10 2023 - Neutral,0
+Kirkwood,Mar 10 2023 - Negative,0
+Kirkwood,Mar 10 2023 - Positive,0
+Kirkwood,Mar 11 2023,0
+Kirkwood,Mar 11 2023 - Neutral,0
+Kirkwood,Mar 11 2023 - Negative,0
+Kirkwood,Mar 11 2023 - Positive,0
+Kirkwood,Mar 12 2023,0
+Kirkwood,Mar 12 2023 - Neutral,0
+Kirkwood,Mar 12 2023 - Negative,0
+Kirkwood,Mar 12 2023 - Positive,0
+Kirkwood,Mar 13 2023,0
+Kirkwood,Mar 13 2023 - Neutral,0
+Kirkwood,Mar 13 2023 - Negative,0
+Kirkwood,Mar 13 2023 - Positive,0
+Kirkwood,Mar 14 2023,0
+Kirkwood,Mar 14 2023 - Neutral,0
+Kirkwood,Mar 14 2023 - Negative,0
+Kirkwood,Mar 14 2023 - Positive,0
+Kirkwood,Mar 15 2023,0
+Kirkwood,Mar 15 2023 - Neutral,0
+Kirkwood,Mar 15 2023 - Negative,0
+Kirkwood,Mar 15 2023 - Positive,0
+Kirkwood,Mar 16 2023,0
+Kirkwood,Mar 16 2023 - Neutral,0
+Kirkwood,Mar 16 2023 - Negative,0
+Kirkwood,Mar 16 2023 - Positive,0
+Kirkwood,Mar 17 2023,0
+Kirkwood,Mar 17 2023 - Neutral,0
+Kirkwood,Mar 17 2023 - Negative,0
+Kirkwood,Mar 17 2023 - Positive,0
+Kirkwood,Mar 18 2023,0
+Kirkwood,Mar 18 2023 - Neutral,0
+Kirkwood,Mar 18 2023 - Negative,0
+Kirkwood,Mar 18 2023 - Positive,0
+Kirkwood,Mar 19 2023,0
+Kirkwood,Mar 19 2023 - Neutral,0
+Kirkwood,Mar 19 2023 - Negative,0
+Kirkwood,Mar 19 2023 - Positive,0
+Kirkwood,Mar 20 2023,0
+Kirkwood,Mar 20 2023 - Neutral,0
+Kirkwood,Mar 20 2023 - Negative,0
+Kirkwood,Mar 20 2023 - Positive,0
+Kirkwood,Mar 21 2023,0
+Kirkwood,Mar 21 2023 - Neutral,0
+Kirkwood,Mar 21 2023 - Negative,0
+Kirkwood,Mar 21 2023 - Positive,0
+Kirkwood,Mar 22 2023,0
+Kirkwood,Mar 22 2023 - Neutral,0
+Kirkwood,Mar 22 2023 - Negative,0
+Kirkwood,Mar 22 2023 - Positive,0
+Kirkwood,Mar 23 2023,0
+Kirkwood,Mar 23 2023 - Neutral,0
+Kirkwood,Mar 23 2023 - Negative,0
+Kirkwood,Mar 23 2023 - Positive,0
+Kirkwood,Mar 24 2023,0
+Kirkwood,Mar 24 2023 - Neutral,0
+Kirkwood,Mar 24 2023 - Negative,0
+Kirkwood,Mar 24 2023 - Positive,0
+Kirkwood,Mar 25 2023,0
+Kirkwood,Mar 25 2023 - Neutral,0
+Kirkwood,Mar 25 2023 - Negative,0
+Kirkwood,Mar 25 2023 - Positive,0
+Kirkwood,Mar 26 2023,0
+Kirkwood,Mar 26 2023 - Neutral,0
+Kirkwood,Mar 26 2023 - Negative,0
+Kirkwood,Mar 26 2023 - Positive,0
+Kirkwood,Mar 27 2023,0
+Kirkwood,Mar 27 2023 - Neutral,0
+Kirkwood,Mar 27 2023 - Negative,0
+Kirkwood,Mar 27 2023 - Positive,0
+Kirkwood,Mar 28 2023,0
+Kirkwood,Mar 28 2023 - Neutral,0
+Kirkwood,Mar 28 2023 - Negative,0
+Kirkwood,Mar 28 2023 - Positive,0
+Kirkwood,Mar 29 2023,0
+Kirkwood,Mar 29 2023 - Neutral,0
+Kirkwood,Mar 29 2023 - Negative,0
+Kirkwood,Mar 29 2023 - Positive,0
+Kirkwood,Mar 30 2023,0
+Kirkwood,Mar 30 2023 - Neutral,0
+Kirkwood,Mar 30 2023 - Negative,0
+Kirkwood,Mar 30 2023 - Positive,0
+Kirkwood,Mar 31 2023,0
+Kirkwood,Mar 31 2023 - Neutral,0
+Kirkwood,Mar 31 2023 - Negative,0
+Kirkwood,Mar 31 2023 - Positive,0
 Laclede's Landing,Total,0
 Laclede's Landing,Total - Neutral,0
 Laclede's Landing,Total - Negative,0
@@ -3975,18 +3975,18 @@ Laclede's Landing,Mar 31 2023,0
 Laclede's Landing,Mar 31 2023 - Neutral,0
 Laclede's Landing,Mar 31 2023 - Negative,0
 Laclede's Landing,Mar 31 2023 - Positive,0
-Lafayette Square,Total,30
-Lafayette Square,Total - Neutral,24
+Lafayette Square,Total,14
+Lafayette Square,Total - Neutral,11
 Lafayette Square,Total - Negative,0
-Lafayette Square,Total - Positive,6
+Lafayette Square,Total - Positive,3
 Lafayette Square,Feb,14
 Lafayette Square,Feb - Neutral,11
 Lafayette Square,Feb - Negative,0
 Lafayette Square,Feb - Positive,3
-Lafayette Square,Mar,16
-Lafayette Square,Mar - Neutral,13
+Lafayette Square,Mar,0
+Lafayette Square,Mar - Neutral,0
 Lafayette Square,Mar - Negative,0
-Lafayette Square,Mar - Positive,3
+Lafayette Square,Mar - Positive,0
 Lafayette Square,Feb 01 - Feb 07 2023,4
 Lafayette Square,Feb 01 - Feb 07 2023 - Neutral,3
 Lafayette Square,Feb 01 - Feb 07 2023 - Negative,0
@@ -4003,22 +4003,22 @@ Lafayette Square,Feb 22 - Feb 28 2023,4
 Lafayette Square,Feb 22 - Feb 28 2023 - Neutral,4
 Lafayette Square,Feb 22 - Feb 28 2023 - Negative,0
 Lafayette Square,Feb 22 - Feb 28 2023 - Positive,0
-Lafayette Square,Mar 01 - Mar 07 2023,5
-Lafayette Square,Mar 01 - Mar 07 2023 - Neutral,4
+Lafayette Square,Mar 01 - Mar 07 2023,0
+Lafayette Square,Mar 01 - Mar 07 2023 - Neutral,0
 Lafayette Square,Mar 01 - Mar 07 2023 - Negative,0
-Lafayette Square,Mar 01 - Mar 07 2023 - Positive,1
-Lafayette Square,Mar 08 - Mar 14 2023,3
-Lafayette Square,Mar 08 - Mar 14 2023 - Neutral,2
+Lafayette Square,Mar 01 - Mar 07 2023 - Positive,0
+Lafayette Square,Mar 08 - Mar 14 2023,0
+Lafayette Square,Mar 08 - Mar 14 2023 - Neutral,0
 Lafayette Square,Mar 08 - Mar 14 2023 - Negative,0
-Lafayette Square,Mar 08 - Mar 14 2023 - Positive,1
-Lafayette Square,Mar 15 - Mar 21 2023,4
-Lafayette Square,Mar 15 - Mar 21 2023 - Neutral,4
+Lafayette Square,Mar 08 - Mar 14 2023 - Positive,0
+Lafayette Square,Mar 15 - Mar 21 2023,0
+Lafayette Square,Mar 15 - Mar 21 2023 - Neutral,0
 Lafayette Square,Mar 15 - Mar 21 2023 - Negative,0
 Lafayette Square,Mar 15 - Mar 21 2023 - Positive,0
-Lafayette Square,Mar 22 - Mar 28 2023,4
-Lafayette Square,Mar 22 - Mar 28 2023 - Neutral,3
+Lafayette Square,Mar 22 - Mar 28 2023,0
+Lafayette Square,Mar 22 - Mar 28 2023 - Neutral,0
 Lafayette Square,Mar 22 - Mar 28 2023 - Negative,0
-Lafayette Square,Mar 22 - Mar 28 2023 - Positive,1
+Lafayette Square,Mar 22 - Mar 28 2023 - Positive,0
 Lafayette Square,Mar 29 - Apr 04 2023,0
 Lafayette Square,Mar 29 - Apr 04 2023 - Neutral,0
 Lafayette Square,Mar 29 - Apr 04 2023 - Negative,0
@@ -4135,8 +4135,8 @@ Lafayette Square,Feb 28 2023,0
 Lafayette Square,Feb 28 2023 - Neutral,0
 Lafayette Square,Feb 28 2023 - Negative,0
 Lafayette Square,Feb 28 2023 - Positive,0
-Lafayette Square,Mar 01 2023,1
-Lafayette Square,Mar 01 2023 - Neutral,1
+Lafayette Square,Mar 01 2023,0
+Lafayette Square,Mar 01 2023 - Neutral,0
 Lafayette Square,Mar 01 2023 - Negative,0
 Lafayette Square,Mar 01 2023 - Positive,0
 Lafayette Square,Mar 02 2023,0
@@ -4155,12 +4155,12 @@ Lafayette Square,Mar 05 2023,0
 Lafayette Square,Mar 05 2023 - Neutral,0
 Lafayette Square,Mar 05 2023 - Negative,0
 Lafayette Square,Mar 05 2023 - Positive,0
-Lafayette Square,Mar 06 2023,3
-Lafayette Square,Mar 06 2023 - Neutral,2
+Lafayette Square,Mar 06 2023,0
+Lafayette Square,Mar 06 2023 - Neutral,0
 Lafayette Square,Mar 06 2023 - Negative,0
-Lafayette Square,Mar 06 2023 - Positive,1
-Lafayette Square,Mar 07 2023,1
-Lafayette Square,Mar 07 2023 - Neutral,1
+Lafayette Square,Mar 06 2023 - Positive,0
+Lafayette Square,Mar 07 2023,0
+Lafayette Square,Mar 07 2023 - Neutral,0
 Lafayette Square,Mar 07 2023 - Negative,0
 Lafayette Square,Mar 07 2023 - Positive,0
 Lafayette Square,Mar 08 2023,0
@@ -4175,16 +4175,16 @@ Lafayette Square,Mar 10 2023,0
 Lafayette Square,Mar 10 2023 - Neutral,0
 Lafayette Square,Mar 10 2023 - Negative,0
 Lafayette Square,Mar 10 2023 - Positive,0
-Lafayette Square,Mar 11 2023,1
+Lafayette Square,Mar 11 2023,0
 Lafayette Square,Mar 11 2023 - Neutral,0
 Lafayette Square,Mar 11 2023 - Negative,0
-Lafayette Square,Mar 11 2023 - Positive,1
+Lafayette Square,Mar 11 2023 - Positive,0
 Lafayette Square,Mar 12 2023,0
 Lafayette Square,Mar 12 2023 - Neutral,0
 Lafayette Square,Mar 12 2023 - Negative,0
 Lafayette Square,Mar 12 2023 - Positive,0
-Lafayette Square,Mar 13 2023,2
-Lafayette Square,Mar 13 2023 - Neutral,2
+Lafayette Square,Mar 13 2023,0
+Lafayette Square,Mar 13 2023 - Neutral,0
 Lafayette Square,Mar 13 2023 - Negative,0
 Lafayette Square,Mar 13 2023 - Positive,0
 Lafayette Square,Mar 14 2023,0
@@ -4195,8 +4195,8 @@ Lafayette Square,Mar 15 2023,0
 Lafayette Square,Mar 15 2023 - Neutral,0
 Lafayette Square,Mar 15 2023 - Negative,0
 Lafayette Square,Mar 15 2023 - Positive,0
-Lafayette Square,Mar 16 2023,1
-Lafayette Square,Mar 16 2023 - Neutral,1
+Lafayette Square,Mar 16 2023,0
+Lafayette Square,Mar 16 2023 - Neutral,0
 Lafayette Square,Mar 16 2023 - Negative,0
 Lafayette Square,Mar 16 2023 - Positive,0
 Lafayette Square,Mar 17 2023,0
@@ -4207,20 +4207,20 @@ Lafayette Square,Mar 18 2023,0
 Lafayette Square,Mar 18 2023 - Neutral,0
 Lafayette Square,Mar 18 2023 - Negative,0
 Lafayette Square,Mar 18 2023 - Positive,0
-Lafayette Square,Mar 19 2023,1
-Lafayette Square,Mar 19 2023 - Neutral,1
+Lafayette Square,Mar 19 2023,0
+Lafayette Square,Mar 19 2023 - Neutral,0
 Lafayette Square,Mar 19 2023 - Negative,0
 Lafayette Square,Mar 19 2023 - Positive,0
-Lafayette Square,Mar 20 2023,1
-Lafayette Square,Mar 20 2023 - Neutral,1
+Lafayette Square,Mar 20 2023,0
+Lafayette Square,Mar 20 2023 - Neutral,0
 Lafayette Square,Mar 20 2023 - Negative,0
 Lafayette Square,Mar 20 2023 - Positive,0
-Lafayette Square,Mar 21 2023,1
-Lafayette Square,Mar 21 2023 - Neutral,1
+Lafayette Square,Mar 21 2023,0
+Lafayette Square,Mar 21 2023 - Neutral,0
 Lafayette Square,Mar 21 2023 - Negative,0
 Lafayette Square,Mar 21 2023 - Positive,0
-Lafayette Square,Mar 22 2023,1
-Lafayette Square,Mar 22 2023 - Neutral,1
+Lafayette Square,Mar 22 2023,0
+Lafayette Square,Mar 22 2023 - Neutral,0
 Lafayette Square,Mar 22 2023 - Negative,0
 Lafayette Square,Mar 22 2023 - Positive,0
 Lafayette Square,Mar 23 2023,0
@@ -4235,16 +4235,16 @@ Lafayette Square,Mar 25 2023,0
 Lafayette Square,Mar 25 2023 - Neutral,0
 Lafayette Square,Mar 25 2023 - Negative,0
 Lafayette Square,Mar 25 2023 - Positive,0
-Lafayette Square,Mar 26 2023,1
-Lafayette Square,Mar 26 2023 - Neutral,1
+Lafayette Square,Mar 26 2023,0
+Lafayette Square,Mar 26 2023 - Neutral,0
 Lafayette Square,Mar 26 2023 - Negative,0
 Lafayette Square,Mar 26 2023 - Positive,0
-Lafayette Square,Mar 27 2023,1
+Lafayette Square,Mar 27 2023,0
 Lafayette Square,Mar 27 2023 - Neutral,0
 Lafayette Square,Mar 27 2023 - Negative,0
-Lafayette Square,Mar 27 2023 - Positive,1
-Lafayette Square,Mar 28 2023,1
-Lafayette Square,Mar 28 2023 - Neutral,1
+Lafayette Square,Mar 27 2023 - Positive,0
+Lafayette Square,Mar 28 2023,0
+Lafayette Square,Mar 28 2023 - Neutral,0
 Lafayette Square,Mar 28 2023 - Negative,0
 Lafayette Square,Mar 28 2023 - Positive,0
 Lafayette Square,Mar 29 2023,0
@@ -4259,18 +4259,18 @@ Lafayette Square,Mar 31 2023,0
 Lafayette Square,Mar 31 2023 - Neutral,0
 Lafayette Square,Mar 31 2023 - Negative,0
 Lafayette Square,Mar 31 2023 - Positive,0
-Maplewood,Total,3530
-Maplewood,Total - Neutral,1146
-Maplewood,Total - Negative,1004
-Maplewood,Total - Positive,1190
+Maplewood,Total,1783
+Maplewood,Total - Neutral,524
+Maplewood,Total - Negative,522
+Maplewood,Total - Positive,641
 Maplewood,Feb,1782
 Maplewood,Feb - Neutral,524
 Maplewood,Feb - Negative,522
 Maplewood,Feb - Positive,641
-Maplewood,Mar,1748
-Maplewood,Mar - Neutral,622
-Maplewood,Mar - Negative,482
-Maplewood,Mar - Positive,549
+Maplewood,Mar,1
+Maplewood,Mar - Neutral,0
+Maplewood,Mar - Negative,0
+Maplewood,Mar - Positive,0
 Maplewood,Feb 01 - Feb 07 2023,426
 Maplewood,Feb 01 - Feb 07 2023 - Neutral,146
 Maplewood,Feb 01 - Feb 07 2023 - Negative,119
@@ -4287,26 +4287,26 @@ Maplewood,Feb 22 - Feb 28 2023,389
 Maplewood,Feb 22 - Feb 28 2023 - Neutral,111
 Maplewood,Feb 22 - Feb 28 2023 - Negative,147
 Maplewood,Feb 22 - Feb 28 2023 - Positive,115
-Maplewood,Mar 01 - Mar 07 2023,299
-Maplewood,Mar 01 - Mar 07 2023 - Neutral,100
-Maplewood,Mar 01 - Mar 07 2023 - Negative,76
-Maplewood,Mar 01 - Mar 07 2023 - Positive,99
-Maplewood,Mar 08 - Mar 14 2023,351
-Maplewood,Mar 08 - Mar 14 2023 - Neutral,129
-Maplewood,Mar 08 - Mar 14 2023 - Negative,103
-Maplewood,Mar 08 - Mar 14 2023 - Positive,103
-Maplewood,Mar 15 - Mar 21 2023,466
-Maplewood,Mar 15 - Mar 21 2023 - Neutral,156
-Maplewood,Mar 15 - Mar 21 2023 - Negative,126
-Maplewood,Mar 15 - Mar 21 2023 - Positive,162
-Maplewood,Mar 22 - Mar 28 2023,448
-Maplewood,Mar 22 - Mar 28 2023 - Neutral,166
-Maplewood,Mar 22 - Mar 28 2023 - Negative,128
-Maplewood,Mar 22 - Mar 28 2023 - Positive,133
-Maplewood,Mar 29 - Apr 04 2023,184
-Maplewood,Mar 29 - Apr 04 2023 - Neutral,71
-Maplewood,Mar 29 - Apr 04 2023 - Negative,49
-Maplewood,Mar 29 - Apr 04 2023 - Positive,52
+Maplewood,Mar 01 - Mar 07 2023,1
+Maplewood,Mar 01 - Mar 07 2023 - Neutral,0
+Maplewood,Mar 01 - Mar 07 2023 - Negative,0
+Maplewood,Mar 01 - Mar 07 2023 - Positive,0
+Maplewood,Mar 08 - Mar 14 2023,0
+Maplewood,Mar 08 - Mar 14 2023 - Neutral,0
+Maplewood,Mar 08 - Mar 14 2023 - Negative,0
+Maplewood,Mar 08 - Mar 14 2023 - Positive,0
+Maplewood,Mar 15 - Mar 21 2023,0
+Maplewood,Mar 15 - Mar 21 2023 - Neutral,0
+Maplewood,Mar 15 - Mar 21 2023 - Negative,0
+Maplewood,Mar 15 - Mar 21 2023 - Positive,0
+Maplewood,Mar 22 - Mar 28 2023,0
+Maplewood,Mar 22 - Mar 28 2023 - Neutral,0
+Maplewood,Mar 22 - Mar 28 2023 - Negative,0
+Maplewood,Mar 22 - Mar 28 2023 - Positive,0
+Maplewood,Mar 29 - Apr 04 2023,0
+Maplewood,Mar 29 - Apr 04 2023 - Neutral,0
+Maplewood,Mar 29 - Apr 04 2023 - Negative,0
+Maplewood,Mar 29 - Apr 04 2023 - Positive,0
 Maplewood,Feb 01 2023,43
 Maplewood,Feb 01 2023 - Neutral,15
 Maplewood,Feb 01 2023 - Negative,13
@@ -4419,142 +4419,142 @@ Maplewood,Feb 28 2023,34
 Maplewood,Feb 28 2023 - Neutral,11
 Maplewood,Feb 28 2023 - Negative,15
 Maplewood,Feb 28 2023 - Positive,7
-Maplewood,Mar 01 2023,86
-Maplewood,Mar 01 2023 - Neutral,33
-Maplewood,Mar 01 2023 - Negative,27
-Maplewood,Mar 01 2023 - Positive,20
-Maplewood,Mar 02 2023,39
-Maplewood,Mar 02 2023 - Neutral,8
-Maplewood,Mar 02 2023 - Negative,5
-Maplewood,Mar 02 2023 - Positive,25
-Maplewood,Mar 03 2023,33
-Maplewood,Mar 03 2023 - Neutral,18
-Maplewood,Mar 03 2023 - Negative,12
-Maplewood,Mar 03 2023 - Positive,2
-Maplewood,Mar 04 2023,38
-Maplewood,Mar 04 2023 - Neutral,14
-Maplewood,Mar 04 2023 - Negative,5
-Maplewood,Mar 04 2023 - Positive,13
-Maplewood,Mar 05 2023,50
-Maplewood,Mar 05 2023 - Neutral,9
-Maplewood,Mar 05 2023 - Negative,16
-Maplewood,Mar 05 2023 - Positive,20
-Maplewood,Mar 06 2023,27
-Maplewood,Mar 06 2023 - Neutral,10
-Maplewood,Mar 06 2023 - Negative,6
-Maplewood,Mar 06 2023 - Positive,8
-Maplewood,Mar 07 2023,26
-Maplewood,Mar 07 2023 - Neutral,8
-Maplewood,Mar 07 2023 - Negative,5
-Maplewood,Mar 07 2023 - Positive,11
-Maplewood,Mar 08 2023,52
-Maplewood,Mar 08 2023 - Neutral,19
-Maplewood,Mar 08 2023 - Negative,4
-Maplewood,Mar 08 2023 - Positive,26
-Maplewood,Mar 09 2023,67
-Maplewood,Mar 09 2023 - Neutral,27
-Maplewood,Mar 09 2023 - Negative,22
-Maplewood,Mar 09 2023 - Positive,18
-Maplewood,Mar 10 2023,61
-Maplewood,Mar 10 2023 - Neutral,17
-Maplewood,Mar 10 2023 - Negative,18
-Maplewood,Mar 10 2023 - Positive,22
-Maplewood,Mar 11 2023,49
-Maplewood,Mar 11 2023 - Neutral,17
-Maplewood,Mar 11 2023 - Negative,27
-Maplewood,Mar 11 2023 - Positive,4
-Maplewood,Mar 12 2023,34
-Maplewood,Mar 12 2023 - Neutral,18
-Maplewood,Mar 12 2023 - Negative,6
-Maplewood,Mar 12 2023 - Positive,9
-Maplewood,Mar 13 2023,28
-Maplewood,Mar 13 2023 - Neutral,9
-Maplewood,Mar 13 2023 - Negative,11
-Maplewood,Mar 13 2023 - Positive,5
-Maplewood,Mar 14 2023,60
-Maplewood,Mar 14 2023 - Neutral,22
-Maplewood,Mar 14 2023 - Negative,15
-Maplewood,Mar 14 2023 - Positive,19
-Maplewood,Mar 15 2023,46
-Maplewood,Mar 15 2023 - Neutral,10
-Maplewood,Mar 15 2023 - Negative,19
-Maplewood,Mar 15 2023 - Positive,15
-Maplewood,Mar 16 2023,70
-Maplewood,Mar 16 2023 - Neutral,20
-Maplewood,Mar 16 2023 - Negative,13
-Maplewood,Mar 16 2023 - Positive,32
-Maplewood,Mar 17 2023,62
-Maplewood,Mar 17 2023 - Neutral,25
-Maplewood,Mar 17 2023 - Negative,17
-Maplewood,Mar 17 2023 - Positive,17
-Maplewood,Mar 18 2023,69
-Maplewood,Mar 18 2023 - Neutral,23
-Maplewood,Mar 18 2023 - Negative,20
-Maplewood,Mar 18 2023 - Positive,24
-Maplewood,Mar 19 2023,72
-Maplewood,Mar 19 2023 - Neutral,31
-Maplewood,Mar 19 2023 - Negative,12
-Maplewood,Mar 19 2023 - Positive,24
-Maplewood,Mar 20 2023,63
-Maplewood,Mar 20 2023 - Neutral,19
-Maplewood,Mar 20 2023 - Negative,20
-Maplewood,Mar 20 2023 - Positive,22
-Maplewood,Mar 21 2023,84
-Maplewood,Mar 21 2023 - Neutral,28
-Maplewood,Mar 21 2023 - Negative,25
-Maplewood,Mar 21 2023 - Positive,28
-Maplewood,Mar 22 2023,69
-Maplewood,Mar 22 2023 - Neutral,25
-Maplewood,Mar 22 2023 - Negative,17
-Maplewood,Mar 22 2023 - Positive,24
-Maplewood,Mar 23 2023,68
-Maplewood,Mar 23 2023 - Neutral,25
-Maplewood,Mar 23 2023 - Negative,23
-Maplewood,Mar 23 2023 - Positive,17
-Maplewood,Mar 24 2023,48
-Maplewood,Mar 24 2023 - Neutral,11
-Maplewood,Mar 24 2023 - Negative,13
-Maplewood,Mar 24 2023 - Positive,22
-Maplewood,Mar 25 2023,60
-Maplewood,Mar 25 2023 - Neutral,21
-Maplewood,Mar 25 2023 - Negative,19
-Maplewood,Mar 25 2023 - Positive,19
-Maplewood,Mar 26 2023,75
-Maplewood,Mar 26 2023 - Neutral,31
-Maplewood,Mar 26 2023 - Negative,18
-Maplewood,Mar 26 2023 - Positive,20
-Maplewood,Mar 27 2023,71
-Maplewood,Mar 27 2023 - Neutral,31
-Maplewood,Mar 27 2023 - Negative,20
-Maplewood,Mar 27 2023 - Positive,17
-Maplewood,Mar 28 2023,57
-Maplewood,Mar 28 2023 - Neutral,22
-Maplewood,Mar 28 2023 - Negative,18
-Maplewood,Mar 28 2023 - Positive,14
-Maplewood,Mar 29 2023,62
-Maplewood,Mar 29 2023 - Neutral,24
-Maplewood,Mar 29 2023 - Negative,6
-Maplewood,Mar 29 2023 - Positive,26
-Maplewood,Mar 30 2023,56
-Maplewood,Mar 30 2023 - Neutral,19
-Maplewood,Mar 30 2023 - Negative,17
-Maplewood,Mar 30 2023 - Positive,15
-Maplewood,Mar 31 2023,66
-Maplewood,Mar 31 2023 - Neutral,28
-Maplewood,Mar 31 2023 - Negative,26
-Maplewood,Mar 31 2023 - Positive,11
-Maryland Heights,Total,2144
-Maryland Heights,Total - Neutral,917
-Maryland Heights,Total - Negative,313
-Maryland Heights,Total - Positive,516
+Maplewood,Mar 01 2023,1
+Maplewood,Mar 01 2023 - Neutral,0
+Maplewood,Mar 01 2023 - Negative,0
+Maplewood,Mar 01 2023 - Positive,0
+Maplewood,Mar 02 2023,0
+Maplewood,Mar 02 2023 - Neutral,0
+Maplewood,Mar 02 2023 - Negative,0
+Maplewood,Mar 02 2023 - Positive,0
+Maplewood,Mar 03 2023,0
+Maplewood,Mar 03 2023 - Neutral,0
+Maplewood,Mar 03 2023 - Negative,0
+Maplewood,Mar 03 2023 - Positive,0
+Maplewood,Mar 04 2023,0
+Maplewood,Mar 04 2023 - Neutral,0
+Maplewood,Mar 04 2023 - Negative,0
+Maplewood,Mar 04 2023 - Positive,0
+Maplewood,Mar 05 2023,0
+Maplewood,Mar 05 2023 - Neutral,0
+Maplewood,Mar 05 2023 - Negative,0
+Maplewood,Mar 05 2023 - Positive,0
+Maplewood,Mar 06 2023,0
+Maplewood,Mar 06 2023 - Neutral,0
+Maplewood,Mar 06 2023 - Negative,0
+Maplewood,Mar 06 2023 - Positive,0
+Maplewood,Mar 07 2023,0
+Maplewood,Mar 07 2023 - Neutral,0
+Maplewood,Mar 07 2023 - Negative,0
+Maplewood,Mar 07 2023 - Positive,0
+Maplewood,Mar 08 2023,0
+Maplewood,Mar 08 2023 - Neutral,0
+Maplewood,Mar 08 2023 - Negative,0
+Maplewood,Mar 08 2023 - Positive,0
+Maplewood,Mar 09 2023,0
+Maplewood,Mar 09 2023 - Neutral,0
+Maplewood,Mar 09 2023 - Negative,0
+Maplewood,Mar 09 2023 - Positive,0
+Maplewood,Mar 10 2023,0
+Maplewood,Mar 10 2023 - Neutral,0
+Maplewood,Mar 10 2023 - Negative,0
+Maplewood,Mar 10 2023 - Positive,0
+Maplewood,Mar 11 2023,0
+Maplewood,Mar 11 2023 - Neutral,0
+Maplewood,Mar 11 2023 - Negative,0
+Maplewood,Mar 11 2023 - Positive,0
+Maplewood,Mar 12 2023,0
+Maplewood,Mar 12 2023 - Neutral,0
+Maplewood,Mar 12 2023 - Negative,0
+Maplewood,Mar 12 2023 - Positive,0
+Maplewood,Mar 13 2023,0
+Maplewood,Mar 13 2023 - Neutral,0
+Maplewood,Mar 13 2023 - Negative,0
+Maplewood,Mar 13 2023 - Positive,0
+Maplewood,Mar 14 2023,0
+Maplewood,Mar 14 2023 - Neutral,0
+Maplewood,Mar 14 2023 - Negative,0
+Maplewood,Mar 14 2023 - Positive,0
+Maplewood,Mar 15 2023,0
+Maplewood,Mar 15 2023 - Neutral,0
+Maplewood,Mar 15 2023 - Negative,0
+Maplewood,Mar 15 2023 - Positive,0
+Maplewood,Mar 16 2023,0
+Maplewood,Mar 16 2023 - Neutral,0
+Maplewood,Mar 16 2023 - Negative,0
+Maplewood,Mar 16 2023 - Positive,0
+Maplewood,Mar 17 2023,0
+Maplewood,Mar 17 2023 - Neutral,0
+Maplewood,Mar 17 2023 - Negative,0
+Maplewood,Mar 17 2023 - Positive,0
+Maplewood,Mar 18 2023,0
+Maplewood,Mar 18 2023 - Neutral,0
+Maplewood,Mar 18 2023 - Negative,0
+Maplewood,Mar 18 2023 - Positive,0
+Maplewood,Mar 19 2023,0
+Maplewood,Mar 19 2023 - Neutral,0
+Maplewood,Mar 19 2023 - Negative,0
+Maplewood,Mar 19 2023 - Positive,0
+Maplewood,Mar 20 2023,0
+Maplewood,Mar 20 2023 - Neutral,0
+Maplewood,Mar 20 2023 - Negative,0
+Maplewood,Mar 20 2023 - Positive,0
+Maplewood,Mar 21 2023,0
+Maplewood,Mar 21 2023 - Neutral,0
+Maplewood,Mar 21 2023 - Negative,0
+Maplewood,Mar 21 2023 - Positive,0
+Maplewood,Mar 22 2023,0
+Maplewood,Mar 22 2023 - Neutral,0
+Maplewood,Mar 22 2023 - Negative,0
+Maplewood,Mar 22 2023 - Positive,0
+Maplewood,Mar 23 2023,0
+Maplewood,Mar 23 2023 - Neutral,0
+Maplewood,Mar 23 2023 - Negative,0
+Maplewood,Mar 23 2023 - Positive,0
+Maplewood,Mar 24 2023,0
+Maplewood,Mar 24 2023 - Neutral,0
+Maplewood,Mar 24 2023 - Negative,0
+Maplewood,Mar 24 2023 - Positive,0
+Maplewood,Mar 25 2023,0
+Maplewood,Mar 25 2023 - Neutral,0
+Maplewood,Mar 25 2023 - Negative,0
+Maplewood,Mar 25 2023 - Positive,0
+Maplewood,Mar 26 2023,0
+Maplewood,Mar 26 2023 - Neutral,0
+Maplewood,Mar 26 2023 - Negative,0
+Maplewood,Mar 26 2023 - Positive,0
+Maplewood,Mar 27 2023,0
+Maplewood,Mar 27 2023 - Neutral,0
+Maplewood,Mar 27 2023 - Negative,0
+Maplewood,Mar 27 2023 - Positive,0
+Maplewood,Mar 28 2023,0
+Maplewood,Mar 28 2023 - Neutral,0
+Maplewood,Mar 28 2023 - Negative,0
+Maplewood,Mar 28 2023 - Positive,0
+Maplewood,Mar 29 2023,0
+Maplewood,Mar 29 2023 - Neutral,0
+Maplewood,Mar 29 2023 - Negative,0
+Maplewood,Mar 29 2023 - Positive,0
+Maplewood,Mar 30 2023,0
+Maplewood,Mar 30 2023 - Neutral,0
+Maplewood,Mar 30 2023 - Negative,0
+Maplewood,Mar 30 2023 - Positive,0
+Maplewood,Mar 31 2023,0
+Maplewood,Mar 31 2023 - Neutral,0
+Maplewood,Mar 31 2023 - Negative,0
+Maplewood,Mar 31 2023 - Positive,0
+Maryland Heights,Total,717
+Maryland Heights,Total - Neutral,352
+Maryland Heights,Total - Negative,102
+Maryland Heights,Total - Positive,176
 Maryland Heights,Feb,712
 Maryland Heights,Feb - Neutral,348
 Maryland Heights,Feb - Negative,102
 Maryland Heights,Feb - Positive,176
-Maryland Heights,Mar,1432
-Maryland Heights,Mar - Neutral,569
-Maryland Heights,Mar - Negative,211
-Maryland Heights,Mar - Positive,340
+Maryland Heights,Mar,5
+Maryland Heights,Mar - Neutral,4
+Maryland Heights,Mar - Negative,0
+Maryland Heights,Mar - Positive,0
 Maryland Heights,Feb 01 - Feb 07 2023,281
 Maryland Heights,Feb 01 - Feb 07 2023 - Neutral,148
 Maryland Heights,Feb 01 - Feb 07 2023 - Negative,35
@@ -4571,26 +4571,26 @@ Maryland Heights,Feb 22 - Feb 28 2023,121
 Maryland Heights,Feb 22 - Feb 28 2023 - Neutral,52
 Maryland Heights,Feb 22 - Feb 28 2023 - Negative,23
 Maryland Heights,Feb 22 - Feb 28 2023 - Positive,34
-Maryland Heights,Mar 01 - Mar 07 2023,411
-Maryland Heights,Mar 01 - Mar 07 2023 - Neutral,172
-Maryland Heights,Mar 01 - Mar 07 2023 - Negative,49
-Maryland Heights,Mar 01 - Mar 07 2023 - Positive,100
-Maryland Heights,Mar 08 - Mar 14 2023,287
-Maryland Heights,Mar 08 - Mar 14 2023 - Neutral,104
-Maryland Heights,Mar 08 - Mar 14 2023 - Negative,36
-Maryland Heights,Mar 08 - Mar 14 2023 - Positive,87
-Maryland Heights,Mar 15 - Mar 21 2023,331
-Maryland Heights,Mar 15 - Mar 21 2023 - Neutral,120
-Maryland Heights,Mar 15 - Mar 21 2023 - Negative,62
-Maryland Heights,Mar 15 - Mar 21 2023 - Positive,76
-Maryland Heights,Mar 22 - Mar 28 2023,275
-Maryland Heights,Mar 22 - Mar 28 2023 - Neutral,110
-Maryland Heights,Mar 22 - Mar 28 2023 - Negative,38
-Maryland Heights,Mar 22 - Mar 28 2023 - Positive,52
-Maryland Heights,Mar 29 - Apr 04 2023,128
-Maryland Heights,Mar 29 - Apr 04 2023 - Neutral,63
-Maryland Heights,Mar 29 - Apr 04 2023 - Negative,26
-Maryland Heights,Mar 29 - Apr 04 2023 - Positive,25
+Maryland Heights,Mar 01 - Mar 07 2023,5
+Maryland Heights,Mar 01 - Mar 07 2023 - Neutral,4
+Maryland Heights,Mar 01 - Mar 07 2023 - Negative,0
+Maryland Heights,Mar 01 - Mar 07 2023 - Positive,0
+Maryland Heights,Mar 08 - Mar 14 2023,0
+Maryland Heights,Mar 08 - Mar 14 2023 - Neutral,0
+Maryland Heights,Mar 08 - Mar 14 2023 - Negative,0
+Maryland Heights,Mar 08 - Mar 14 2023 - Positive,0
+Maryland Heights,Mar 15 - Mar 21 2023,0
+Maryland Heights,Mar 15 - Mar 21 2023 - Neutral,0
+Maryland Heights,Mar 15 - Mar 21 2023 - Negative,0
+Maryland Heights,Mar 15 - Mar 21 2023 - Positive,0
+Maryland Heights,Mar 22 - Mar 28 2023,0
+Maryland Heights,Mar 22 - Mar 28 2023 - Neutral,0
+Maryland Heights,Mar 22 - Mar 28 2023 - Negative,0
+Maryland Heights,Mar 22 - Mar 28 2023 - Positive,0
+Maryland Heights,Mar 29 - Apr 04 2023,0
+Maryland Heights,Mar 29 - Apr 04 2023 - Neutral,0
+Maryland Heights,Mar 29 - Apr 04 2023 - Negative,0
+Maryland Heights,Mar 29 - Apr 04 2023 - Positive,0
 Maryland Heights,Feb 01 2023,29
 Maryland Heights,Feb 01 2023 - Neutral,14
 Maryland Heights,Feb 01 2023 - Negative,5
@@ -4703,142 +4703,142 @@ Maryland Heights,Feb 28 2023,21
 Maryland Heights,Feb 28 2023 - Neutral,6
 Maryland Heights,Feb 28 2023 - Negative,2
 Maryland Heights,Feb 28 2023 - Positive,8
-Maryland Heights,Mar 01 2023,76
-Maryland Heights,Mar 01 2023 - Neutral,30
-Maryland Heights,Mar 01 2023 - Negative,6
-Maryland Heights,Mar 01 2023 - Positive,27
-Maryland Heights,Mar 02 2023,58
-Maryland Heights,Mar 02 2023 - Neutral,24
-Maryland Heights,Mar 02 2023 - Negative,13
-Maryland Heights,Mar 02 2023 - Positive,13
-Maryland Heights,Mar 03 2023,68
-Maryland Heights,Mar 03 2023 - Neutral,23
-Maryland Heights,Mar 03 2023 - Negative,7
-Maryland Heights,Mar 03 2023 - Positive,17
-Maryland Heights,Mar 04 2023,34
-Maryland Heights,Mar 04 2023 - Neutral,19
-Maryland Heights,Mar 04 2023 - Negative,2
-Maryland Heights,Mar 04 2023 - Positive,6
-Maryland Heights,Mar 05 2023,79
-Maryland Heights,Mar 05 2023 - Neutral,30
-Maryland Heights,Mar 05 2023 - Negative,11
-Maryland Heights,Mar 05 2023 - Positive,16
-Maryland Heights,Mar 06 2023,50
-Maryland Heights,Mar 06 2023 - Neutral,22
-Maryland Heights,Mar 06 2023 - Negative,2
-Maryland Heights,Mar 06 2023 - Positive,13
-Maryland Heights,Mar 07 2023,46
-Maryland Heights,Mar 07 2023 - Neutral,24
-Maryland Heights,Mar 07 2023 - Negative,8
-Maryland Heights,Mar 07 2023 - Positive,8
-Maryland Heights,Mar 08 2023,55
-Maryland Heights,Mar 08 2023 - Neutral,25
-Maryland Heights,Mar 08 2023 - Negative,6
-Maryland Heights,Mar 08 2023 - Positive,16
-Maryland Heights,Mar 09 2023,32
-Maryland Heights,Mar 09 2023 - Neutral,13
-Maryland Heights,Mar 09 2023 - Negative,1
-Maryland Heights,Mar 09 2023 - Positive,7
-Maryland Heights,Mar 10 2023,35
-Maryland Heights,Mar 10 2023 - Neutral,11
-Maryland Heights,Mar 10 2023 - Negative,6
-Maryland Heights,Mar 10 2023 - Positive,10
-Maryland Heights,Mar 11 2023,31
-Maryland Heights,Mar 11 2023 - Neutral,8
-Maryland Heights,Mar 11 2023 - Negative,1
-Maryland Heights,Mar 11 2023 - Positive,11
-Maryland Heights,Mar 12 2023,56
-Maryland Heights,Mar 12 2023 - Neutral,22
-Maryland Heights,Mar 12 2023 - Negative,11
-Maryland Heights,Mar 12 2023 - Positive,14
-Maryland Heights,Mar 13 2023,33
-Maryland Heights,Mar 13 2023 - Neutral,10
-Maryland Heights,Mar 13 2023 - Negative,6
-Maryland Heights,Mar 13 2023 - Positive,10
-Maryland Heights,Mar 14 2023,45
-Maryland Heights,Mar 14 2023 - Neutral,15
-Maryland Heights,Mar 14 2023 - Negative,5
-Maryland Heights,Mar 14 2023 - Positive,19
-Maryland Heights,Mar 15 2023,38
-Maryland Heights,Mar 15 2023 - Neutral,20
-Maryland Heights,Mar 15 2023 - Negative,5
-Maryland Heights,Mar 15 2023 - Positive,5
-Maryland Heights,Mar 16 2023,38
-Maryland Heights,Mar 16 2023 - Neutral,14
-Maryland Heights,Mar 16 2023 - Negative,4
-Maryland Heights,Mar 16 2023 - Positive,9
-Maryland Heights,Mar 17 2023,37
-Maryland Heights,Mar 17 2023 - Neutral,14
-Maryland Heights,Mar 17 2023 - Negative,7
-Maryland Heights,Mar 17 2023 - Positive,7
-Maryland Heights,Mar 18 2023,24
-Maryland Heights,Mar 18 2023 - Neutral,6
-Maryland Heights,Mar 18 2023 - Negative,6
-Maryland Heights,Mar 18 2023 - Positive,5
-Maryland Heights,Mar 19 2023,65
-Maryland Heights,Mar 19 2023 - Neutral,26
-Maryland Heights,Mar 19 2023 - Negative,17
-Maryland Heights,Mar 19 2023 - Positive,9
-Maryland Heights,Mar 20 2023,35
-Maryland Heights,Mar 20 2023 - Neutral,15
-Maryland Heights,Mar 20 2023 - Negative,5
-Maryland Heights,Mar 20 2023 - Positive,10
-Maryland Heights,Mar 21 2023,94
-Maryland Heights,Mar 21 2023 - Neutral,25
-Maryland Heights,Mar 21 2023 - Negative,18
-Maryland Heights,Mar 21 2023 - Positive,31
-Maryland Heights,Mar 22 2023,32
-Maryland Heights,Mar 22 2023 - Neutral,11
-Maryland Heights,Mar 22 2023 - Negative,2
-Maryland Heights,Mar 22 2023 - Positive,11
-Maryland Heights,Mar 23 2023,9
-Maryland Heights,Mar 23 2023 - Neutral,4
-Maryland Heights,Mar 23 2023 - Negative,3
-Maryland Heights,Mar 23 2023 - Positive,1
-Maryland Heights,Mar 24 2023,54
-Maryland Heights,Mar 24 2023 - Neutral,15
-Maryland Heights,Mar 24 2023 - Negative,12
-Maryland Heights,Mar 24 2023 - Positive,13
-Maryland Heights,Mar 25 2023,26
-Maryland Heights,Mar 25 2023 - Neutral,8
-Maryland Heights,Mar 25 2023 - Negative,4
-Maryland Heights,Mar 25 2023 - Positive,6
-Maryland Heights,Mar 26 2023,37
-Maryland Heights,Mar 26 2023 - Neutral,15
-Maryland Heights,Mar 26 2023 - Negative,7
-Maryland Heights,Mar 26 2023 - Positive,4
-Maryland Heights,Mar 27 2023,23
-Maryland Heights,Mar 27 2023 - Neutral,9
-Maryland Heights,Mar 27 2023 - Negative,2
-Maryland Heights,Mar 27 2023 - Positive,8
-Maryland Heights,Mar 28 2023,94
-Maryland Heights,Mar 28 2023 - Neutral,48
-Maryland Heights,Mar 28 2023 - Negative,8
-Maryland Heights,Mar 28 2023 - Positive,9
-Maryland Heights,Mar 29 2023,64
-Maryland Heights,Mar 29 2023 - Neutral,31
-Maryland Heights,Mar 29 2023 - Negative,11
-Maryland Heights,Mar 29 2023 - Positive,11
-Maryland Heights,Mar 30 2023,26
-Maryland Heights,Mar 30 2023 - Neutral,13
-Maryland Heights,Mar 30 2023 - Negative,8
-Maryland Heights,Mar 30 2023 - Positive,4
-Maryland Heights,Mar 31 2023,38
-Maryland Heights,Mar 31 2023 - Neutral,19
-Maryland Heights,Mar 31 2023 - Negative,7
-Maryland Heights,Mar 31 2023 - Positive,10
-North County,Total,252
-North County,Total - Neutral,77
-North County,Total - Negative,15
-North County,Total - Positive,157
+Maryland Heights,Mar 01 2023,4
+Maryland Heights,Mar 01 2023 - Neutral,3
+Maryland Heights,Mar 01 2023 - Negative,0
+Maryland Heights,Mar 01 2023 - Positive,0
+Maryland Heights,Mar 02 2023,1
+Maryland Heights,Mar 02 2023 - Neutral,1
+Maryland Heights,Mar 02 2023 - Negative,0
+Maryland Heights,Mar 02 2023 - Positive,0
+Maryland Heights,Mar 03 2023,0
+Maryland Heights,Mar 03 2023 - Neutral,0
+Maryland Heights,Mar 03 2023 - Negative,0
+Maryland Heights,Mar 03 2023 - Positive,0
+Maryland Heights,Mar 04 2023,0
+Maryland Heights,Mar 04 2023 - Neutral,0
+Maryland Heights,Mar 04 2023 - Negative,0
+Maryland Heights,Mar 04 2023 - Positive,0
+Maryland Heights,Mar 05 2023,0
+Maryland Heights,Mar 05 2023 - Neutral,0
+Maryland Heights,Mar 05 2023 - Negative,0
+Maryland Heights,Mar 05 2023 - Positive,0
+Maryland Heights,Mar 06 2023,0
+Maryland Heights,Mar 06 2023 - Neutral,0
+Maryland Heights,Mar 06 2023 - Negative,0
+Maryland Heights,Mar 06 2023 - Positive,0
+Maryland Heights,Mar 07 2023,0
+Maryland Heights,Mar 07 2023 - Neutral,0
+Maryland Heights,Mar 07 2023 - Negative,0
+Maryland Heights,Mar 07 2023 - Positive,0
+Maryland Heights,Mar 08 2023,0
+Maryland Heights,Mar 08 2023 - Neutral,0
+Maryland Heights,Mar 08 2023 - Negative,0
+Maryland Heights,Mar 08 2023 - Positive,0
+Maryland Heights,Mar 09 2023,0
+Maryland Heights,Mar 09 2023 - Neutral,0
+Maryland Heights,Mar 09 2023 - Negative,0
+Maryland Heights,Mar 09 2023 - Positive,0
+Maryland Heights,Mar 10 2023,0
+Maryland Heights,Mar 10 2023 - Neutral,0
+Maryland Heights,Mar 10 2023 - Negative,0
+Maryland Heights,Mar 10 2023 - Positive,0
+Maryland Heights,Mar 11 2023,0
+Maryland Heights,Mar 11 2023 - Neutral,0
+Maryland Heights,Mar 11 2023 - Negative,0
+Maryland Heights,Mar 11 2023 - Positive,0
+Maryland Heights,Mar 12 2023,0
+Maryland Heights,Mar 12 2023 - Neutral,0
+Maryland Heights,Mar 12 2023 - Negative,0
+Maryland Heights,Mar 12 2023 - Positive,0
+Maryland Heights,Mar 13 2023,0
+Maryland Heights,Mar 13 2023 - Neutral,0
+Maryland Heights,Mar 13 2023 - Negative,0
+Maryland Heights,Mar 13 2023 - Positive,0
+Maryland Heights,Mar 14 2023,0
+Maryland Heights,Mar 14 2023 - Neutral,0
+Maryland Heights,Mar 14 2023 - Negative,0
+Maryland Heights,Mar 14 2023 - Positive,0
+Maryland Heights,Mar 15 2023,0
+Maryland Heights,Mar 15 2023 - Neutral,0
+Maryland Heights,Mar 15 2023 - Negative,0
+Maryland Heights,Mar 15 2023 - Positive,0
+Maryland Heights,Mar 16 2023,0
+Maryland Heights,Mar 16 2023 - Neutral,0
+Maryland Heights,Mar 16 2023 - Negative,0
+Maryland Heights,Mar 16 2023 - Positive,0
+Maryland Heights,Mar 17 2023,0
+Maryland Heights,Mar 17 2023 - Neutral,0
+Maryland Heights,Mar 17 2023 - Negative,0
+Maryland Heights,Mar 17 2023 - Positive,0
+Maryland Heights,Mar 18 2023,0
+Maryland Heights,Mar 18 2023 - Neutral,0
+Maryland Heights,Mar 18 2023 - Negative,0
+Maryland Heights,Mar 18 2023 - Positive,0
+Maryland Heights,Mar 19 2023,0
+Maryland Heights,Mar 19 2023 - Neutral,0
+Maryland Heights,Mar 19 2023 - Negative,0
+Maryland Heights,Mar 19 2023 - Positive,0
+Maryland Heights,Mar 20 2023,0
+Maryland Heights,Mar 20 2023 - Neutral,0
+Maryland Heights,Mar 20 2023 - Negative,0
+Maryland Heights,Mar 20 2023 - Positive,0
+Maryland Heights,Mar 21 2023,0
+Maryland Heights,Mar 21 2023 - Neutral,0
+Maryland Heights,Mar 21 2023 - Negative,0
+Maryland Heights,Mar 21 2023 - Positive,0
+Maryland Heights,Mar 22 2023,0
+Maryland Heights,Mar 22 2023 - Neutral,0
+Maryland Heights,Mar 22 2023 - Negative,0
+Maryland Heights,Mar 22 2023 - Positive,0
+Maryland Heights,Mar 23 2023,0
+Maryland Heights,Mar 23 2023 - Neutral,0
+Maryland Heights,Mar 23 2023 - Negative,0
+Maryland Heights,Mar 23 2023 - Positive,0
+Maryland Heights,Mar 24 2023,0
+Maryland Heights,Mar 24 2023 - Neutral,0
+Maryland Heights,Mar 24 2023 - Negative,0
+Maryland Heights,Mar 24 2023 - Positive,0
+Maryland Heights,Mar 25 2023,0
+Maryland Heights,Mar 25 2023 - Neutral,0
+Maryland Heights,Mar 25 2023 - Negative,0
+Maryland Heights,Mar 25 2023 - Positive,0
+Maryland Heights,Mar 26 2023,0
+Maryland Heights,Mar 26 2023 - Neutral,0
+Maryland Heights,Mar 26 2023 - Negative,0
+Maryland Heights,Mar 26 2023 - Positive,0
+Maryland Heights,Mar 27 2023,0
+Maryland Heights,Mar 27 2023 - Neutral,0
+Maryland Heights,Mar 27 2023 - Negative,0
+Maryland Heights,Mar 27 2023 - Positive,0
+Maryland Heights,Mar 28 2023,0
+Maryland Heights,Mar 28 2023 - Neutral,0
+Maryland Heights,Mar 28 2023 - Negative,0
+Maryland Heights,Mar 28 2023 - Positive,0
+Maryland Heights,Mar 29 2023,0
+Maryland Heights,Mar 29 2023 - Neutral,0
+Maryland Heights,Mar 29 2023 - Negative,0
+Maryland Heights,Mar 29 2023 - Positive,0
+Maryland Heights,Mar 30 2023,0
+Maryland Heights,Mar 30 2023 - Neutral,0
+Maryland Heights,Mar 30 2023 - Negative,0
+Maryland Heights,Mar 30 2023 - Positive,0
+Maryland Heights,Mar 31 2023,0
+Maryland Heights,Mar 31 2023 - Neutral,0
+Maryland Heights,Mar 31 2023 - Negative,0
+Maryland Heights,Mar 31 2023 - Positive,0
+North County,Total,115
+North County,Total - Neutral,41
+North County,Total - Negative,7
+North County,Total - Positive,65
 North County,Feb,114
 North County,Feb - Neutral,41
 North County,Feb - Negative,7
 North County,Feb - Positive,64
-North County,Mar,138
-North County,Mar - Neutral,36
-North County,Mar - Negative,8
-North County,Mar - Positive,93
+North County,Mar,1
+North County,Mar - Neutral,0
+North County,Mar - Negative,0
+North County,Mar - Positive,1
 North County,Feb 01 - Feb 07 2023,36
 North County,Feb 01 - Feb 07 2023 - Neutral,11
 North County,Feb 01 - Feb 07 2023 - Negative,1
@@ -4855,26 +4855,26 @@ North County,Feb 22 - Feb 28 2023,34
 North County,Feb 22 - Feb 28 2023 - Neutral,13
 North County,Feb 22 - Feb 28 2023 - Negative,5
 North County,Feb 22 - Feb 28 2023 - Positive,16
-North County,Mar 01 - Mar 07 2023,23
-North County,Mar 01 - Mar 07 2023 - Neutral,7
+North County,Mar 01 - Mar 07 2023,1
+North County,Mar 01 - Mar 07 2023 - Neutral,0
 North County,Mar 01 - Mar 07 2023 - Negative,0
-North County,Mar 01 - Mar 07 2023 - Positive,16
-North County,Mar 08 - Mar 14 2023,25
-North County,Mar 08 - Mar 14 2023 - Neutral,5
-North County,Mar 08 - Mar 14 2023 - Negative,2
-North County,Mar 08 - Mar 14 2023 - Positive,18
-North County,Mar 15 - Mar 21 2023,52
-North County,Mar 15 - Mar 21 2023 - Neutral,14
-North County,Mar 15 - Mar 21 2023 - Negative,3
-North County,Mar 15 - Mar 21 2023 - Positive,35
-North County,Mar 22 - Mar 28 2023,26
-North County,Mar 22 - Mar 28 2023 - Neutral,7
-North County,Mar 22 - Mar 28 2023 - Negative,2
-North County,Mar 22 - Mar 28 2023 - Positive,17
-North County,Mar 29 - Apr 04 2023,12
-North County,Mar 29 - Apr 04 2023 - Neutral,3
-North County,Mar 29 - Apr 04 2023 - Negative,1
-North County,Mar 29 - Apr 04 2023 - Positive,7
+North County,Mar 01 - Mar 07 2023 - Positive,1
+North County,Mar 08 - Mar 14 2023,0
+North County,Mar 08 - Mar 14 2023 - Neutral,0
+North County,Mar 08 - Mar 14 2023 - Negative,0
+North County,Mar 08 - Mar 14 2023 - Positive,0
+North County,Mar 15 - Mar 21 2023,0
+North County,Mar 15 - Mar 21 2023 - Neutral,0
+North County,Mar 15 - Mar 21 2023 - Negative,0
+North County,Mar 15 - Mar 21 2023 - Positive,0
+North County,Mar 22 - Mar 28 2023,0
+North County,Mar 22 - Mar 28 2023 - Neutral,0
+North County,Mar 22 - Mar 28 2023 - Negative,0
+North County,Mar 22 - Mar 28 2023 - Positive,0
+North County,Mar 29 - Apr 04 2023,0
+North County,Mar 29 - Apr 04 2023 - Neutral,0
+North County,Mar 29 - Apr 04 2023 - Negative,0
+North County,Mar 29 - Apr 04 2023 - Positive,0
 North County,Feb 01 2023,5
 North County,Feb 01 2023 - Neutral,1
 North County,Feb 01 2023 - Negative,0
@@ -4987,142 +4987,142 @@ North County,Feb 28 2023,5
 North County,Feb 28 2023 - Neutral,0
 North County,Feb 28 2023 - Negative,2
 North County,Feb 28 2023 - Positive,3
-North County,Mar 01 2023,8
-North County,Mar 01 2023 - Neutral,1
+North County,Mar 01 2023,1
+North County,Mar 01 2023 - Neutral,0
 North County,Mar 01 2023 - Negative,0
-North County,Mar 01 2023 - Positive,7
-North County,Mar 02 2023,2
+North County,Mar 01 2023 - Positive,1
+North County,Mar 02 2023,0
 North County,Mar 02 2023 - Neutral,0
 North County,Mar 02 2023 - Negative,0
-North County,Mar 02 2023 - Positive,2
-North County,Mar 03 2023,1
+North County,Mar 02 2023 - Positive,0
+North County,Mar 03 2023,0
 North County,Mar 03 2023 - Neutral,0
 North County,Mar 03 2023 - Negative,0
-North County,Mar 03 2023 - Positive,1
-North County,Mar 04 2023,2
-North County,Mar 04 2023 - Neutral,1
+North County,Mar 03 2023 - Positive,0
+North County,Mar 04 2023,0
+North County,Mar 04 2023 - Neutral,0
 North County,Mar 04 2023 - Negative,0
-North County,Mar 04 2023 - Positive,1
-North County,Mar 05 2023,2
-North County,Mar 05 2023 - Neutral,1
+North County,Mar 04 2023 - Positive,0
+North County,Mar 05 2023,0
+North County,Mar 05 2023 - Neutral,0
 North County,Mar 05 2023 - Negative,0
-North County,Mar 05 2023 - Positive,1
-North County,Mar 06 2023,4
-North County,Mar 06 2023 - Neutral,3
+North County,Mar 05 2023 - Positive,0
+North County,Mar 06 2023,0
+North County,Mar 06 2023 - Neutral,0
 North County,Mar 06 2023 - Negative,0
-North County,Mar 06 2023 - Positive,1
-North County,Mar 07 2023,4
-North County,Mar 07 2023 - Neutral,1
+North County,Mar 06 2023 - Positive,0
+North County,Mar 07 2023,0
+North County,Mar 07 2023 - Neutral,0
 North County,Mar 07 2023 - Negative,0
-North County,Mar 07 2023 - Positive,3
-North County,Mar 08 2023,2
-North County,Mar 08 2023 - Neutral,1
+North County,Mar 07 2023 - Positive,0
+North County,Mar 08 2023,0
+North County,Mar 08 2023 - Neutral,0
 North County,Mar 08 2023 - Negative,0
-North County,Mar 08 2023 - Positive,1
-North County,Mar 09 2023,4
+North County,Mar 08 2023 - Positive,0
+North County,Mar 09 2023,0
 North County,Mar 09 2023 - Neutral,0
 North County,Mar 09 2023 - Negative,0
-North County,Mar 09 2023 - Positive,4
-North County,Mar 10 2023,4
+North County,Mar 09 2023 - Positive,0
+North County,Mar 10 2023,0
 North County,Mar 10 2023 - Neutral,0
 North County,Mar 10 2023 - Negative,0
-North County,Mar 10 2023 - Positive,4
-North County,Mar 11 2023,4
-North County,Mar 11 2023 - Neutral,2
+North County,Mar 10 2023 - Positive,0
+North County,Mar 11 2023,0
+North County,Mar 11 2023 - Neutral,0
 North County,Mar 11 2023 - Negative,0
-North County,Mar 11 2023 - Positive,2
-North County,Mar 12 2023,3
+North County,Mar 11 2023 - Positive,0
+North County,Mar 12 2023,0
 North County,Mar 12 2023 - Neutral,0
 North County,Mar 12 2023 - Negative,0
-North County,Mar 12 2023 - Positive,3
-North County,Mar 13 2023,4
-North County,Mar 13 2023 - Neutral,1
+North County,Mar 12 2023 - Positive,0
+North County,Mar 13 2023,0
+North County,Mar 13 2023 - Neutral,0
 North County,Mar 13 2023 - Negative,0
-North County,Mar 13 2023 - Positive,3
-North County,Mar 14 2023,4
-North County,Mar 14 2023 - Neutral,1
-North County,Mar 14 2023 - Negative,2
-North County,Mar 14 2023 - Positive,1
-North County,Mar 15 2023,10
-North County,Mar 15 2023 - Neutral,2
-North County,Mar 15 2023 - Negative,1
-North County,Mar 15 2023 - Positive,7
-North County,Mar 16 2023,9
+North County,Mar 13 2023 - Positive,0
+North County,Mar 14 2023,0
+North County,Mar 14 2023 - Neutral,0
+North County,Mar 14 2023 - Negative,0
+North County,Mar 14 2023 - Positive,0
+North County,Mar 15 2023,0
+North County,Mar 15 2023 - Neutral,0
+North County,Mar 15 2023 - Negative,0
+North County,Mar 15 2023 - Positive,0
+North County,Mar 16 2023,0
 North County,Mar 16 2023 - Neutral,0
 North County,Mar 16 2023 - Negative,0
-North County,Mar 16 2023 - Positive,9
-North County,Mar 17 2023,6
-North County,Mar 17 2023 - Neutral,4
+North County,Mar 16 2023 - Positive,0
+North County,Mar 17 2023,0
+North County,Mar 17 2023 - Neutral,0
 North County,Mar 17 2023 - Negative,0
-North County,Mar 17 2023 - Positive,2
-North County,Mar 18 2023,2
+North County,Mar 17 2023 - Positive,0
+North County,Mar 18 2023,0
 North County,Mar 18 2023 - Neutral,0
 North County,Mar 18 2023 - Negative,0
-North County,Mar 18 2023 - Positive,2
-North County,Mar 19 2023,10
-North County,Mar 19 2023 - Neutral,3
-North County,Mar 19 2023 - Negative,1
-North County,Mar 19 2023 - Positive,6
-North County,Mar 20 2023,8
-North County,Mar 20 2023 - Neutral,4
+North County,Mar 18 2023 - Positive,0
+North County,Mar 19 2023,0
+North County,Mar 19 2023 - Neutral,0
+North County,Mar 19 2023 - Negative,0
+North County,Mar 19 2023 - Positive,0
+North County,Mar 20 2023,0
+North County,Mar 20 2023 - Neutral,0
 North County,Mar 20 2023 - Negative,0
-North County,Mar 20 2023 - Positive,4
-North County,Mar 21 2023,7
-North County,Mar 21 2023 - Neutral,1
-North County,Mar 21 2023 - Negative,1
-North County,Mar 21 2023 - Positive,5
-North County,Mar 22 2023,3
-North County,Mar 22 2023 - Neutral,1
-North County,Mar 22 2023 - Negative,1
-North County,Mar 22 2023 - Positive,1
-North County,Mar 23 2023,2
-North County,Mar 23 2023 - Neutral,1
+North County,Mar 20 2023 - Positive,0
+North County,Mar 21 2023,0
+North County,Mar 21 2023 - Neutral,0
+North County,Mar 21 2023 - Negative,0
+North County,Mar 21 2023 - Positive,0
+North County,Mar 22 2023,0
+North County,Mar 22 2023 - Neutral,0
+North County,Mar 22 2023 - Negative,0
+North County,Mar 22 2023 - Positive,0
+North County,Mar 23 2023,0
+North County,Mar 23 2023 - Neutral,0
 North County,Mar 23 2023 - Negative,0
-North County,Mar 23 2023 - Positive,1
-North County,Mar 24 2023,5
-North County,Mar 24 2023 - Neutral,1
+North County,Mar 23 2023 - Positive,0
+North County,Mar 24 2023,0
+North County,Mar 24 2023 - Neutral,0
 North County,Mar 24 2023 - Negative,0
-North County,Mar 24 2023 - Positive,4
-North County,Mar 25 2023,4
-North County,Mar 25 2023 - Neutral,3
+North County,Mar 24 2023 - Positive,0
+North County,Mar 25 2023,0
+North County,Mar 25 2023 - Neutral,0
 North County,Mar 25 2023 - Negative,0
-North County,Mar 25 2023 - Positive,1
-North County,Mar 26 2023,3
-North County,Mar 26 2023 - Neutral,1
+North County,Mar 25 2023 - Positive,0
+North County,Mar 26 2023,0
+North County,Mar 26 2023 - Neutral,0
 North County,Mar 26 2023 - Negative,0
-North County,Mar 26 2023 - Positive,2
-North County,Mar 27 2023,2
+North County,Mar 26 2023 - Positive,0
+North County,Mar 27 2023,0
 North County,Mar 27 2023 - Neutral,0
-North County,Mar 27 2023 - Negative,1
-North County,Mar 27 2023 - Positive,1
-North County,Mar 28 2023,7
+North County,Mar 27 2023 - Negative,0
+North County,Mar 27 2023 - Positive,0
+North County,Mar 28 2023,0
 North County,Mar 28 2023 - Neutral,0
 North County,Mar 28 2023 - Negative,0
-North County,Mar 28 2023 - Positive,7
-North County,Mar 29 2023,6
-North County,Mar 29 2023 - Neutral,2
-North County,Mar 29 2023 - Negative,1
-North County,Mar 29 2023 - Positive,2
-North County,Mar 30 2023,2
-North County,Mar 30 2023 - Neutral,1
+North County,Mar 28 2023 - Positive,0
+North County,Mar 29 2023,0
+North County,Mar 29 2023 - Neutral,0
+North County,Mar 29 2023 - Negative,0
+North County,Mar 29 2023 - Positive,0
+North County,Mar 30 2023,0
+North County,Mar 30 2023 - Neutral,0
 North County,Mar 30 2023 - Negative,0
-North County,Mar 30 2023 - Positive,1
-North County,Mar 31 2023,4
+North County,Mar 30 2023 - Positive,0
+North County,Mar 31 2023,0
 North County,Mar 31 2023 - Neutral,0
 North County,Mar 31 2023 - Negative,0
-North County,Mar 31 2023 - Positive,4
-Soulard,Total,62
-Soulard,Total - Neutral,36
-Soulard,Total - Negative,3
-Soulard,Total - Positive,20
+North County,Mar 31 2023 - Positive,0
+Soulard,Total,35
+Soulard,Total - Neutral,23
+Soulard,Total - Negative,0
+Soulard,Total - Positive,10
 Soulard,Feb,33
 Soulard,Feb - Neutral,21
 Soulard,Feb - Negative,0
 Soulard,Feb - Positive,10
-Soulard,Mar,29
-Soulard,Mar - Neutral,15
-Soulard,Mar - Negative,3
-Soulard,Mar - Positive,10
+Soulard,Mar,2
+Soulard,Mar - Neutral,2
+Soulard,Mar - Negative,0
+Soulard,Mar - Positive,0
 Soulard,Feb 01 - Feb 07 2023,7
 Soulard,Feb 01 - Feb 07 2023 - Neutral,7
 Soulard,Feb 01 - Feb 07 2023 - Negative,0
@@ -5139,26 +5139,26 @@ Soulard,Feb 22 - Feb 28 2023,9
 Soulard,Feb 22 - Feb 28 2023 - Neutral,4
 Soulard,Feb 22 - Feb 28 2023 - Negative,0
 Soulard,Feb 22 - Feb 28 2023 - Positive,4
-Soulard,Mar 01 - Mar 07 2023,6
-Soulard,Mar 01 - Mar 07 2023 - Neutral,3
-Soulard,Mar 01 - Mar 07 2023 - Negative,1
-Soulard,Mar 01 - Mar 07 2023 - Positive,2
-Soulard,Mar 08 - Mar 14 2023,5
-Soulard,Mar 08 - Mar 14 2023 - Neutral,3
+Soulard,Mar 01 - Mar 07 2023,2
+Soulard,Mar 01 - Mar 07 2023 - Neutral,2
+Soulard,Mar 01 - Mar 07 2023 - Negative,0
+Soulard,Mar 01 - Mar 07 2023 - Positive,0
+Soulard,Mar 08 - Mar 14 2023,0
+Soulard,Mar 08 - Mar 14 2023 - Neutral,0
 Soulard,Mar 08 - Mar 14 2023 - Negative,0
-Soulard,Mar 08 - Mar 14 2023 - Positive,2
-Soulard,Mar 15 - Mar 21 2023,9
-Soulard,Mar 15 - Mar 21 2023 - Neutral,4
-Soulard,Mar 15 - Mar 21 2023 - Negative,2
-Soulard,Mar 15 - Mar 21 2023 - Positive,2
-Soulard,Mar 22 - Mar 28 2023,7
-Soulard,Mar 22 - Mar 28 2023 - Neutral,5
+Soulard,Mar 08 - Mar 14 2023 - Positive,0
+Soulard,Mar 15 - Mar 21 2023,0
+Soulard,Mar 15 - Mar 21 2023 - Neutral,0
+Soulard,Mar 15 - Mar 21 2023 - Negative,0
+Soulard,Mar 15 - Mar 21 2023 - Positive,0
+Soulard,Mar 22 - Mar 28 2023,0
+Soulard,Mar 22 - Mar 28 2023 - Neutral,0
 Soulard,Mar 22 - Mar 28 2023 - Negative,0
-Soulard,Mar 22 - Mar 28 2023 - Positive,2
-Soulard,Mar 29 - Apr 04 2023,2
+Soulard,Mar 22 - Mar 28 2023 - Positive,0
+Soulard,Mar 29 - Apr 04 2023,0
 Soulard,Mar 29 - Apr 04 2023 - Neutral,0
 Soulard,Mar 29 - Apr 04 2023 - Negative,0
-Soulard,Mar 29 - Apr 04 2023 - Positive,2
+Soulard,Mar 29 - Apr 04 2023 - Positive,0
 Soulard,Feb 01 2023,3
 Soulard,Feb 01 2023 - Neutral,3
 Soulard,Feb 01 2023 - Negative,0
@@ -5291,16 +5291,16 @@ Soulard,Mar 05 2023,0
 Soulard,Mar 05 2023 - Neutral,0
 Soulard,Mar 05 2023 - Negative,0
 Soulard,Mar 05 2023 - Positive,0
-Soulard,Mar 06 2023,3
-Soulard,Mar 06 2023 - Neutral,1
-Soulard,Mar 06 2023 - Negative,1
-Soulard,Mar 06 2023 - Positive,1
-Soulard,Mar 07 2023,1
+Soulard,Mar 06 2023,0
+Soulard,Mar 06 2023 - Neutral,0
+Soulard,Mar 06 2023 - Negative,0
+Soulard,Mar 06 2023 - Positive,0
+Soulard,Mar 07 2023,0
 Soulard,Mar 07 2023 - Neutral,0
 Soulard,Mar 07 2023 - Negative,0
-Soulard,Mar 07 2023 - Positive,1
-Soulard,Mar 08 2023,1
-Soulard,Mar 08 2023 - Neutral,1
+Soulard,Mar 07 2023 - Positive,0
+Soulard,Mar 08 2023,0
+Soulard,Mar 08 2023 - Neutral,0
 Soulard,Mar 08 2023 - Negative,0
 Soulard,Mar 08 2023 - Positive,0
 Soulard,Mar 09 2023,0
@@ -5311,14 +5311,14 @@ Soulard,Mar 10 2023,0
 Soulard,Mar 10 2023 - Neutral,0
 Soulard,Mar 10 2023 - Negative,0
 Soulard,Mar 10 2023 - Positive,0
-Soulard,Mar 11 2023,3
-Soulard,Mar 11 2023 - Neutral,2
+Soulard,Mar 11 2023,0
+Soulard,Mar 11 2023 - Neutral,0
 Soulard,Mar 11 2023 - Negative,0
-Soulard,Mar 11 2023 - Positive,1
-Soulard,Mar 12 2023,1
+Soulard,Mar 11 2023 - Positive,0
+Soulard,Mar 12 2023,0
 Soulard,Mar 12 2023 - Neutral,0
 Soulard,Mar 12 2023 - Negative,0
-Soulard,Mar 12 2023 - Positive,1
+Soulard,Mar 12 2023 - Positive,0
 Soulard,Mar 13 2023,0
 Soulard,Mar 13 2023 - Neutral,0
 Soulard,Mar 13 2023 - Negative,0
@@ -5327,28 +5327,28 @@ Soulard,Mar 14 2023,0
 Soulard,Mar 14 2023 - Neutral,0
 Soulard,Mar 14 2023 - Negative,0
 Soulard,Mar 14 2023 - Positive,0
-Soulard,Mar 15 2023,2
-Soulard,Mar 15 2023 - Neutral,1
-Soulard,Mar 15 2023 - Negative,1
+Soulard,Mar 15 2023,0
+Soulard,Mar 15 2023 - Neutral,0
+Soulard,Mar 15 2023 - Negative,0
 Soulard,Mar 15 2023 - Positive,0
-Soulard,Mar 16 2023,1
-Soulard,Mar 16 2023 - Neutral,1
+Soulard,Mar 16 2023,0
+Soulard,Mar 16 2023 - Neutral,0
 Soulard,Mar 16 2023 - Negative,0
 Soulard,Mar 16 2023 - Positive,0
-Soulard,Mar 17 2023,1
+Soulard,Mar 17 2023,0
 Soulard,Mar 17 2023 - Neutral,0
 Soulard,Mar 17 2023 - Negative,0
 Soulard,Mar 17 2023 - Positive,0
-Soulard,Mar 18 2023,2
+Soulard,Mar 18 2023,0
 Soulard,Mar 18 2023 - Neutral,0
 Soulard,Mar 18 2023 - Negative,0
-Soulard,Mar 18 2023 - Positive,2
-Soulard,Mar 19 2023,1
+Soulard,Mar 18 2023 - Positive,0
+Soulard,Mar 19 2023,0
 Soulard,Mar 19 2023 - Neutral,0
-Soulard,Mar 19 2023 - Negative,1
+Soulard,Mar 19 2023 - Negative,0
 Soulard,Mar 19 2023 - Positive,0
-Soulard,Mar 20 2023,2
-Soulard,Mar 20 2023 - Neutral,2
+Soulard,Mar 20 2023,0
+Soulard,Mar 20 2023 - Neutral,0
 Soulard,Mar 20 2023 - Negative,0
 Soulard,Mar 20 2023 - Positive,0
 Soulard,Mar 21 2023,0
@@ -5363,50 +5363,50 @@ Soulard,Mar 23 2023,0
 Soulard,Mar 23 2023 - Neutral,0
 Soulard,Mar 23 2023 - Negative,0
 Soulard,Mar 23 2023 - Positive,0
-Soulard,Mar 24 2023,1
+Soulard,Mar 24 2023,0
 Soulard,Mar 24 2023 - Neutral,0
 Soulard,Mar 24 2023 - Negative,0
-Soulard,Mar 24 2023 - Positive,1
-Soulard,Mar 25 2023,2
-Soulard,Mar 25 2023 - Neutral,2
+Soulard,Mar 24 2023 - Positive,0
+Soulard,Mar 25 2023,0
+Soulard,Mar 25 2023 - Neutral,0
 Soulard,Mar 25 2023 - Negative,0
 Soulard,Mar 25 2023 - Positive,0
-Soulard,Mar 26 2023,1
-Soulard,Mar 26 2023 - Neutral,1
+Soulard,Mar 26 2023,0
+Soulard,Mar 26 2023 - Neutral,0
 Soulard,Mar 26 2023 - Negative,0
 Soulard,Mar 26 2023 - Positive,0
-Soulard,Mar 27 2023,1
+Soulard,Mar 27 2023,0
 Soulard,Mar 27 2023 - Neutral,0
 Soulard,Mar 27 2023 - Negative,0
-Soulard,Mar 27 2023 - Positive,1
-Soulard,Mar 28 2023,2
-Soulard,Mar 28 2023 - Neutral,2
+Soulard,Mar 27 2023 - Positive,0
+Soulard,Mar 28 2023,0
+Soulard,Mar 28 2023 - Neutral,0
 Soulard,Mar 28 2023 - Negative,0
 Soulard,Mar 28 2023 - Positive,0
-Soulard,Mar 29 2023,1
+Soulard,Mar 29 2023,0
 Soulard,Mar 29 2023 - Neutral,0
 Soulard,Mar 29 2023 - Negative,0
-Soulard,Mar 29 2023 - Positive,1
-Soulard,Mar 30 2023,1
+Soulard,Mar 29 2023 - Positive,0
+Soulard,Mar 30 2023,0
 Soulard,Mar 30 2023 - Neutral,0
 Soulard,Mar 30 2023 - Negative,0
-Soulard,Mar 30 2023 - Positive,1
+Soulard,Mar 30 2023 - Positive,0
 Soulard,Mar 31 2023,0
 Soulard,Mar 31 2023 - Neutral,0
 Soulard,Mar 31 2023 - Negative,0
 Soulard,Mar 31 2023 - Positive,0
-South Grand,Total,28
-South Grand,Total - Neutral,15
-South Grand,Total - Negative,1
-South Grand,Total - Positive,7
+South Grand,Total,10
+South Grand,Total - Neutral,7
+South Grand,Total - Negative,0
+South Grand,Total - Positive,1
 South Grand,Feb,9
 South Grand,Feb - Neutral,6
 South Grand,Feb - Negative,0
 South Grand,Feb - Positive,1
-South Grand,Mar,19
-South Grand,Mar - Neutral,9
-South Grand,Mar - Negative,1
-South Grand,Mar - Positive,6
+South Grand,Mar,1
+South Grand,Mar - Neutral,1
+South Grand,Mar - Negative,0
+South Grand,Mar - Positive,0
 South Grand,Feb 01 - Feb 07 2023,3
 South Grand,Feb 01 - Feb 07 2023 - Neutral,2
 South Grand,Feb 01 - Feb 07 2023 - Negative,0
@@ -5423,26 +5423,26 @@ South Grand,Feb 22 - Feb 28 2023,0
 South Grand,Feb 22 - Feb 28 2023 - Neutral,0
 South Grand,Feb 22 - Feb 28 2023 - Negative,0
 South Grand,Feb 22 - Feb 28 2023 - Positive,0
-South Grand,Mar 01 - Mar 07 2023,3
-South Grand,Mar 01 - Mar 07 2023 - Neutral,2
+South Grand,Mar 01 - Mar 07 2023,1
+South Grand,Mar 01 - Mar 07 2023 - Neutral,1
 South Grand,Mar 01 - Mar 07 2023 - Negative,0
-South Grand,Mar 01 - Mar 07 2023 - Positive,1
-South Grand,Mar 08 - Mar 14 2023,5
-South Grand,Mar 08 - Mar 14 2023 - Neutral,1
+South Grand,Mar 01 - Mar 07 2023 - Positive,0
+South Grand,Mar 08 - Mar 14 2023,0
+South Grand,Mar 08 - Mar 14 2023 - Neutral,0
 South Grand,Mar 08 - Mar 14 2023 - Negative,0
-South Grand,Mar 08 - Mar 14 2023 - Positive,3
-South Grand,Mar 15 - Mar 21 2023,6
-South Grand,Mar 15 - Mar 21 2023 - Neutral,4
+South Grand,Mar 08 - Mar 14 2023 - Positive,0
+South Grand,Mar 15 - Mar 21 2023,0
+South Grand,Mar 15 - Mar 21 2023 - Neutral,0
 South Grand,Mar 15 - Mar 21 2023 - Negative,0
 South Grand,Mar 15 - Mar 21 2023 - Positive,0
-South Grand,Mar 22 - Mar 28 2023,2
-South Grand,Mar 22 - Mar 28 2023 - Neutral,1
+South Grand,Mar 22 - Mar 28 2023,0
+South Grand,Mar 22 - Mar 28 2023 - Neutral,0
 South Grand,Mar 22 - Mar 28 2023 - Negative,0
-South Grand,Mar 22 - Mar 28 2023 - Positive,1
-South Grand,Mar 29 - Apr 04 2023,3
-South Grand,Mar 29 - Apr 04 2023 - Neutral,1
-South Grand,Mar 29 - Apr 04 2023 - Negative,1
-South Grand,Mar 29 - Apr 04 2023 - Positive,1
+South Grand,Mar 22 - Mar 28 2023 - Positive,0
+South Grand,Mar 29 - Apr 04 2023,0
+South Grand,Mar 29 - Apr 04 2023 - Neutral,0
+South Grand,Mar 29 - Apr 04 2023 - Negative,0
+South Grand,Mar 29 - Apr 04 2023 - Positive,0
 South Grand,Feb 01 2023,0
 South Grand,Feb 01 2023 - Neutral,0
 South Grand,Feb 01 2023 - Negative,0
@@ -5555,10 +5555,10 @@ South Grand,Feb 28 2023,0
 South Grand,Feb 28 2023 - Neutral,0
 South Grand,Feb 28 2023 - Negative,0
 South Grand,Feb 28 2023 - Positive,0
-South Grand,Mar 01 2023,2
+South Grand,Mar 01 2023,1
 South Grand,Mar 01 2023 - Neutral,1
 South Grand,Mar 01 2023 - Negative,0
-South Grand,Mar 01 2023 - Positive,1
+South Grand,Mar 01 2023 - Positive,0
 South Grand,Mar 02 2023,0
 South Grand,Mar 02 2023 - Neutral,0
 South Grand,Mar 02 2023 - Negative,0
@@ -5575,8 +5575,8 @@ South Grand,Mar 05 2023,0
 South Grand,Mar 05 2023 - Neutral,0
 South Grand,Mar 05 2023 - Negative,0
 South Grand,Mar 05 2023 - Positive,0
-South Grand,Mar 06 2023,1
-South Grand,Mar 06 2023 - Neutral,1
+South Grand,Mar 06 2023,0
+South Grand,Mar 06 2023 - Neutral,0
 South Grand,Mar 06 2023 - Negative,0
 South Grand,Mar 06 2023 - Positive,0
 South Grand,Mar 07 2023,0
@@ -5591,10 +5591,10 @@ South Grand,Mar 09 2023,0
 South Grand,Mar 09 2023 - Neutral,0
 South Grand,Mar 09 2023 - Negative,0
 South Grand,Mar 09 2023 - Positive,0
-South Grand,Mar 10 2023,1
+South Grand,Mar 10 2023,0
 South Grand,Mar 10 2023 - Neutral,0
 South Grand,Mar 10 2023 - Negative,0
-South Grand,Mar 10 2023 - Positive,1
+South Grand,Mar 10 2023 - Positive,0
 South Grand,Mar 11 2023,0
 South Grand,Mar 11 2023 - Neutral,0
 South Grand,Mar 11 2023 - Negative,0
@@ -5603,19 +5603,19 @@ South Grand,Mar 12 2023,0
 South Grand,Mar 12 2023 - Neutral,0
 South Grand,Mar 12 2023 - Negative,0
 South Grand,Mar 12 2023 - Positive,0
-South Grand,Mar 13 2023,1
+South Grand,Mar 13 2023,0
 South Grand,Mar 13 2023 - Neutral,0
 South Grand,Mar 13 2023 - Negative,0
 South Grand,Mar 13 2023 - Positive,0
-South Grand,Mar 14 2023,3
-South Grand,Mar 14 2023 - Neutral,1
+South Grand,Mar 14 2023,0
+South Grand,Mar 14 2023 - Neutral,0
 South Grand,Mar 14 2023 - Negative,0
-South Grand,Mar 14 2023 - Positive,2
+South Grand,Mar 14 2023 - Positive,0
 South Grand,Mar 15 2023,0
 South Grand,Mar 15 2023 - Neutral,0
 South Grand,Mar 15 2023 - Negative,0
 South Grand,Mar 15 2023 - Positive,0
-South Grand,Mar 16 2023,2
+South Grand,Mar 16 2023,0
 South Grand,Mar 16 2023 - Neutral,0
 South Grand,Mar 16 2023 - Negative,0
 South Grand,Mar 16 2023 - Positive,0
@@ -5627,16 +5627,16 @@ South Grand,Mar 18 2023,0
 South Grand,Mar 18 2023 - Neutral,0
 South Grand,Mar 18 2023 - Negative,0
 South Grand,Mar 18 2023 - Positive,0
-South Grand,Mar 19 2023,2
-South Grand,Mar 19 2023 - Neutral,2
+South Grand,Mar 19 2023,0
+South Grand,Mar 19 2023 - Neutral,0
 South Grand,Mar 19 2023 - Negative,0
 South Grand,Mar 19 2023 - Positive,0
-South Grand,Mar 20 2023,1
-South Grand,Mar 20 2023 - Neutral,1
+South Grand,Mar 20 2023,0
+South Grand,Mar 20 2023 - Neutral,0
 South Grand,Mar 20 2023 - Negative,0
 South Grand,Mar 20 2023 - Positive,0
-South Grand,Mar 21 2023,1
-South Grand,Mar 21 2023 - Neutral,1
+South Grand,Mar 21 2023,0
+South Grand,Mar 21 2023 - Neutral,0
 South Grand,Mar 21 2023 - Negative,0
 South Grand,Mar 21 2023 - Positive,0
 South Grand,Mar 22 2023,0
@@ -5647,12 +5647,12 @@ South Grand,Mar 23 2023,0
 South Grand,Mar 23 2023 - Neutral,0
 South Grand,Mar 23 2023 - Negative,0
 South Grand,Mar 23 2023 - Positive,0
-South Grand,Mar 24 2023,1
+South Grand,Mar 24 2023,0
 South Grand,Mar 24 2023 - Neutral,0
 South Grand,Mar 24 2023 - Negative,0
-South Grand,Mar 24 2023 - Positive,1
-South Grand,Mar 25 2023,1
-South Grand,Mar 25 2023 - Neutral,1
+South Grand,Mar 24 2023 - Positive,0
+South Grand,Mar 25 2023,0
+South Grand,Mar 25 2023 - Neutral,0
 South Grand,Mar 25 2023 - Negative,0
 South Grand,Mar 25 2023 - Positive,0
 South Grand,Mar 26 2023,0
@@ -5671,14 +5671,14 @@ South Grand,Mar 29 2023,0
 South Grand,Mar 29 2023 - Neutral,0
 South Grand,Mar 29 2023 - Negative,0
 South Grand,Mar 29 2023 - Positive,0
-South Grand,Mar 30 2023,1
+South Grand,Mar 30 2023,0
 South Grand,Mar 30 2023 - Neutral,0
-South Grand,Mar 30 2023 - Negative,1
+South Grand,Mar 30 2023 - Negative,0
 South Grand,Mar 30 2023 - Positive,0
-South Grand,Mar 31 2023,2
-South Grand,Mar 31 2023 - Neutral,1
+South Grand,Mar 31 2023,0
+South Grand,Mar 31 2023 - Neutral,0
 South Grand,Mar 31 2023 - Negative,0
-South Grand,Mar 31 2023 - Positive,1
+South Grand,Mar 31 2023 - Positive,0
 The Delmar Loop,Total,0
 The Delmar Loop,Total - Neutral,0
 The Delmar Loop,Total - Negative,0
@@ -5963,18 +5963,18 @@ The Delmar Loop,Mar 31 2023,0
 The Delmar Loop,Mar 31 2023 - Neutral,0
 The Delmar Loop,Mar 31 2023 - Negative,0
 The Delmar Loop,Mar 31 2023 - Positive,0
-The Grove,Total,52
-The Grove,Total - Neutral,33
-The Grove,Total - Negative,4
-The Grove,Total - Positive,12
+The Grove,Total,20
+The Grove,Total - Neutral,13
+The Grove,Total - Negative,1
+The Grove,Total - Positive,3
 The Grove,Feb,20
 The Grove,Feb - Neutral,13
 The Grove,Feb - Negative,1
 The Grove,Feb - Positive,3
-The Grove,Mar,32
-The Grove,Mar - Neutral,20
-The Grove,Mar - Negative,3
-The Grove,Mar - Positive,9
+The Grove,Mar,0
+The Grove,Mar - Neutral,0
+The Grove,Mar - Negative,0
+The Grove,Mar - Positive,0
 The Grove,Feb 01 - Feb 07 2023,9
 The Grove,Feb 01 - Feb 07 2023 - Neutral,5
 The Grove,Feb 01 - Feb 07 2023 - Negative,0
@@ -5991,24 +5991,24 @@ The Grove,Feb 22 - Feb 28 2023,5
 The Grove,Feb 22 - Feb 28 2023 - Neutral,5
 The Grove,Feb 22 - Feb 28 2023 - Negative,0
 The Grove,Feb 22 - Feb 28 2023 - Positive,0
-The Grove,Mar 01 - Mar 07 2023,3
+The Grove,Mar 01 - Mar 07 2023,0
 The Grove,Mar 01 - Mar 07 2023 - Neutral,0
 The Grove,Mar 01 - Mar 07 2023 - Negative,0
-The Grove,Mar 01 - Mar 07 2023 - Positive,3
-The Grove,Mar 08 - Mar 14 2023,9
-The Grove,Mar 08 - Mar 14 2023 - Neutral,6
-The Grove,Mar 08 - Mar 14 2023 - Negative,3
+The Grove,Mar 01 - Mar 07 2023 - Positive,0
+The Grove,Mar 08 - Mar 14 2023,0
+The Grove,Mar 08 - Mar 14 2023 - Neutral,0
+The Grove,Mar 08 - Mar 14 2023 - Negative,0
 The Grove,Mar 08 - Mar 14 2023 - Positive,0
-The Grove,Mar 15 - Mar 21 2023,9
-The Grove,Mar 15 - Mar 21 2023 - Neutral,5
+The Grove,Mar 15 - Mar 21 2023,0
+The Grove,Mar 15 - Mar 21 2023 - Neutral,0
 The Grove,Mar 15 - Mar 21 2023 - Negative,0
-The Grove,Mar 15 - Mar 21 2023 - Positive,4
-The Grove,Mar 22 - Mar 28 2023,10
-The Grove,Mar 22 - Mar 28 2023 - Neutral,8
+The Grove,Mar 15 - Mar 21 2023 - Positive,0
+The Grove,Mar 22 - Mar 28 2023,0
+The Grove,Mar 22 - Mar 28 2023 - Neutral,0
 The Grove,Mar 22 - Mar 28 2023 - Negative,0
-The Grove,Mar 22 - Mar 28 2023 - Positive,2
-The Grove,Mar 29 - Apr 04 2023,1
-The Grove,Mar 29 - Apr 04 2023 - Neutral,1
+The Grove,Mar 22 - Mar 28 2023 - Positive,0
+The Grove,Mar 29 - Apr 04 2023,0
+The Grove,Mar 29 - Apr 04 2023 - Neutral,0
 The Grove,Mar 29 - Apr 04 2023 - Negative,0
 The Grove,Mar 29 - Apr 04 2023 - Positive,0
 The Grove,Feb 01 2023,0
@@ -6123,10 +6123,10 @@ The Grove,Feb 28 2023,1
 The Grove,Feb 28 2023 - Neutral,1
 The Grove,Feb 28 2023 - Negative,0
 The Grove,Feb 28 2023 - Positive,0
-The Grove,Mar 01 2023,1
+The Grove,Mar 01 2023,0
 The Grove,Mar 01 2023 - Neutral,0
 The Grove,Mar 01 2023 - Negative,0
-The Grove,Mar 01 2023 - Positive,1
+The Grove,Mar 01 2023 - Positive,0
 The Grove,Mar 02 2023,0
 The Grove,Mar 02 2023 - Neutral,0
 The Grove,Mar 02 2023 - Negative,0
@@ -6139,50 +6139,50 @@ The Grove,Mar 04 2023,0
 The Grove,Mar 04 2023 - Neutral,0
 The Grove,Mar 04 2023 - Negative,0
 The Grove,Mar 04 2023 - Positive,0
-The Grove,Mar 05 2023,1
+The Grove,Mar 05 2023,0
 The Grove,Mar 05 2023 - Neutral,0
 The Grove,Mar 05 2023 - Negative,0
-The Grove,Mar 05 2023 - Positive,1
+The Grove,Mar 05 2023 - Positive,0
 The Grove,Mar 06 2023,0
 The Grove,Mar 06 2023 - Neutral,0
 The Grove,Mar 06 2023 - Negative,0
 The Grove,Mar 06 2023 - Positive,0
-The Grove,Mar 07 2023,1
+The Grove,Mar 07 2023,0
 The Grove,Mar 07 2023 - Neutral,0
 The Grove,Mar 07 2023 - Negative,0
-The Grove,Mar 07 2023 - Positive,1
-The Grove,Mar 08 2023,1
+The Grove,Mar 07 2023 - Positive,0
+The Grove,Mar 08 2023,0
 The Grove,Mar 08 2023 - Neutral,0
-The Grove,Mar 08 2023 - Negative,1
+The Grove,Mar 08 2023 - Negative,0
 The Grove,Mar 08 2023 - Positive,0
-The Grove,Mar 09 2023,1
-The Grove,Mar 09 2023 - Neutral,1
+The Grove,Mar 09 2023,0
+The Grove,Mar 09 2023 - Neutral,0
 The Grove,Mar 09 2023 - Negative,0
 The Grove,Mar 09 2023 - Positive,0
 The Grove,Mar 10 2023,0
 The Grove,Mar 10 2023 - Neutral,0
 The Grove,Mar 10 2023 - Negative,0
 The Grove,Mar 10 2023 - Positive,0
-The Grove,Mar 11 2023,1
-The Grove,Mar 11 2023 - Neutral,1
+The Grove,Mar 11 2023,0
+The Grove,Mar 11 2023 - Neutral,0
 The Grove,Mar 11 2023 - Negative,0
 The Grove,Mar 11 2023 - Positive,0
 The Grove,Mar 12 2023,0
 The Grove,Mar 12 2023 - Neutral,0
 The Grove,Mar 12 2023 - Negative,0
 The Grove,Mar 12 2023 - Positive,0
-The Grove,Mar 13 2023,1
-The Grove,Mar 13 2023 - Neutral,1
+The Grove,Mar 13 2023,0
+The Grove,Mar 13 2023 - Neutral,0
 The Grove,Mar 13 2023 - Negative,0
 The Grove,Mar 13 2023 - Positive,0
-The Grove,Mar 14 2023,5
-The Grove,Mar 14 2023 - Neutral,3
-The Grove,Mar 14 2023 - Negative,2
+The Grove,Mar 14 2023,0
+The Grove,Mar 14 2023 - Neutral,0
+The Grove,Mar 14 2023 - Negative,0
 The Grove,Mar 14 2023 - Positive,0
-The Grove,Mar 15 2023,2
-The Grove,Mar 15 2023 - Neutral,1
+The Grove,Mar 15 2023,0
+The Grove,Mar 15 2023 - Neutral,0
 The Grove,Mar 15 2023 - Negative,0
-The Grove,Mar 15 2023 - Positive,1
+The Grove,Mar 15 2023 - Positive,0
 The Grove,Mar 16 2023,0
 The Grove,Mar 16 2023 - Neutral,0
 The Grove,Mar 16 2023 - Negative,0
@@ -6191,26 +6191,26 @@ The Grove,Mar 17 2023,0
 The Grove,Mar 17 2023 - Neutral,0
 The Grove,Mar 17 2023 - Negative,0
 The Grove,Mar 17 2023 - Positive,0
-The Grove,Mar 18 2023,1
+The Grove,Mar 18 2023,0
 The Grove,Mar 18 2023 - Neutral,0
 The Grove,Mar 18 2023 - Negative,0
-The Grove,Mar 18 2023 - Positive,1
-The Grove,Mar 19 2023,2
-The Grove,Mar 19 2023 - Neutral,2
+The Grove,Mar 18 2023 - Positive,0
+The Grove,Mar 19 2023,0
+The Grove,Mar 19 2023 - Neutral,0
 The Grove,Mar 19 2023 - Negative,0
 The Grove,Mar 19 2023 - Positive,0
-The Grove,Mar 20 2023,1
+The Grove,Mar 20 2023,0
 The Grove,Mar 20 2023 - Neutral,0
 The Grove,Mar 20 2023 - Negative,0
-The Grove,Mar 20 2023 - Positive,1
-The Grove,Mar 21 2023,3
-The Grove,Mar 21 2023 - Neutral,2
+The Grove,Mar 20 2023 - Positive,0
+The Grove,Mar 21 2023,0
+The Grove,Mar 21 2023 - Neutral,0
 The Grove,Mar 21 2023 - Negative,0
-The Grove,Mar 21 2023 - Positive,1
-The Grove,Mar 22 2023,1
+The Grove,Mar 21 2023 - Positive,0
+The Grove,Mar 22 2023,0
 The Grove,Mar 22 2023 - Neutral,0
 The Grove,Mar 22 2023 - Negative,0
-The Grove,Mar 22 2023 - Positive,1
+The Grove,Mar 22 2023 - Positive,0
 The Grove,Mar 23 2023,0
 The Grove,Mar 23 2023 - Neutral,0
 The Grove,Mar 23 2023 - Negative,0
@@ -6219,24 +6219,24 @@ The Grove,Mar 24 2023,0
 The Grove,Mar 24 2023 - Neutral,0
 The Grove,Mar 24 2023 - Negative,0
 The Grove,Mar 24 2023 - Positive,0
-The Grove,Mar 25 2023,4
-The Grove,Mar 25 2023 - Neutral,4
+The Grove,Mar 25 2023,0
+The Grove,Mar 25 2023 - Neutral,0
 The Grove,Mar 25 2023 - Negative,0
 The Grove,Mar 25 2023 - Positive,0
-The Grove,Mar 26 2023,1
+The Grove,Mar 26 2023,0
 The Grove,Mar 26 2023 - Neutral,0
 The Grove,Mar 26 2023 - Negative,0
-The Grove,Mar 26 2023 - Positive,1
-The Grove,Mar 27 2023,3
-The Grove,Mar 27 2023 - Neutral,3
+The Grove,Mar 26 2023 - Positive,0
+The Grove,Mar 27 2023,0
+The Grove,Mar 27 2023 - Neutral,0
 The Grove,Mar 27 2023 - Negative,0
 The Grove,Mar 27 2023 - Positive,0
-The Grove,Mar 28 2023,1
-The Grove,Mar 28 2023 - Neutral,1
+The Grove,Mar 28 2023,0
+The Grove,Mar 28 2023 - Neutral,0
 The Grove,Mar 28 2023 - Negative,0
 The Grove,Mar 28 2023 - Positive,0
-The Grove,Mar 29 2023,1
-The Grove,Mar 29 2023 - Neutral,1
+The Grove,Mar 29 2023,0
+The Grove,Mar 29 2023 - Neutral,0
 The Grove,Mar 29 2023 - Negative,0
 The Grove,Mar 29 2023 - Positive,0
 The Grove,Mar 30 2023,0
@@ -6247,18 +6247,18 @@ The Grove,Mar 31 2023,0
 The Grove,Mar 31 2023 - Neutral,0
 The Grove,Mar 31 2023 - Negative,0
 The Grove,Mar 31 2023 - Positive,0
-The Hill,Total,109
-The Hill,Total - Neutral,51
-The Hill,Total - Negative,13
-The Hill,Total - Positive,43
+The Hill,Total,52
+The Hill,Total - Neutral,23
+The Hill,Total - Negative,7
+The Hill,Total - Positive,21
 The Hill,Feb,50
 The Hill,Feb - Neutral,21
 The Hill,Feb - Negative,7
 The Hill,Feb - Positive,21
-The Hill,Mar,59
-The Hill,Mar - Neutral,30
-The Hill,Mar - Negative,6
-The Hill,Mar - Positive,22
+The Hill,Mar,2
+The Hill,Mar - Neutral,2
+The Hill,Mar - Negative,0
+The Hill,Mar - Positive,0
 The Hill,Feb 01 - Feb 07 2023,12
 The Hill,Feb 01 - Feb 07 2023 - Neutral,8
 The Hill,Feb 01 - Feb 07 2023 - Negative,0
@@ -6275,24 +6275,24 @@ The Hill,Feb 22 - Feb 28 2023,16
 The Hill,Feb 22 - Feb 28 2023 - Neutral,5
 The Hill,Feb 22 - Feb 28 2023 - Negative,3
 The Hill,Feb 22 - Feb 28 2023 - Positive,7
-The Hill,Mar 01 - Mar 07 2023,22
-The Hill,Mar 01 - Mar 07 2023 - Neutral,13
-The Hill,Mar 01 - Mar 07 2023 - Negative,4
-The Hill,Mar 01 - Mar 07 2023 - Positive,5
-The Hill,Mar 08 - Mar 14 2023,19
-The Hill,Mar 08 - Mar 14 2023 - Neutral,11
-The Hill,Mar 08 - Mar 14 2023 - Negative,1
-The Hill,Mar 08 - Mar 14 2023 - Positive,6
-The Hill,Mar 15 - Mar 21 2023,11
-The Hill,Mar 15 - Mar 21 2023 - Neutral,4
+The Hill,Mar 01 - Mar 07 2023,2
+The Hill,Mar 01 - Mar 07 2023 - Neutral,2
+The Hill,Mar 01 - Mar 07 2023 - Negative,0
+The Hill,Mar 01 - Mar 07 2023 - Positive,0
+The Hill,Mar 08 - Mar 14 2023,0
+The Hill,Mar 08 - Mar 14 2023 - Neutral,0
+The Hill,Mar 08 - Mar 14 2023 - Negative,0
+The Hill,Mar 08 - Mar 14 2023 - Positive,0
+The Hill,Mar 15 - Mar 21 2023,0
+The Hill,Mar 15 - Mar 21 2023 - Neutral,0
 The Hill,Mar 15 - Mar 21 2023 - Negative,0
-The Hill,Mar 15 - Mar 21 2023 - Positive,7
-The Hill,Mar 22 - Mar 28 2023,6
-The Hill,Mar 22 - Mar 28 2023 - Neutral,1
-The Hill,Mar 22 - Mar 28 2023 - Negative,1
-The Hill,Mar 22 - Mar 28 2023 - Positive,4
-The Hill,Mar 29 - Apr 04 2023,1
-The Hill,Mar 29 - Apr 04 2023 - Neutral,1
+The Hill,Mar 15 - Mar 21 2023 - Positive,0
+The Hill,Mar 22 - Mar 28 2023,0
+The Hill,Mar 22 - Mar 28 2023 - Neutral,0
+The Hill,Mar 22 - Mar 28 2023 - Negative,0
+The Hill,Mar 22 - Mar 28 2023 - Positive,0
+The Hill,Mar 29 - Apr 04 2023,0
+The Hill,Mar 29 - Apr 04 2023 - Neutral,0
 The Hill,Mar 29 - Apr 04 2023 - Negative,0
 The Hill,Mar 29 - Apr 04 2023 - Positive,0
 The Hill,Feb 01 2023,2
@@ -6407,114 +6407,114 @@ The Hill,Feb 28 2023,3
 The Hill,Feb 28 2023 - Neutral,2
 The Hill,Feb 28 2023 - Negative,0
 The Hill,Feb 28 2023 - Positive,1
-The Hill,Mar 01 2023,3
-The Hill,Mar 01 2023 - Neutral,3
+The Hill,Mar 01 2023,2
+The Hill,Mar 01 2023 - Neutral,2
 The Hill,Mar 01 2023 - Negative,0
 The Hill,Mar 01 2023 - Positive,0
-The Hill,Mar 02 2023,2
-The Hill,Mar 02 2023 - Neutral,2
+The Hill,Mar 02 2023,0
+The Hill,Mar 02 2023 - Neutral,0
 The Hill,Mar 02 2023 - Negative,0
 The Hill,Mar 02 2023 - Positive,0
-The Hill,Mar 03 2023,1
-The Hill,Mar 03 2023 - Neutral,1
+The Hill,Mar 03 2023,0
+The Hill,Mar 03 2023 - Neutral,0
 The Hill,Mar 03 2023 - Negative,0
 The Hill,Mar 03 2023 - Positive,0
-The Hill,Mar 04 2023,3
-The Hill,Mar 04 2023 - Neutral,1
-The Hill,Mar 04 2023 - Negative,2
+The Hill,Mar 04 2023,0
+The Hill,Mar 04 2023 - Neutral,0
+The Hill,Mar 04 2023 - Negative,0
 The Hill,Mar 04 2023 - Positive,0
-The Hill,Mar 05 2023,1
+The Hill,Mar 05 2023,0
 The Hill,Mar 05 2023 - Neutral,0
 The Hill,Mar 05 2023 - Negative,0
-The Hill,Mar 05 2023 - Positive,1
-The Hill,Mar 06 2023,10
-The Hill,Mar 06 2023 - Neutral,5
-The Hill,Mar 06 2023 - Negative,1
-The Hill,Mar 06 2023 - Positive,4
-The Hill,Mar 07 2023,2
-The Hill,Mar 07 2023 - Neutral,1
-The Hill,Mar 07 2023 - Negative,1
+The Hill,Mar 05 2023 - Positive,0
+The Hill,Mar 06 2023,0
+The Hill,Mar 06 2023 - Neutral,0
+The Hill,Mar 06 2023 - Negative,0
+The Hill,Mar 06 2023 - Positive,0
+The Hill,Mar 07 2023,0
+The Hill,Mar 07 2023 - Neutral,0
+The Hill,Mar 07 2023 - Negative,0
 The Hill,Mar 07 2023 - Positive,0
-The Hill,Mar 08 2023,1
+The Hill,Mar 08 2023,0
 The Hill,Mar 08 2023 - Neutral,0
 The Hill,Mar 08 2023 - Negative,0
-The Hill,Mar 08 2023 - Positive,1
-The Hill,Mar 09 2023,2
-The Hill,Mar 09 2023 - Neutral,1
+The Hill,Mar 08 2023 - Positive,0
+The Hill,Mar 09 2023,0
+The Hill,Mar 09 2023 - Neutral,0
 The Hill,Mar 09 2023 - Negative,0
-The Hill,Mar 09 2023 - Positive,1
-The Hill,Mar 10 2023,1
-The Hill,Mar 10 2023 - Neutral,1
+The Hill,Mar 09 2023 - Positive,0
+The Hill,Mar 10 2023,0
+The Hill,Mar 10 2023 - Neutral,0
 The Hill,Mar 10 2023 - Negative,0
 The Hill,Mar 10 2023 - Positive,0
-The Hill,Mar 11 2023,6
-The Hill,Mar 11 2023 - Neutral,2
-The Hill,Mar 11 2023 - Negative,1
-The Hill,Mar 11 2023 - Positive,2
-The Hill,Mar 12 2023,5
-The Hill,Mar 12 2023 - Neutral,5
+The Hill,Mar 11 2023,0
+The Hill,Mar 11 2023 - Neutral,0
+The Hill,Mar 11 2023 - Negative,0
+The Hill,Mar 11 2023 - Positive,0
+The Hill,Mar 12 2023,0
+The Hill,Mar 12 2023 - Neutral,0
 The Hill,Mar 12 2023 - Negative,0
 The Hill,Mar 12 2023 - Positive,0
-The Hill,Mar 13 2023,1
-The Hill,Mar 13 2023 - Neutral,1
+The Hill,Mar 13 2023,0
+The Hill,Mar 13 2023 - Neutral,0
 The Hill,Mar 13 2023 - Negative,0
 The Hill,Mar 13 2023 - Positive,0
-The Hill,Mar 14 2023,3
-The Hill,Mar 14 2023 - Neutral,1
+The Hill,Mar 14 2023,0
+The Hill,Mar 14 2023 - Neutral,0
 The Hill,Mar 14 2023 - Negative,0
-The Hill,Mar 14 2023 - Positive,2
+The Hill,Mar 14 2023 - Positive,0
 The Hill,Mar 15 2023,0
 The Hill,Mar 15 2023 - Neutral,0
 The Hill,Mar 15 2023 - Negative,0
 The Hill,Mar 15 2023 - Positive,0
-The Hill,Mar 16 2023,4
-The Hill,Mar 16 2023 - Neutral,4
+The Hill,Mar 16 2023,0
+The Hill,Mar 16 2023 - Neutral,0
 The Hill,Mar 16 2023 - Negative,0
 The Hill,Mar 16 2023 - Positive,0
 The Hill,Mar 17 2023,0
 The Hill,Mar 17 2023 - Neutral,0
 The Hill,Mar 17 2023 - Negative,0
 The Hill,Mar 17 2023 - Positive,0
-The Hill,Mar 18 2023,3
+The Hill,Mar 18 2023,0
 The Hill,Mar 18 2023 - Neutral,0
 The Hill,Mar 18 2023 - Negative,0
-The Hill,Mar 18 2023 - Positive,3
-The Hill,Mar 19 2023,1
+The Hill,Mar 18 2023 - Positive,0
+The Hill,Mar 19 2023,0
 The Hill,Mar 19 2023 - Neutral,0
 The Hill,Mar 19 2023 - Negative,0
-The Hill,Mar 19 2023 - Positive,1
-The Hill,Mar 20 2023,3
+The Hill,Mar 19 2023 - Positive,0
+The Hill,Mar 20 2023,0
 The Hill,Mar 20 2023 - Neutral,0
 The Hill,Mar 20 2023 - Negative,0
-The Hill,Mar 20 2023 - Positive,3
+The Hill,Mar 20 2023 - Positive,0
 The Hill,Mar 21 2023,0
 The Hill,Mar 21 2023 - Neutral,0
 The Hill,Mar 21 2023 - Negative,0
 The Hill,Mar 21 2023 - Positive,0
-The Hill,Mar 22 2023,1
+The Hill,Mar 22 2023,0
 The Hill,Mar 22 2023 - Neutral,0
-The Hill,Mar 22 2023 - Negative,1
+The Hill,Mar 22 2023 - Negative,0
 The Hill,Mar 22 2023 - Positive,0
-The Hill,Mar 23 2023,1
+The Hill,Mar 23 2023,0
 The Hill,Mar 23 2023 - Neutral,0
 The Hill,Mar 23 2023 - Negative,0
-The Hill,Mar 23 2023 - Positive,1
-The Hill,Mar 24 2023,1
+The Hill,Mar 23 2023 - Positive,0
+The Hill,Mar 24 2023,0
 The Hill,Mar 24 2023 - Neutral,0
 The Hill,Mar 24 2023 - Negative,0
-The Hill,Mar 24 2023 - Positive,1
-The Hill,Mar 25 2023,1
-The Hill,Mar 25 2023 - Neutral,1
+The Hill,Mar 24 2023 - Positive,0
+The Hill,Mar 25 2023,0
+The Hill,Mar 25 2023 - Neutral,0
 The Hill,Mar 25 2023 - Negative,0
 The Hill,Mar 25 2023 - Positive,0
 The Hill,Mar 26 2023,0
 The Hill,Mar 26 2023 - Neutral,0
 The Hill,Mar 26 2023 - Negative,0
 The Hill,Mar 26 2023 - Positive,0
-The Hill,Mar 27 2023,2
+The Hill,Mar 27 2023,0
 The Hill,Mar 27 2023 - Neutral,0
 The Hill,Mar 27 2023 - Negative,0
-The Hill,Mar 27 2023 - Positive,2
+The Hill,Mar 27 2023 - Positive,0
 The Hill,Mar 28 2023,0
 The Hill,Mar 28 2023 - Neutral,0
 The Hill,Mar 28 2023 - Negative,0
@@ -6527,22 +6527,22 @@ The Hill,Mar 30 2023,0
 The Hill,Mar 30 2023 - Neutral,0
 The Hill,Mar 30 2023 - Negative,0
 The Hill,Mar 30 2023 - Positive,0
-The Hill,Mar 31 2023,1
-The Hill,Mar 31 2023 - Neutral,1
+The Hill,Mar 31 2023,0
+The Hill,Mar 31 2023 - Neutral,0
 The Hill,Mar 31 2023 - Negative,0
 The Hill,Mar 31 2023 - Positive,0
-The Ville,Total,23
-The Ville,Total - Neutral,6
+The Ville,Total,19
+The Ville,Total - Neutral,3
 The Ville,Total - Negative,0
-The Ville,Total - Positive,1
+The Ville,Total - Positive,0
 The Ville,Feb,19
 The Ville,Feb - Neutral,3
 The Ville,Feb - Negative,0
 The Ville,Feb - Positive,0
-The Ville,Mar,4
-The Ville,Mar - Neutral,3
+The Ville,Mar,0
+The Ville,Mar - Neutral,0
 The Ville,Mar - Negative,0
-The Ville,Mar - Positive,1
+The Ville,Mar - Positive,0
 The Ville,Feb 01 - Feb 07 2023,3
 The Ville,Feb 01 - Feb 07 2023 - Neutral,0
 The Ville,Feb 01 - Feb 07 2023 - Negative,0
@@ -6563,16 +6563,16 @@ The Ville,Mar 01 - Mar 07 2023,0
 The Ville,Mar 01 - Mar 07 2023 - Neutral,0
 The Ville,Mar 01 - Mar 07 2023 - Negative,0
 The Ville,Mar 01 - Mar 07 2023 - Positive,0
-The Ville,Mar 08 - Mar 14 2023,1
+The Ville,Mar 08 - Mar 14 2023,0
 The Ville,Mar 08 - Mar 14 2023 - Neutral,0
 The Ville,Mar 08 - Mar 14 2023 - Negative,0
-The Ville,Mar 08 - Mar 14 2023 - Positive,1
-The Ville,Mar 15 - Mar 21 2023,1
-The Ville,Mar 15 - Mar 21 2023 - Neutral,1
+The Ville,Mar 08 - Mar 14 2023 - Positive,0
+The Ville,Mar 15 - Mar 21 2023,0
+The Ville,Mar 15 - Mar 21 2023 - Neutral,0
 The Ville,Mar 15 - Mar 21 2023 - Negative,0
 The Ville,Mar 15 - Mar 21 2023 - Positive,0
-The Ville,Mar 22 - Mar 28 2023,2
-The Ville,Mar 22 - Mar 28 2023 - Neutral,2
+The Ville,Mar 22 - Mar 28 2023,0
+The Ville,Mar 22 - Mar 28 2023 - Neutral,0
 The Ville,Mar 22 - Mar 28 2023 - Negative,0
 The Ville,Mar 22 - Mar 28 2023 - Positive,0
 The Ville,Mar 29 - Apr 04 2023,0
@@ -6723,10 +6723,10 @@ The Ville,Mar 08 2023,0
 The Ville,Mar 08 2023 - Neutral,0
 The Ville,Mar 08 2023 - Negative,0
 The Ville,Mar 08 2023 - Positive,0
-The Ville,Mar 09 2023,1
+The Ville,Mar 09 2023,0
 The Ville,Mar 09 2023 - Neutral,0
 The Ville,Mar 09 2023 - Negative,0
-The Ville,Mar 09 2023 - Positive,1
+The Ville,Mar 09 2023 - Positive,0
 The Ville,Mar 10 2023,0
 The Ville,Mar 10 2023 - Neutral,0
 The Ville,Mar 10 2023 - Negative,0
@@ -6751,8 +6751,8 @@ The Ville,Mar 15 2023,0
 The Ville,Mar 15 2023 - Neutral,0
 The Ville,Mar 15 2023 - Negative,0
 The Ville,Mar 15 2023 - Positive,0
-The Ville,Mar 16 2023,1
-The Ville,Mar 16 2023 - Neutral,1
+The Ville,Mar 16 2023,0
+The Ville,Mar 16 2023 - Neutral,0
 The Ville,Mar 16 2023 - Negative,0
 The Ville,Mar 16 2023 - Positive,0
 The Ville,Mar 17 2023,0
@@ -6783,12 +6783,12 @@ The Ville,Mar 23 2023,0
 The Ville,Mar 23 2023 - Neutral,0
 The Ville,Mar 23 2023 - Negative,0
 The Ville,Mar 23 2023 - Positive,0
-The Ville,Mar 24 2023,1
-The Ville,Mar 24 2023 - Neutral,1
+The Ville,Mar 24 2023,0
+The Ville,Mar 24 2023 - Neutral,0
 The Ville,Mar 24 2023 - Negative,0
 The Ville,Mar 24 2023 - Positive,0
-The Ville,Mar 25 2023,1
-The Ville,Mar 25 2023 - Neutral,1
+The Ville,Mar 25 2023,0
+The Ville,Mar 25 2023 - Neutral,0
 The Ville,Mar 25 2023 - Negative,0
 The Ville,Mar 25 2023 - Positive,0
 The Ville,Mar 26 2023,0
@@ -6815,18 +6815,18 @@ The Ville,Mar 31 2023,0
 The Ville,Mar 31 2023 - Neutral,0
 The Ville,Mar 31 2023 - Negative,0
 The Ville,Mar 31 2023 - Positive,0
-Webster Groves,Total,691
-Webster Groves,Total - Neutral,286
-Webster Groves,Total - Negative,153
-Webster Groves,Total - Positive,201
+Webster Groves,Total,242
+Webster Groves,Total - Neutral,124
+Webster Groves,Total - Negative,49
+Webster Groves,Total - Positive,46
 Webster Groves,Feb,241
 Webster Groves,Feb - Neutral,124
 Webster Groves,Feb - Negative,49
 Webster Groves,Feb - Positive,45
-Webster Groves,Mar,450
-Webster Groves,Mar - Neutral,162
-Webster Groves,Mar - Negative,104
-Webster Groves,Mar - Positive,156
+Webster Groves,Mar,1
+Webster Groves,Mar - Neutral,0
+Webster Groves,Mar - Negative,0
+Webster Groves,Mar - Positive,1
 Webster Groves,Feb 01 - Feb 07 2023,96
 Webster Groves,Feb 01 - Feb 07 2023 - Neutral,48
 Webster Groves,Feb 01 - Feb 07 2023 - Negative,21
@@ -6843,26 +6843,26 @@ Webster Groves,Feb 22 - Feb 28 2023,38
 Webster Groves,Feb 22 - Feb 28 2023 - Neutral,10
 Webster Groves,Feb 22 - Feb 28 2023 - Negative,9
 Webster Groves,Feb 22 - Feb 28 2023 - Positive,11
-Webster Groves,Mar 01 - Mar 07 2023,333
-Webster Groves,Mar 01 - Mar 07 2023 - Neutral,106
-Webster Groves,Mar 01 - Mar 07 2023 - Negative,87
-Webster Groves,Mar 01 - Mar 07 2023 - Positive,117
-Webster Groves,Mar 08 - Mar 14 2023,31
-Webster Groves,Mar 08 - Mar 14 2023 - Neutral,19
-Webster Groves,Mar 08 - Mar 14 2023 - Negative,3
-Webster Groves,Mar 08 - Mar 14 2023 - Positive,8
-Webster Groves,Mar 15 - Mar 21 2023,30
-Webster Groves,Mar 15 - Mar 21 2023 - Neutral,14
-Webster Groves,Mar 15 - Mar 21 2023 - Negative,4
-Webster Groves,Mar 15 - Mar 21 2023 - Positive,11
-Webster Groves,Mar 22 - Mar 28 2023,33
-Webster Groves,Mar 22 - Mar 28 2023 - Neutral,14
-Webster Groves,Mar 22 - Mar 28 2023 - Negative,6
-Webster Groves,Mar 22 - Mar 28 2023 - Positive,11
-Webster Groves,Mar 29 - Apr 04 2023,23
-Webster Groves,Mar 29 - Apr 04 2023 - Neutral,9
-Webster Groves,Mar 29 - Apr 04 2023 - Negative,4
-Webster Groves,Mar 29 - Apr 04 2023 - Positive,9
+Webster Groves,Mar 01 - Mar 07 2023,1
+Webster Groves,Mar 01 - Mar 07 2023 - Neutral,0
+Webster Groves,Mar 01 - Mar 07 2023 - Negative,0
+Webster Groves,Mar 01 - Mar 07 2023 - Positive,1
+Webster Groves,Mar 08 - Mar 14 2023,0
+Webster Groves,Mar 08 - Mar 14 2023 - Neutral,0
+Webster Groves,Mar 08 - Mar 14 2023 - Negative,0
+Webster Groves,Mar 08 - Mar 14 2023 - Positive,0
+Webster Groves,Mar 15 - Mar 21 2023,0
+Webster Groves,Mar 15 - Mar 21 2023 - Neutral,0
+Webster Groves,Mar 15 - Mar 21 2023 - Negative,0
+Webster Groves,Mar 15 - Mar 21 2023 - Positive,0
+Webster Groves,Mar 22 - Mar 28 2023,0
+Webster Groves,Mar 22 - Mar 28 2023 - Neutral,0
+Webster Groves,Mar 22 - Mar 28 2023 - Negative,0
+Webster Groves,Mar 22 - Mar 28 2023 - Positive,0
+Webster Groves,Mar 29 - Apr 04 2023,0
+Webster Groves,Mar 29 - Apr 04 2023 - Neutral,0
+Webster Groves,Mar 29 - Apr 04 2023 - Negative,0
+Webster Groves,Mar 29 - Apr 04 2023 - Positive,0
 Webster Groves,Feb 01 2023,12
 Webster Groves,Feb 01 2023 - Neutral,7
 Webster Groves,Feb 01 2023 - Negative,0
@@ -6975,144 +6975,144 @@ Webster Groves,Feb 28 2023,2
 Webster Groves,Feb 28 2023 - Neutral,0
 Webster Groves,Feb 28 2023 - Negative,1
 Webster Groves,Feb 28 2023 - Positive,1
-Webster Groves,Mar 01 2023,60
-Webster Groves,Mar 01 2023 - Neutral,23
-Webster Groves,Mar 01 2023 - Negative,11
-Webster Groves,Mar 01 2023 - Positive,24
-Webster Groves,Mar 02 2023,87
-Webster Groves,Mar 02 2023 - Neutral,24
-Webster Groves,Mar 02 2023 - Negative,34
-Webster Groves,Mar 02 2023 - Positive,23
-Webster Groves,Mar 03 2023,39
-Webster Groves,Mar 03 2023 - Neutral,10
-Webster Groves,Mar 03 2023 - Negative,8
-Webster Groves,Mar 03 2023 - Positive,15
-Webster Groves,Mar 04 2023,93
-Webster Groves,Mar 04 2023 - Neutral,28
-Webster Groves,Mar 04 2023 - Negative,30
-Webster Groves,Mar 04 2023 - Positive,32
-Webster Groves,Mar 05 2023,25
-Webster Groves,Mar 05 2023 - Neutral,8
-Webster Groves,Mar 05 2023 - Negative,4
-Webster Groves,Mar 05 2023 - Positive,13
-Webster Groves,Mar 06 2023,17
-Webster Groves,Mar 06 2023 - Neutral,7
+Webster Groves,Mar 01 2023,1
+Webster Groves,Mar 01 2023 - Neutral,0
+Webster Groves,Mar 01 2023 - Negative,0
+Webster Groves,Mar 01 2023 - Positive,1
+Webster Groves,Mar 02 2023,0
+Webster Groves,Mar 02 2023 - Neutral,0
+Webster Groves,Mar 02 2023 - Negative,0
+Webster Groves,Mar 02 2023 - Positive,0
+Webster Groves,Mar 03 2023,0
+Webster Groves,Mar 03 2023 - Neutral,0
+Webster Groves,Mar 03 2023 - Negative,0
+Webster Groves,Mar 03 2023 - Positive,0
+Webster Groves,Mar 04 2023,0
+Webster Groves,Mar 04 2023 - Neutral,0
+Webster Groves,Mar 04 2023 - Negative,0
+Webster Groves,Mar 04 2023 - Positive,0
+Webster Groves,Mar 05 2023,0
+Webster Groves,Mar 05 2023 - Neutral,0
+Webster Groves,Mar 05 2023 - Negative,0
+Webster Groves,Mar 05 2023 - Positive,0
+Webster Groves,Mar 06 2023,0
+Webster Groves,Mar 06 2023 - Neutral,0
 Webster Groves,Mar 06 2023 - Negative,0
-Webster Groves,Mar 06 2023 - Positive,5
-Webster Groves,Mar 07 2023,12
-Webster Groves,Mar 07 2023 - Neutral,6
+Webster Groves,Mar 06 2023 - Positive,0
+Webster Groves,Mar 07 2023,0
+Webster Groves,Mar 07 2023 - Neutral,0
 Webster Groves,Mar 07 2023 - Negative,0
-Webster Groves,Mar 07 2023 - Positive,5
-Webster Groves,Mar 08 2023,15
-Webster Groves,Mar 08 2023 - Neutral,9
+Webster Groves,Mar 07 2023 - Positive,0
+Webster Groves,Mar 08 2023,0
+Webster Groves,Mar 08 2023 - Neutral,0
 Webster Groves,Mar 08 2023 - Negative,0
-Webster Groves,Mar 08 2023 - Positive,5
-Webster Groves,Mar 09 2023,3
-Webster Groves,Mar 09 2023 - Neutral,1
-Webster Groves,Mar 09 2023 - Negative,1
-Webster Groves,Mar 09 2023 - Positive,1
-Webster Groves,Mar 10 2023,4
-Webster Groves,Mar 10 2023 - Neutral,2
-Webster Groves,Mar 10 2023 - Negative,1
-Webster Groves,Mar 10 2023 - Positive,1
-Webster Groves,Mar 11 2023,1
+Webster Groves,Mar 08 2023 - Positive,0
+Webster Groves,Mar 09 2023,0
+Webster Groves,Mar 09 2023 - Neutral,0
+Webster Groves,Mar 09 2023 - Negative,0
+Webster Groves,Mar 09 2023 - Positive,0
+Webster Groves,Mar 10 2023,0
+Webster Groves,Mar 10 2023 - Neutral,0
+Webster Groves,Mar 10 2023 - Negative,0
+Webster Groves,Mar 10 2023 - Positive,0
+Webster Groves,Mar 11 2023,0
 Webster Groves,Mar 11 2023 - Neutral,0
-Webster Groves,Mar 11 2023 - Negative,1
+Webster Groves,Mar 11 2023 - Negative,0
 Webster Groves,Mar 11 2023 - Positive,0
-Webster Groves,Mar 12 2023,1
-Webster Groves,Mar 12 2023 - Neutral,1
+Webster Groves,Mar 12 2023,0
+Webster Groves,Mar 12 2023 - Neutral,0
 Webster Groves,Mar 12 2023 - Negative,0
 Webster Groves,Mar 12 2023 - Positive,0
-Webster Groves,Mar 13 2023,6
-Webster Groves,Mar 13 2023 - Neutral,5
+Webster Groves,Mar 13 2023,0
+Webster Groves,Mar 13 2023 - Neutral,0
 Webster Groves,Mar 13 2023 - Negative,0
-Webster Groves,Mar 13 2023 - Positive,1
-Webster Groves,Mar 14 2023,1
-Webster Groves,Mar 14 2023 - Neutral,1
+Webster Groves,Mar 13 2023 - Positive,0
+Webster Groves,Mar 14 2023,0
+Webster Groves,Mar 14 2023 - Neutral,0
 Webster Groves,Mar 14 2023 - Negative,0
 Webster Groves,Mar 14 2023 - Positive,0
-Webster Groves,Mar 15 2023,5
-Webster Groves,Mar 15 2023 - Neutral,1
-Webster Groves,Mar 15 2023 - Negative,1
-Webster Groves,Mar 15 2023 - Positive,3
-Webster Groves,Mar 16 2023,2
+Webster Groves,Mar 15 2023,0
+Webster Groves,Mar 15 2023 - Neutral,0
+Webster Groves,Mar 15 2023 - Negative,0
+Webster Groves,Mar 15 2023 - Positive,0
+Webster Groves,Mar 16 2023,0
 Webster Groves,Mar 16 2023 - Neutral,0
-Webster Groves,Mar 16 2023 - Negative,1
-Webster Groves,Mar 16 2023 - Positive,1
-Webster Groves,Mar 17 2023,6
-Webster Groves,Mar 17 2023 - Neutral,3
-Webster Groves,Mar 17 2023 - Negative,1
-Webster Groves,Mar 17 2023 - Positive,2
-Webster Groves,Mar 18 2023,6
-Webster Groves,Mar 18 2023 - Neutral,3
-Webster Groves,Mar 18 2023 - Negative,1
-Webster Groves,Mar 18 2023 - Positive,2
-Webster Groves,Mar 19 2023,6
-Webster Groves,Mar 19 2023 - Neutral,3
+Webster Groves,Mar 16 2023 - Negative,0
+Webster Groves,Mar 16 2023 - Positive,0
+Webster Groves,Mar 17 2023,0
+Webster Groves,Mar 17 2023 - Neutral,0
+Webster Groves,Mar 17 2023 - Negative,0
+Webster Groves,Mar 17 2023 - Positive,0
+Webster Groves,Mar 18 2023,0
+Webster Groves,Mar 18 2023 - Neutral,0
+Webster Groves,Mar 18 2023 - Negative,0
+Webster Groves,Mar 18 2023 - Positive,0
+Webster Groves,Mar 19 2023,0
+Webster Groves,Mar 19 2023 - Neutral,0
 Webster Groves,Mar 19 2023 - Negative,0
-Webster Groves,Mar 19 2023 - Positive,2
-Webster Groves,Mar 20 2023,2
-Webster Groves,Mar 20 2023 - Neutral,1
+Webster Groves,Mar 19 2023 - Positive,0
+Webster Groves,Mar 20 2023,0
+Webster Groves,Mar 20 2023 - Neutral,0
 Webster Groves,Mar 20 2023 - Negative,0
-Webster Groves,Mar 20 2023 - Positive,1
-Webster Groves,Mar 21 2023,3
-Webster Groves,Mar 21 2023 - Neutral,3
+Webster Groves,Mar 20 2023 - Positive,0
+Webster Groves,Mar 21 2023,0
+Webster Groves,Mar 21 2023 - Neutral,0
 Webster Groves,Mar 21 2023 - Negative,0
 Webster Groves,Mar 21 2023 - Positive,0
-Webster Groves,Mar 22 2023,5
-Webster Groves,Mar 22 2023 - Neutral,1
-Webster Groves,Mar 22 2023 - Negative,2
-Webster Groves,Mar 22 2023 - Positive,2
-Webster Groves,Mar 23 2023,2
-Webster Groves,Mar 23 2023 - Neutral,1
+Webster Groves,Mar 22 2023,0
+Webster Groves,Mar 22 2023 - Neutral,0
+Webster Groves,Mar 22 2023 - Negative,0
+Webster Groves,Mar 22 2023 - Positive,0
+Webster Groves,Mar 23 2023,0
+Webster Groves,Mar 23 2023 - Neutral,0
 Webster Groves,Mar 23 2023 - Negative,0
-Webster Groves,Mar 23 2023 - Positive,1
-Webster Groves,Mar 24 2023,2
-Webster Groves,Mar 24 2023 - Neutral,2
+Webster Groves,Mar 23 2023 - Positive,0
+Webster Groves,Mar 24 2023,0
+Webster Groves,Mar 24 2023 - Neutral,0
 Webster Groves,Mar 24 2023 - Negative,0
 Webster Groves,Mar 24 2023 - Positive,0
-Webster Groves,Mar 25 2023,8
-Webster Groves,Mar 25 2023 - Neutral,5
+Webster Groves,Mar 25 2023,0
+Webster Groves,Mar 25 2023 - Neutral,0
 Webster Groves,Mar 25 2023 - Negative,0
-Webster Groves,Mar 25 2023 - Positive,3
-Webster Groves,Mar 26 2023,5
-Webster Groves,Mar 26 2023 - Neutral,1
-Webster Groves,Mar 26 2023 - Negative,1
-Webster Groves,Mar 26 2023 - Positive,2
-Webster Groves,Mar 27 2023,4
-Webster Groves,Mar 27 2023 - Neutral,1
-Webster Groves,Mar 27 2023 - Negative,1
-Webster Groves,Mar 27 2023 - Positive,2
-Webster Groves,Mar 28 2023,7
-Webster Groves,Mar 28 2023 - Neutral,3
-Webster Groves,Mar 28 2023 - Negative,2
-Webster Groves,Mar 28 2023 - Positive,1
-Webster Groves,Mar 29 2023,6
-Webster Groves,Mar 29 2023 - Neutral,2
-Webster Groves,Mar 29 2023 - Negative,1
-Webster Groves,Mar 29 2023 - Positive,3
-Webster Groves,Mar 30 2023,7
-Webster Groves,Mar 30 2023 - Neutral,2
-Webster Groves,Mar 30 2023 - Negative,1
-Webster Groves,Mar 30 2023 - Positive,3
-Webster Groves,Mar 31 2023,10
-Webster Groves,Mar 31 2023 - Neutral,5
-Webster Groves,Mar 31 2023 - Negative,2
-Webster Groves,Mar 31 2023 - Positive,3
-Washington University in St. Louis,Total,8
-Washington University in St. Louis,Total - Neutral,1
-Washington University in St. Louis,Total - Negative,1
-Washington University in St. Louis,Total - Positive,5
-Washington University in St. Louis,Feb,5
-Washington University in St. Louis,Feb - Neutral,1
-Washington University in St. Louis,Feb - Negative,1
-Washington University in St. Louis,Feb - Positive,3
-Washington University in St. Louis,Mar,3
+Webster Groves,Mar 25 2023 - Positive,0
+Webster Groves,Mar 26 2023,0
+Webster Groves,Mar 26 2023 - Neutral,0
+Webster Groves,Mar 26 2023 - Negative,0
+Webster Groves,Mar 26 2023 - Positive,0
+Webster Groves,Mar 27 2023,0
+Webster Groves,Mar 27 2023 - Neutral,0
+Webster Groves,Mar 27 2023 - Negative,0
+Webster Groves,Mar 27 2023 - Positive,0
+Webster Groves,Mar 28 2023,0
+Webster Groves,Mar 28 2023 - Neutral,0
+Webster Groves,Mar 28 2023 - Negative,0
+Webster Groves,Mar 28 2023 - Positive,0
+Webster Groves,Mar 29 2023,0
+Webster Groves,Mar 29 2023 - Neutral,0
+Webster Groves,Mar 29 2023 - Negative,0
+Webster Groves,Mar 29 2023 - Positive,0
+Webster Groves,Mar 30 2023,0
+Webster Groves,Mar 30 2023 - Neutral,0
+Webster Groves,Mar 30 2023 - Negative,0
+Webster Groves,Mar 30 2023 - Positive,0
+Webster Groves,Mar 31 2023,0
+Webster Groves,Mar 31 2023 - Neutral,0
+Webster Groves,Mar 31 2023 - Negative,0
+Webster Groves,Mar 31 2023 - Positive,0
+Washington University in St. Louis,Total,0
+Washington University in St. Louis,Total - Neutral,0
+Washington University in St. Louis,Total - Negative,0
+Washington University in St. Louis,Total - Positive,0
+Washington University in St. Louis,Feb,0
+Washington University in St. Louis,Feb - Neutral,0
+Washington University in St. Louis,Feb - Negative,0
+Washington University in St. Louis,Feb - Positive,0
+Washington University in St. Louis,Mar,0
 Washington University in St. Louis,Mar - Neutral,0
 Washington University in St. Louis,Mar - Negative,0
-Washington University in St. Louis,Mar - Positive,2
-Washington University in St. Louis,Feb 01 - Feb 07 2023,1
-Washington University in St. Louis,Feb 01 - Feb 07 2023 - Neutral,1
+Washington University in St. Louis,Mar - Positive,0
+Washington University in St. Louis,Feb 01 - Feb 07 2023,0
+Washington University in St. Louis,Feb 01 - Feb 07 2023 - Neutral,0
 Washington University in St. Louis,Feb 01 - Feb 07 2023 - Negative,0
 Washington University in St. Louis,Feb 01 - Feb 07 2023 - Positive,0
 Washington University in St. Louis,Feb 08 - Feb 14 2023,0
@@ -7123,10 +7123,10 @@ Washington University in St. Louis,Feb 15 - Feb 21 2023,0
 Washington University in St. Louis,Feb 15 - Feb 21 2023 - Neutral,0
 Washington University in St. Louis,Feb 15 - Feb 21 2023 - Negative,0
 Washington University in St. Louis,Feb 15 - Feb 21 2023 - Positive,0
-Washington University in St. Louis,Feb 22 - Feb 28 2023,4
+Washington University in St. Louis,Feb 22 - Feb 28 2023,0
 Washington University in St. Louis,Feb 22 - Feb 28 2023 - Neutral,0
-Washington University in St. Louis,Feb 22 - Feb 28 2023 - Negative,1
-Washington University in St. Louis,Feb 22 - Feb 28 2023 - Positive,3
+Washington University in St. Louis,Feb 22 - Feb 28 2023 - Negative,0
+Washington University in St. Louis,Feb 22 - Feb 28 2023 - Positive,0
 Washington University in St. Louis,Mar 01 - Mar 07 2023,0
 Washington University in St. Louis,Mar 01 - Mar 07 2023 - Neutral,0
 Washington University in St. Louis,Mar 01 - Mar 07 2023 - Negative,0
@@ -7135,14 +7135,14 @@ Washington University in St. Louis,Mar 08 - Mar 14 2023,0
 Washington University in St. Louis,Mar 08 - Mar 14 2023 - Neutral,0
 Washington University in St. Louis,Mar 08 - Mar 14 2023 - Negative,0
 Washington University in St. Louis,Mar 08 - Mar 14 2023 - Positive,0
-Washington University in St. Louis,Mar 15 - Mar 21 2023,2
+Washington University in St. Louis,Mar 15 - Mar 21 2023,0
 Washington University in St. Louis,Mar 15 - Mar 21 2023 - Neutral,0
 Washington University in St. Louis,Mar 15 - Mar 21 2023 - Negative,0
-Washington University in St. Louis,Mar 15 - Mar 21 2023 - Positive,1
-Washington University in St. Louis,Mar 22 - Mar 28 2023,1
+Washington University in St. Louis,Mar 15 - Mar 21 2023 - Positive,0
+Washington University in St. Louis,Mar 22 - Mar 28 2023,0
 Washington University in St. Louis,Mar 22 - Mar 28 2023 - Neutral,0
 Washington University in St. Louis,Mar 22 - Mar 28 2023 - Negative,0
-Washington University in St. Louis,Mar 22 - Mar 28 2023 - Positive,1
+Washington University in St. Louis,Mar 22 - Mar 28 2023 - Positive,0
 Washington University in St. Louis,Mar 29 - Apr 04 2023,0
 Washington University in St. Louis,Mar 29 - Apr 04 2023 - Neutral,0
 Washington University in St. Louis,Mar 29 - Apr 04 2023 - Negative,0
@@ -7163,8 +7163,8 @@ Washington University in St. Louis,Feb 04 2023,0
 Washington University in St. Louis,Feb 04 2023 - Neutral,0
 Washington University in St. Louis,Feb 04 2023 - Negative,0
 Washington University in St. Louis,Feb 04 2023 - Positive,0
-Washington University in St. Louis,Feb 05 2023,1
-Washington University in St. Louis,Feb 05 2023 - Neutral,1
+Washington University in St. Louis,Feb 05 2023,0
+Washington University in St. Louis,Feb 05 2023 - Neutral,0
 Washington University in St. Louis,Feb 05 2023 - Negative,0
 Washington University in St. Louis,Feb 05 2023 - Positive,0
 Washington University in St. Louis,Feb 06 2023,0
@@ -7235,10 +7235,10 @@ Washington University in St. Louis,Feb 22 2023,0
 Washington University in St. Louis,Feb 22 2023 - Neutral,0
 Washington University in St. Louis,Feb 22 2023 - Negative,0
 Washington University in St. Louis,Feb 22 2023 - Positive,0
-Washington University in St. Louis,Feb 23 2023,1
+Washington University in St. Louis,Feb 23 2023,0
 Washington University in St. Louis,Feb 23 2023 - Neutral,0
 Washington University in St. Louis,Feb 23 2023 - Negative,0
-Washington University in St. Louis,Feb 23 2023 - Positive,1
+Washington University in St. Louis,Feb 23 2023 - Positive,0
 Washington University in St. Louis,Feb 24 2023,0
 Washington University in St. Louis,Feb 24 2023 - Neutral,0
 Washington University in St. Louis,Feb 24 2023 - Negative,0
@@ -7251,14 +7251,14 @@ Washington University in St. Louis,Feb 26 2023,0
 Washington University in St. Louis,Feb 26 2023 - Neutral,0
 Washington University in St. Louis,Feb 26 2023 - Negative,0
 Washington University in St. Louis,Feb 26 2023 - Positive,0
-Washington University in St. Louis,Feb 27 2023,1
+Washington University in St. Louis,Feb 27 2023,0
 Washington University in St. Louis,Feb 27 2023 - Neutral,0
 Washington University in St. Louis,Feb 27 2023 - Negative,0
-Washington University in St. Louis,Feb 27 2023 - Positive,1
-Washington University in St. Louis,Feb 28 2023,2
+Washington University in St. Louis,Feb 27 2023 - Positive,0
+Washington University in St. Louis,Feb 28 2023,0
 Washington University in St. Louis,Feb 28 2023 - Neutral,0
-Washington University in St. Louis,Feb 28 2023 - Negative,1
-Washington University in St. Louis,Feb 28 2023 - Positive,1
+Washington University in St. Louis,Feb 28 2023 - Negative,0
+Washington University in St. Louis,Feb 28 2023 - Positive,0
 Washington University in St. Louis,Mar 01 2023,0
 Washington University in St. Louis,Mar 01 2023 - Neutral,0
 Washington University in St. Louis,Mar 01 2023 - Negative,0
@@ -7323,7 +7323,7 @@ Washington University in St. Louis,Mar 16 2023,0
 Washington University in St. Louis,Mar 16 2023 - Neutral,0
 Washington University in St. Louis,Mar 16 2023 - Negative,0
 Washington University in St. Louis,Mar 16 2023 - Positive,0
-Washington University in St. Louis,Mar 17 2023,1
+Washington University in St. Louis,Mar 17 2023,0
 Washington University in St. Louis,Mar 17 2023 - Neutral,0
 Washington University in St. Louis,Mar 17 2023 - Negative,0
 Washington University in St. Louis,Mar 17 2023 - Positive,0
@@ -7335,18 +7335,18 @@ Washington University in St. Louis,Mar 19 2023,0
 Washington University in St. Louis,Mar 19 2023 - Neutral,0
 Washington University in St. Louis,Mar 19 2023 - Negative,0
 Washington University in St. Louis,Mar 19 2023 - Positive,0
-Washington University in St. Louis,Mar 20 2023,1
+Washington University in St. Louis,Mar 20 2023,0
 Washington University in St. Louis,Mar 20 2023 - Neutral,0
 Washington University in St. Louis,Mar 20 2023 - Negative,0
-Washington University in St. Louis,Mar 20 2023 - Positive,1
+Washington University in St. Louis,Mar 20 2023 - Positive,0
 Washington University in St. Louis,Mar 21 2023,0
 Washington University in St. Louis,Mar 21 2023 - Neutral,0
 Washington University in St. Louis,Mar 21 2023 - Negative,0
 Washington University in St. Louis,Mar 21 2023 - Positive,0
-Washington University in St. Louis,Mar 22 2023,1
+Washington University in St. Louis,Mar 22 2023,0
 Washington University in St. Louis,Mar 22 2023 - Neutral,0
 Washington University in St. Louis,Mar 22 2023 - Negative,0
-Washington University in St. Louis,Mar 22 2023 - Positive,1
+Washington University in St. Louis,Mar 22 2023 - Positive,0
 Washington University in St. Louis,Mar 23 2023,0
 Washington University in St. Louis,Mar 23 2023 - Neutral,0
 Washington University in St. Louis,Mar 23 2023 - Negative,0
