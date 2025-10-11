@@ -2,10 +2,12 @@ import argparse
 import pandas as pd
 from datetime import date, datetime
 
-# python3 generate_summary.py --file "data/gps_points_geocoded.csv"
+# python3 generate_summary.py --file "data/gps_points_geocoded.csv" --filter
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--file", '-f', type=str, required=True, help="Path to reversed geocode csv file")
+parser.add_argument("--filter", action=argparse.BooleanOptionalAction, default=False,
+                    help="Filter location_type LatLon (use --filter / --no-filter)")
 
 def create_dict():
     locations = {
@@ -138,12 +140,19 @@ def pick_neighborhood(g, n, poi, n_address) -> str | None:
 
     return None
 
-def main(file):
-    df = pd.read_csv(file)
+def filter_df(df, filter=False):
+    if not filter:
+        return df
+
+    # get only rows with location_type = LatLon
+    return df[df["location_type"] == "LatLon"]
+
+def main(file, filter):
+    df = filter_df(pd.read_csv(file), filter)
     res = create_dict()
     skip = 0
     total = 0 
-    for (row_id,time_stamp,lat,lon,latlon,google_address,google_zip_code,google_city,google_country,
+    for (row_id,time_stamp,location_type,lat,lon,latlon,google_address,google_zip_code,google_city,google_country,
         google_state,google_nearest_poi,nominatim_address,nominatim_zip_code,nominatim_city,nominatim_country,
         nominatim_state,sentiment,google_neighborhood,nhood_best) in df.itertuples(index=False, name=None):
         total += 1
@@ -182,14 +191,20 @@ def main(file):
         
     print(skip, total)
 
+    """
     out = []
     for loc, metrics in res.items():
         for k, v in metrics.items():
             out.append({"location": loc, "metric": k, "count": v})
 
     pd.DataFrame(out).to_csv("data/summary_counts.csv", index=False)
+    """
+
+    wide = pd.DataFrame(res) # index = metrics, columns = locations
+    wide.index.name = "metric" # name the row index for the CSV
+    wide = wide.reindex(columns=sorted(wide.columns)) # consistent column order
+    wide.to_csv(f"data/summary_counts_latlon{'_place' if not filter else ''}.csv")
 
 if __name__ == "__main__":
     args = parser.parse_args()
-
-    main(args.file)
+    main(args.file, args.filter)

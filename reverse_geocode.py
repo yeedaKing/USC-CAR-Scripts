@@ -148,12 +148,13 @@ def nominatim_revgeo(lat, lon):
     save_cache(lat, lon, "nominatim", out)
     return out
 
-def revgeo_worker(row_id, lat, lon, sentiment, timestamp):
+def revgeo_worker(row_id, lat, lon, sentiment, timestamp, location_type):
     g = google_revgeo(lat, lon)
     n = nominatim_revgeo(lat, lon)
     return {
         "row_id": row_id,
         "timestamp": timestamp,
+        "location_type": location_type,
         "lat": lat, "lon": lon,
         "latlon": f"{round(lat,6)},{round(lon,6)}",
         "google_address": g.get("google_formatted_address"),
@@ -205,6 +206,7 @@ def main(max_workers=None):
                 float(row.longitude),
                 getattr(row, "sentiment", None),
                 getattr(row, "timestamp", None),
+                row.location_type,
             ): int(row.row_id)
             for row in df.itertuples(index=False)
         }
