@@ -1,0 +1,16 @@
+INPUT_ROOT: data/raw_rapids        # <— under the repo
+OUTPUT_ROOT: data                  # <— under the repo
+PARTICIPANT_IDS:
+  - c8524dee-8a13-45b9-85f8-9073f7a9177e
+
+PHONE_LOCATIONS:
+  LOCATIONS_TO_USE: GPS
+  ACCURACY_LIMIT: 100
+  PROVIDERS:
+    BARNETT:
+      COMPUTE: true
+    DORYAB:
+      COMPUTE: falsePHONE_DATA_STREAMS:
+  USE: aware_csv
+  aware_csv:
+    FOLDER: data/raw_rapids
