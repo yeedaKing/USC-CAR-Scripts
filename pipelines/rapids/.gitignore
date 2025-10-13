@@ -99,8 +99,8 @@ data/external/*
 !/data/external/wiki_tz.csv
 data/raw/*
 !/data/raw/.gitkeep
-data/interim/*
-!/data/interim/.gitkeep
+# data/interim/*
+# !/data/interim/.gitkeep
 data/processed/*
 !/data/processed/.gitkeep
 reports/
