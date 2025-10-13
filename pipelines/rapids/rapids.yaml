@@ -1,19 +1,25 @@
 INPUT_ROOT: data/raw_rapids
 OUTPUT_ROOT: data
-PARTICIPANT_IDS:
-  - c8524dee-8a13-45b9-85f8-9073f7a9177e
+PIDS: [c8524dee-8a13-45b9-85f8-9073f7a9177e]
 
 PHONE_LOCATIONS:
   CONTAINER: locations.csv
-  LOCATIONS_TO_USE: GPS      # must be one of: ALL, GPS, ALL_RESAMPLED, FUSED_RESAMPLED
+  LOCATIONS_TO_USE: ALL     # must be one of: ALL, GPS, ALL_RESAMPLED, FUSED_RESAMPLED
   ACCURACY_LIMIT: 100
   PROVIDERS:
     BARNETT:
       COMPUTE: true
     DORYAB:
-      COMPUTE: false
+      COMPUTE: true
 
 PHONE_DATA_STREAMS:
+  USE: aware_csv
+  aware_csv:
+    FOLDER: data/external/aware_csv
+
+PHONE_DATA_YIELD:
+  SENSORS:
+    - PHONE_LOCATIONS         # REQUIRED for resampling
   USE: aware_csv
   aware_csv:
     FOLDER: data/external/aware_csv
