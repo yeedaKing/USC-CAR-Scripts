@@ -1,0 +1,1474 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+description: RAPIDS configuration schema
+required:
+  - TIMEZONE
+  - PIDS
+  - CREATE_PARTICIPANT_FILES
+  - TIME_SEGMENTS
+  - PHONE_DATA_STREAMS
+  - PHONE_ACCELEROMETER
+  - PHONE_ACTIVITY_RECOGNITION
+  - PHONE_APPLICATIONS_CRASHES
+  - PHONE_APPLICATIONS_FOREGROUND
+  - PHONE_APPLICATIONS_NOTIFICATIONS
+  - PHONE_BATTERY
+  - PHONE_BLUETOOTH
+  - PHONE_CALLS
+  - PHONE_CONVERSATION
+  - PHONE_DATA_YIELD
+  - PHONE_KEYBOARD
+  - PHONE_LOCATIONS
+  - PHONE_LOG
+  - PHONE_MESSAGES
+  - PHONE_SCREEN
+  - PHONE_WIFI_CONNECTED
+  - PHONE_WIFI_VISIBLE
+  - FITBIT_DATA_STREAMS
+  - FITBIT_DATA_YIELD
+  - FITBIT_HEARTRATE_SUMMARY
+  - FITBIT_HEARTRATE_INTRADAY
+  - FITBIT_SLEEP_SUMMARY
+  - FITBIT_SLEEP_INTRADAY
+  - FITBIT_STEPS_SUMMARY
+  - FITBIT_STEPS_INTRADAY
+  - HISTOGRAM_PHONE_DATA_YIELD
+  - HEATMAP_PHONE_DATA_YIELD_PER_PARTICIPANT_PER_TIME_SEGMENT
+  - HEATMAP_SENSORS_PER_MINUTE_PER_TIME_SEGMENT
+  - HEATMAP_SENSOR_ROW_COUNT_PER_TIME_SEGMENT
+  - HEATMAP_FEATURE_CORRELATION_MATRIX
+  - ALL_CLEANING_INDIVIDUAL
+  - ALL_CLEANING_OVERALL
+
+definitions:
+  FEATURES_PROVIDER:
+    type: object
+    required: [COMPUTE, SRC_SCRIPT, FEATURES]
+    properties:
+      COMPUTE:
+        type: boolean
+      FEATURES:
+        type: [array, object]
+      SRC_SCRIPT:
+        type: string
+        pattern: "^.*\\.(py|R)$"
+  
+  CLEANING_PROVIDER:
+    type: object
+    required: [COMPUTE, SRC_SCRIPT]
+    properties:
+      COMPUTE:
+        type: boolean
+      SRC_SCRIPT:
+        type: string
+        pattern: "^.*\\.(py|R)$"
+      
+
+  DORYAB_BLUETOOTH_FEATURE:
+    type: object
+    required: [DEVICES, SCANS_MOST_FREQUENT_DEVICE, SCANS_LEAST_FREQUENT_DEVICE]
+    properties:
+      DEVICES:
+        type: array
+        uniqueItems: True
+        items:
+          type: string
+          enum: ["countscans", "uniquedevices", "meanscans", "stdscans"]
+      SCANS_MOST_FREQUENT_DEVICE:
+        type: array
+        uniqueItems: True
+        items:
+          type: string
+          enum: ["withinsegments", "acrosssegments", "acrossdataset"]
+      SCANS_LEAST_FREQUENT_DEVICE:
+        type: array
+        uniqueItems: True
+        items:
+          type: string
+          enum: ["withinsegments", "acrosssegments", "acrossdataset"]
+  
+  APPLICATION_CATEGORIES_FEATURE:
+        type: object
+        required: [CATALOGUE_SOURCE, CATALOGUE_FILE, UPDATE_CATALOGUE_FILE, SCRAPE_MISSING_CATEGORIES]
+        properties:
+          CATALOGUE_SOURCE:
+            type: string
+            enum: ["FILE", "GOOGLE"]
+          CATALOGUE_FILE: 
+            type: string
+            pattern: "^.*\\.csv$"
+          UPDATE_CATALOGUE_FILE:
+            type: boolean
+          SCRAPE_MISSING_CATEGORIES:
+            type: boolean
+
+  DATA_CONFIGURATION:
+    type: object
+    required: [SOURCE, TIMEZONE]
+    properties:
+      SOURCE: 
+        type: object
+        required: [TYPE, DATABASE_GROUP]
+        properties:
+          TYPE:
+            type: string
+          DATABASE_GROUP:
+            type: string
+      TIMEZONE:
+        type: object
+        required: [TYPE, VALUE]
+        properties:
+          TYPE:
+            type: string
+          VALUE:
+            type: string
+    
+properties:
+
+  TIMEZONE:
+    type: object
+    required: [TYPE, SINGLE, MULTIPLE]
+    properties:
+      TYPE:
+        type: string
+        enum: ["MULTIPLE", "SINGLE"]
+      SINGLE:
+        type: object
+        required: [TZCODE]
+        properties:
+          TZCODE:
+            type: string
+      MULTIPLE:
+        type: object
+        required: [TZCODES_FILE, IF_MISSING_TZCODE, DEFAULT_TZCODE, FITBIT]
+        properties:
+          TZCODES_FILE:
+            type: string
+            pattern: "^.*\\.csv$"
+          IF_MISSING_TZCODE:
+            type: string
+            enum: [STOP, USE_DEFAULT]
+          DEFAULT_TZCODE:
+            type: string
+          FITBIT:
+            type: object
+            required: [ALLOW_MULTIPLE_TZ_PER_DEVICE, INFER_FROM_SMARTPHONE_TZ]
+            properties:
+              ALLOW_MULTIPLE_TZ_PER_DEVICE:
+                type: boolean
+              INFER_FROM_SMARTPHONE_TZ:
+                type: boolean
+  
+  PIDS:
+    type: array
+    uniqueItems: True
+    items:
+      type: string
+
+  CREATE_PARTICIPANT_FILES:
+    type: object
+    required: [CSV_FILE_PATH, PHONE_SECTION, FITBIT_SECTION,EMPATICA_SECTION]
+    properties:
+      CSV_FILE_PATH:
+        type: string
+        pattern: "^.*\\.csv$"
+      PHONE_SECTION:
+        type: object
+        properties:
+          ADD:
+            type: boolean
+          DEVICE_ID_COLUMN:
+            type: string
+          IGNORED_DEVICE_IDS:
+            type: array
+            items:
+              type: string
+      FITBIT_SECTION:
+        properties:
+          ADD:
+            type: boolean
+          DEVICE_ID_COLUMN:
+            type: string
+          IGNORED_DEVICE_IDS:
+            type: array
+            items:
+              type: string
+      EMPATICA_SECTION:
+        properties:
+          ADD:
+            type: boolean
+          DEVICE_ID_COLUMN:
+            type: string
+          IGNORED_DEVICE_IDS:
+            type: array
+            items:
+              type: string
+
+  TIME_SEGMENTS:
+    type: object
+    required: [TYPE, FILE, INCLUDE_PAST_PERIODIC_SEGMENTS]
+    properties:
+      TYPE:
+        type: string
+        enum: ["FREQUENCY", "PERIODIC", "EVENT"]
+      FILE: 
+        type: string
+        pattern: "^.*\\.csv$"
+      INCLUDE_PAST_PERIODIC_SEGMENTS: 
+        type: boolean
+
+  PHONE_DATA_STREAMS:
+      type: object
+      properties:
+        USE:
+          type: string
+        aware_mysql:
+          type: object
+          properties:
+            DATABASE_GROUP:
+              type: string
+
+  PHONE_ACCELEROMETER:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES: 
+                    type: array
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["maxmagnitude", "minmagnitude", "avgmagnitude", "medianmagnitude", "stdmagnitude"]
+          PANDA:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  VALID_SENSED_MINUTES: 
+                    type: boolean
+                  FEATURES:
+                    type: object
+                    required: [exertional_activity_episode, nonexertional_activity_episode]
+                    properties:
+                      exertional_activity_episode: 
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: ["sumduration", "maxduration", "minduration", "avgduration", "medianduration", "stdduration"]
+                      nonexertional_activity_episode:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: ["sumduration", "maxduration", "minduration", "avgduration", "medianduration", "stdduration"]
+        additionalProperties: 
+            $ref: "#/definitions/FEATURES_PROVIDER"
+
+  PHONE_ACTIVITY_RECOGNITION:
+    type: object
+    required: [CONTAINER, EPISODE_THRESHOLD_BETWEEN_ROWS, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: object
+        required: [ANDROID, IOS]
+        properties:
+          ANDROID: 
+            type: [array, string]
+            uniqueItems: True
+            items:
+              type: string
+          IOS: 
+            type: [array, string]
+            uniqueItems: True
+            items:
+              type: string
+      EPISODE_THRESHOLD_BETWEEN_ROWS:
+        type: integer
+        maximum: 1440
+        minimum: 0
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["count", "mostcommonactivity", "countuniqueactivities", "durationstationary", "durationmobile", "durationvehicle"]
+                  ACTIVITY_CLASSES:
+                    type: object
+                    required: [STATIONARY, MOBILE, VEHICLE]
+                    properties:
+                      STATIONARY: 
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: ["still", "tilting"]
+                      MOBILE: 
+                        type: array
+                        uniqueItems: True
+                        items:  
+                          type: string
+                          enum: ["on_foot", "walking", "running", "on_bicycle"]
+                      VEHICLE:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: ["in_vehicle"]
+        additionalProperties: 
+            $ref: "#/definitions/FEATURES_PROVIDER"
+        
+  PHONE_APPLICATIONS_CRASHES:
+    type: object
+    required: [CONTAINER, APPLICATION_CATEGORIES, PROVIDERS]
+    properties:
+      CONTAINER: 
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      APPLICATION_CATEGORIES:
+        allOf:
+          - $ref: "#/definitions/APPLICATION_CATEGORIES_FEATURE"
+      PROVIDERS:
+        additionalProperties: 
+            $ref: "#/definitions/FEATURES_PROVIDER"
+
+  PHONE_APPLICATIONS_FOREGROUND:
+    type: object
+    required: [CONTAINER, APPLICATION_CATEGORIES, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      APPLICATION_CATEGORIES:
+        allOf:
+          - $ref: "#/definitions/APPLICATION_CATEGORIES_FEATURE"
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS: 
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  SINGLE_CATEGORIES: 
+                    type: array
+                    uniqueItems: True
+                    items:
+                      type: string
+                  CUSTOM_CATEGORIES:
+                    type: ["null", object]
+                    additionalProperties: 
+                       type: array
+                       uniqueItems: True
+                       items:
+                        type: string
+                  MULTIPLE_CATEGORIES:
+                    type: ["null", object]
+                    additionalProperties: 
+                       type: array
+                       uniqueItems: True
+                       items:
+                        type: string
+                  SINGLE_APPS: 
+                    type: array
+                    uniqueItems: True
+                    items:
+                      type: string
+                  EXCLUDED_CATEGORIES:
+                    type: ["null", array]
+                    uniqueItems: True
+                    items:
+                      type: string
+                  EXCLUDED_APPS: 
+                    type: array
+                    uniqueItems: true
+                    items:
+                      type: string
+                  FEATURES:
+                    type: ["null", object]
+                    required: [APP_EVENTS, APP_EPISODES]
+                    properties:
+                      APP_EVENTS:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: ["countevent", "timeoffirstuse", "timeoflastuse", "frequencyentropy"]
+                      APP_EPISODES:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: ["countepisode", "minduration", "maxduration", "meanduration", "sumduration"]
+                  IGNORE_EPISODES_SHORTER_THAN:
+                    type: integer
+                    minimum: 0
+                  IGNORE_EPISODES_LONGER_THAN:
+                    type: integer
+                    minimum: 0
+
+  PHONE_APPLICATIONS_NOTIFICATIONS:
+    type: object
+    required: [CONTAINER, APPLICATION_CATEGORIES, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      APPLICATION_CATEGORIES:
+        allOf:
+          - $ref: "#/definitions/APPLICATION_CATEGORIES_FEATURE"
+      PROVIDERS:
+        type: ["null", object]
+        additionalProperties: 
+            $ref: "#/definitions/FEATURES_PROVIDER"
+        
+  PHONE_BATTERY:
+    type: object
+    required: [CONTAINER, PROVIDERS, EPISODE_THRESHOLD_BETWEEN_ROWS]
+    properties:
+      CONTAINER:
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      EPISODE_THRESHOLD_BETWEEN_ROWS:
+        type: integer
+        maximum: 1440
+        minimum: 0
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["countdischarge", "sumdurationdischarge", "countcharge", "sumdurationcharge", "avgconsumptionrate", "maxconsumptionrate"]
+        additionalProperties:
+          $ref: "#/definitions/FEATURES_PROVIDER"
+
+  PHONE_BLUETOOTH:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["countscans", "uniquedevices", "countscansmostuniquedevice"]
+          DORYAB:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    type: object
+                    required: [ALL, OWN, OTHERS]
+                    properties:
+                      ALL: 
+                        allOf:
+                          - $ref: "#/definitions/DORYAB_BLUETOOTH_FEATURE"
+                      OWN:
+                        allOf:
+                          - $ref: "#/definitions/DORYAB_BLUETOOTH_FEATURE"
+                      OTHERS:
+                        allOf:
+                          - $ref: "#/definitions/DORYAB_BLUETOOTH_FEATURE"
+        additionalProperties:
+          $ref: "#/definitions/FEATURES_PROVIDER"
+
+                      
+  PHONE_CALLS:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER: 
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+                - $ref: "#/definitions/FEATURES_PROVIDER"
+                - properties:
+                    FEATURES_TYPE:
+                      type: string
+                      enum: [EVENTS, EPISODES]
+                    CALL_TYPES:
+                      type: array
+                      items:
+                        type: string
+                        enum: [missed, incoming, outgoing]
+                    FEATURES: 
+                      type: object
+                      required: [missed, incoming, outgoing]
+                      properties:
+                        missed:
+                          type: array
+                          uniqueItems: True
+                          items:
+                            type:
+                              string
+                            enum: [count, distinctcontacts, timefirstcall, timelastcall, countmostfrequentcontact]
+                        incoming:
+                          type: array
+                          uniqueItems: True
+                          items:
+                            type:
+                              string
+                            enum: [count, distinctcontacts, meanduration, sumduration, minduration, maxduration, stdduration, modeduration, entropyduration, timefirstcall, timelastcall, countmostfrequentcontact]
+                        outgoing:
+                          type: array
+                          uniqueItems: True
+                          items:
+                            type:
+                              string
+                            enum: [count, distinctcontacts, meanduration, sumduration, minduration, maxduration, stdduration, modeduration, entropyduration, timefirstcall, timelastcall, countmostfrequentcontact]
+        additionalProperties:
+          $ref: "#/definitions/FEATURES_PROVIDER"
+
+  PHONE_CONVERSATION:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: object
+        required: [ANDROID, IOS]
+        properties:
+          ANDROID:
+            type: [array, string]
+            uniqueItems: True
+            items:
+              type: string
+          IOS:
+            type: [array, string]
+            uniqueItems: True
+            items:
+              type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    items:
+                      type: string
+                      enum: ["minutessilence", "minutesnoise", "minutesvoice", "minutesunknown","sumconversationduration","avgconversationduration",
+    "sdconversationduration","minconversationduration","maxconversationduration","timefirstconversation","timelastconversation","noisesumenergy",
+    "noiseavgenergy","noisesdenergy","noiseminenergy","noisemaxenergy","voicesumenergy",
+    "voiceavgenergy","voicesdenergy","voiceminenergy","voicemaxenergy","silencesensedfraction","noisesensedfraction",
+    "voicesensedfraction","unknownsensedfraction","silenceexpectedfraction","noiseexpectedfraction","voiceexpectedfraction",
+    "unknownexpectedfraction","countconversation"]
+                  RECORDING_MINUTES: 
+                    type: integer
+                    minimum: 1
+                    maximum: 1440
+                  PAUSED_MINUTES:
+                    type: integer
+                    minimum: 1
+                    maximum: 1440
+        additionalProperties: 
+          $ref: "#/definitions/FEATURES_PROVIDER"
+  
+  PHONE_DATA_YIELD:
+    type: object
+    required: [SENSORS, PROVIDERS]
+    properties:
+      SENSORS:
+        type: ["null", array]
+        items:
+          type: string
+          enum: ["PHONE_ACCELEROMETER", "PHONE_ACTIVITY_RECOGNITION", "PHONE_APPLICATIONS_CRASHES", "PHONE_APPLICATIONS_FOREGROUND", "PHONE_APPLICATIONS_NOTIFICATIONS", "PHONE_LOG", "PHONE_BATTERY", "PHONE_BLUETOOTH", "PHONE_CALLS", "PHONE_CONVERSATION", "PHONE_KEYBOARD", "PHONE_LIGHT", "PHONE_LOCATIONS", "PHONE_MESSAGES", "PHONE_SCREEN", "PHONE_WIFI_CONNECTED", "PHONE_WIFI_VISIBLE"]
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: [ratiovalidyieldedminutes, ratiovalidyieldedhours]
+                  MINUTE_RATIO_THRESHOLD_FOR_VALID_YIELDED_HOURS:
+                    type: number
+                    minimum: 0
+                    maximum: 1
+        additionalProperties: 
+          $ref: "#/definitions/FEATURES_PROVIDER"
+                  
+  PHONE_KEYBOARD:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER: 
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  TYPING_SESSION_DURATION:
+                    type: integer
+                    exclusiveMinimum: 0
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["sessioncount", "averageinterkeydelay", "averagesessionlength", "changeintextlengthlessthanminusone", "changeintextlengthequaltominusone", "changeintextlengthequaltoone", "changeintextlengthmorethanone", "maxtextlength", "lastmessagelength", "totalkeyboardtouches"]
+        additionalProperties: 
+          $ref: "#/definitions/FEATURES_PROVIDER"
+
+  PHONE_LIGHT:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["count", "maxlux", "minlux", "avglux", "medianlux", "stdlux"]
+        additionalProperties: 
+          $ref: "#/definitions/FEATURES_PROVIDER"
+
+  PHONE_LOCATIONS:
+    type: object
+    required: [CONTAINER, LOCATIONS_TO_USE, FUSED_RESAMPLED_CONSECUTIVE_THRESHOLD, FUSED_RESAMPLED_TIME_SINCE_VALID_LOCATION, ACCURACY_LIMIT, PROVIDERS]
+    properties:
+      CONTAINER: 
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      LOCATIONS_TO_USE:
+        type: string
+        enum: [ALL, GPS, ALL_RESAMPLED, FUSED_RESAMPLED]
+      FUSED_RESAMPLED_CONSECUTIVE_THRESHOLD:
+        type: integer
+        exclusiveMinimum: 0
+      FUSED_RESAMPLED_TIME_SINCE_VALID_LOCATION:
+        type: integer
+        exclusiveMinimum: 0
+      ACCURACY_LIMIT:
+        type: integer
+        exclusiveMinimum: 0
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          DORYAB:
+            allOf:
+                - $ref: "#/definitions/FEATURES_PROVIDER"
+                - properties:
+                    FEATURES: 
+                      type: array
+                      uniqueItems: True
+                      items:
+                        type: string
+                        enum: [locationvariance,loglocationvariance,totaldistance,avgspeed,varspeed,numberofsignificantplaces,numberlocationtransitions,radiusgyration,timeattop1location,timeattop2location,timeattop3location,movingtostaticratio,outlierstimepercent,maxlengthstayatclusters,minlengthstayatclusters,avglengthstayatclusters,stdlengthstayatclusters,locationentropy,normalizedlocationentropy,timeathome,homelabel]
+                    DBSCAN_EPS:
+                      type: integer
+                      exclusiveMinimum: 0
+                    DBSCAN_MINSAMPLES:
+                      type: integer
+                      exclusiveMinimum: 0
+                    THRESHOLD_STATIC:
+                      type: integer
+                      exclusiveMinimum: 0
+                    MAXIMUM_ROW_GAP:
+                      type: integer
+                      exclusiveMinimum: 0
+                    MINUTES_DATA_USED:
+                      type: boolean
+                    CLUSTER_ON:
+                      type: string
+                      enum: ["PARTICIPANT_DATASET", "TIME_SEGMENT", "TIME_SEGMENT_INSTANCE"]
+                    INFER_HOME_LOCATION_STRATEGY:
+                      type: string
+                      enum: ["DORYAB_STRATEGY", "SUN_LI_VEGA_STRATEGY"]
+                    MINIMUM_DAYS_TO_DETECT_HOME_CHANGES:
+                      type: integer
+                      minimum: 0
+                    CLUSTERING_ALGORITHM:
+                      type: string
+                      enum: ["DBSCAN", "OPTICS"]
+                    RADIUS_FOR_HOME:
+                      type: integer
+                      exclusiveMinimum: 0
+                    THRESHOLD_MAX_SPEED:
+                      type: integer
+                      minimum: 0
+                    
+          BARNETT:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    type: array
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["hometime","disttravelled","rog","maxdiam","maxhomedist","siglocsvisited","avgflightlen","stdflightlen","avgflightdur","stdflightdur","probpause","siglocentropy","circdnrtn","wkenddayrtn"]
+                  IF_MULTIPLE_TIMEZONES:
+                    type: string
+                    enum: [USE_MOST_COMMON]
+                  MINUTES_DATA_USED:
+                    type: boolean
+        additionalProperties:
+          $ref: "#/definitions/FEATURES_PROVIDER"
+
+  PHONE_LOG:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: object
+        required: [ANDROID, IOS]
+        properties:
+          ANDROID:
+            type: [array, string]
+            uniqueItems: True
+            items:
+              type: string
+          IOS:
+            type: [array, string]
+            uniqueItems: True
+            items:
+              type: string
+      PROVIDERS:
+        type: ["null", object]
+        additionalProperties: 
+            $ref: "#/definitions/FEATURES_PROVIDER"
+
+  PHONE_MESSAGES:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties: 
+      CONTAINER: 
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  MESSAGES_TYPES:
+                    type: array
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["received", "sent"]
+                  FEATURES:
+                    type: object
+                    required: [received, sent]
+                    properties:
+                      received:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: ["count", "distinctcontacts", "timefirstmessage", "timelastmessage", "countmostfrequentcontact"]
+                      
+                      sent:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string 
+                          enum: ["count", "distinctcontacts", "timefirstmessage", "timelastmessage", "countmostfrequentcontact"]
+    
+  PHONE_SCREEN:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER: 
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  REFERENCE_HOUR_FIRST_USE: 
+                    type: integer
+                    minimum: 0
+                    maximum: 23
+                  IGNORE_EPISODES_SHORTER_THAN:
+                    type: integer
+                    minimum: 0
+                  IGNORE_EPISODES_LONGER_THAN:
+                    type: integer
+                    minimum: 0
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["countepisode", "sumduration", "maxduration", "minduration", "avgduration", "stdduration", "firstuseafter"] 
+                  EPISODE_TYPES:
+                    type: array
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["unlock"]
+
+  PHONE_WIFI_CONNECTED:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER: 
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["countscans", "uniquedevices", "countscansmostuniquedevice"]
+        additionalProperties: 
+          $ref: "#/definitions/FEATURES_PROVIDER"
+  
+  PHONE_WIFI_VISIBLE:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: [array, string]
+        uniqueItems: True
+        items:
+          type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["countscans", "uniquedevices", "countscansmostuniquedevice"]
+        additionalProperties: 
+          $ref: "#/definitions/FEATURES_PROVIDER"
+
+  FITBIT_DATA_STREAMS:
+      type: object
+      properties:
+        USE:
+          type: string
+        fitbitjson_mysql:
+          type: object
+          required: [DATABASE_GROUP, SLEEP_SUMMARY_LAST_NIGHT_END]
+          properties:
+            DATABASE_GROUP:
+              type: string
+            SLEEP_SUMMARY_LAST_NIGHT_END:
+              type: number
+              minimum: 0
+              maximum: 1439
+        fitbitparsed_mysql:
+          type: object
+          required: [DATABASE_GROUP, SLEEP_SUMMARY_LAST_NIGHT_END]
+          properties:
+            DATABASE_GROUP:
+              type: string
+            SLEEP_SUMMARY_LAST_NIGHT_END:
+              type: number
+              minimum: 0
+              maximum: 1439
+        fitbitjson_csv:
+          type: object
+          required: [FOLDER, SLEEP_SUMMARY_LAST_NIGHT_END]
+          properties:
+            FOLDER:
+              type: string
+            SLEEP_SUMMARY_LAST_NIGHT_END:
+              type: number
+              minimum: 0
+              maximum: 1439
+        fitbitparsed_csv:
+          type: object
+          required: [FOLDER, SLEEP_SUMMARY_LAST_NIGHT_END]
+          properties:
+            FOLDER:
+              type: string
+            SLEEP_SUMMARY_LAST_NIGHT_END:
+              type: number
+              minimum: 0
+              maximum: 1439
+  
+  FITBIT_DATA_YIELD:
+    type: object
+    required: [SENSOR, PROVIDERS]
+    properties:
+      SENSOR:
+        type: string
+        enum: ["FITBIT_HEARTRATE_INTRADAY"]
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+                - $ref: "#/definitions/FEATURES_PROVIDER"
+                - properties:
+                    FEATURES:
+                      uniqueItems: True
+                      items:
+                        type: string
+                        enum: ["ratiovalidyieldedminutes", "ratiovalidyieldedhours"]
+                    MINUTE_RATIO_THRESHOLD_FOR_VALID_YIELDED_HOURS:
+                      type: number
+                      minimum: 0
+                      maximum: 1
+
+
+  FITBIT_HEARTRATE_SUMMARY:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+                - $ref: "#/definitions/FEATURES_PROVIDER"
+                - properties:
+                    FEATURES:
+                      uniqueItems: True
+                      items:
+                        type: string
+                        enum: ["maxrestinghr", "minrestinghr", "avgrestinghr", "medianrestinghr", "moderestinghr", "stdrestinghr", "diffmaxmoderestinghr", "diffminmoderestinghr", "entropyrestinghr", "sumcaloriesoutofrange", "maxcaloriesoutofrange", "mincaloriesoutofrange", "avgcaloriesoutofrange", "mediancaloriesoutofrange", "stdcaloriesoutofrange", "entropycaloriesoutofrange", "sumcaloriesfatburn", "maxcaloriesfatburn", "mincaloriesfatburn", "avgcaloriesfatburn", "mediancaloriesfatburn", "stdcaloriesfatburn", "entropycaloriesfatburn", "sumcaloriescardio", "maxcaloriescardio", "mincaloriescardio", "avgcaloriescardio", "mediancaloriescardio", "stdcaloriescardio", "entropycaloriescardio", "sumcaloriespeak", "maxcaloriespeak", "mincaloriespeak", "avgcaloriespeak", "mediancaloriespeak", "stdcaloriespeak", "entropycaloriespeak"]
+
+  FITBIT_HEARTRATE_INTRADAY:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["maxhr", "minhr", "avghr", "medianhr", "modehr", "stdhr", "diffmaxmodehr", "diffminmodehr", "entropyhr", "minutesonoutofrangezone", "minutesonfatburnzone", "minutesoncardiozone", "minutesonpeakzone"]
+        additionalProperties: 
+          $ref: "#/definitions/FEATURES_PROVIDER"
+
+  FITBIT_SLEEP_SUMMARY:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["firstwaketime", "lastwaketime", "firstbedtime", "lastbedtime", "countepisode", "avgefficiency", "sumdurationafterwakeup", "sumdurationasleep", "sumdurationawake", "sumdurationtofallasleep", "sumdurationinbed", "avgdurationafterwakeup", "avgdurationasleep", "avgdurationawake", "avgdurationtofallasleep", "avgdurationinbed"]
+                  SLEEP_TYPES:
+                    type: array
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["main", "nap", "all"]
+        additionalProperties: 
+          $ref: "#/definitions/FEATURES_PROVIDER"
+  
+  FITBIT_SLEEP_INTRADAY:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    type: object
+                    required: [LEVELS_AND_TYPES, RATIOS_TYPE, RATIOS_SCOPE]
+                    properties:
+                      LEVELS_AND_TYPES:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: [countepisode, sumduration, maxduration, minduration, avgduration, medianduration, stdduration]
+                      RATIOS_TYPE:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: [count, duration]
+                      RATIOS_SCOPE:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: [ACROSS_LEVELS, ACROSS_TYPES, WITHIN_LEVELS, WITHIN_TYPES]
+                  SLEEP_LEVELS:
+                    type: object
+                    required: [INCLUDE_ALL_GROUPS, CLASSIC, STAGES, UNIFIED]
+                    properties:
+                      INCLUDE_ALL_GROUPS:
+                        type: boolean
+                      CLASSIC:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: [awake, restless, asleep]
+                      STAGES:
+                        type: array
+                        uniqueItems: True
+                        items:  
+                          type: string
+                          enum: [wake, deep, light, rem]
+                      UNIFIED:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: [awake, asleep]
+                  SLEEP_TYPES:
+                    type: array
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: [main, nap, all]
+          PRICE:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: [avgduration, avgratioduration, avgstarttimeofepisodemain, avgendtimeofepisodemain, avgmidpointofepisodemain, stdstarttimeofepisodemain, stdendtimeofepisodemain, stdmidpointofepisodemain, socialjetlag, rmssdmeanstarttimeofepisodemain, rmssdmeanendtimeofepisodemain, rmssdmeanmidpointofepisodemain, rmssdmedianstarttimeofepisodemain, rmssdmedianendtimeofepisodemain, rmssdmedianmidpointofepisodemain]
+                  SLEEP_LEVELS:
+                    type: object
+                    required: [INCLUDE_ALL_GROUPS, CLASSIC, STAGES, UNIFIED]
+                    properties:
+                      INCLUDE_ALL_GROUPS:
+                        type: boolean
+                      CLASSIC:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: [awake, restless, asleep]
+                      STAGES:
+                        type: array
+                        uniqueItems: True
+                        items:  
+                          type: string
+                          enum: [wake, deep, light, rem]
+                      UNIFIED:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: [awake, asleep]
+                  DAY_TYPES:
+                    type: array
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: [WEEKEND, WEEK, ALL]
+                  LAST_NIGHT_END:
+                    type: number
+                    minimum: 0
+                    maximum: 1439
+        additionalProperties:
+          $ref: "#/definitions/FEATURES_PROVIDER"
+  
+  FITBIT_STEPS_SUMMARY:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES: 
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: ["maxsumsteps", "minsumsteps", "avgsumsteps", "mediansumsteps", "stdsumsteps", "maxvolatilitysteps", "minvolatilitysteps", "avgvolatilitysteps", "medianvolatilitysteps", "stdvolatilitysteps", "annualizedvolatilitysteps"]
+  
+  FITBIT_STEPS_INTRADAY:
+    type: object
+    required: [CONTAINER, EXCLUDE_SLEEP, PROVIDERS]
+    properties:
+      CONTAINER: 
+        type: string
+      EXCLUDE_SLEEP:
+        required: [TIME_BASED, FITBIT_BASED]
+        properties:
+          TIME_BASED:
+            required: [EXCLUDE, START_TIME, END_TIME]
+            properties:
+              EXCLUDE:
+                type: boolean
+              START_TIME:
+                type: string
+                pattern: "^([0-1][0-9]|2[0-3]):[0-5][0-9]$"
+              END_TIME:
+                type: string
+                pattern: "^([0-1][0-9]|2[0-3]):[0-5][0-9]$"
+          FITBIT_BASED:
+            required: [EXCLUDE]
+            properties:
+              EXCLUDE:
+                type: boolean
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    required: [STEPS, SEDENTARY_BOUT, ACTIVE_BOUT, ACTIVITY_FRAGMENTATION, WALKING_CADENCE]
+                    properties:
+                      STEPS:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: ["sum", "max", "min", "avg", "std", "firststeptime", "laststeptime"]
+                      SEDENTARY_BOUT:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: ["countepisode", "sumduration", "maxduration", "minduration", "avgduration", "stdduration"]
+                      ACTIVE_BOUT:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: ["countepisode", "sumduration", "maxduration", "minduration", "avgduration", "stdduration"]
+                      ACTIVITY_FRAGMENTATION:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: ["activetosedentarytransitionprobability", "sumdurationactivitylessthan5minutes", "sumdurationactivity5to105minutes", "sumdurationactivitygreaterthan10minutes", "ginicoefficient"]
+                      WALKING_CADENCE:
+                        type: array
+                        uniqueItems: True
+                        items:
+                          type: string
+                          enum: ["mean", "uncensoredmean", "peak1minute", "peak30minute", "peak60minute", "max5minute", "max20minute", "max30minute", "max60minute", "totalminutes0", "totalminutes1to19", "totalminutes20to39", "totalminutes40to59", "totalminutes60to79", "totalminutes80to99", "totalminutes100to119", "totalminutes120plus","totalminutesabove0", "totalminutesabove19", "totalminutesabove100"]
+                  THRESHOLD_ACTIVE_BOUT: 
+                    type: integer
+                    minimum: 0
+                  THRESHOLD_DEVICE_NONWEAR_TIME: 
+                    type: integer
+                    minimum: 0
+                  THRESHOLD_MINUTE_LEVEL_STEP_COUNT:
+                    type: integer
+                    minimum: 0
+                  INCLUDE_ZERO_STEP_ROWS:
+                    type: boolean    
+
+                    
+  FITBIT_CALORIES_INTRADAY:
+    type: object
+    required: [CONTAINER, PROVIDERS]
+    properties:
+      CONTAINER:
+        type: string
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+              - $ref: "#/definitions/FEATURES_PROVIDER"
+              - properties:
+                  FEATURES:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: [count, sumduration, avgduration, minduration, maxduration, stdduration, starttimefirst, endtimefirst, starttimelast, endtimelast, starttimelongest, endtimelongest, summet, avgmet, maxmet, minmet, stdmet, sumcalories, avgcalories, maxcalories, mincalories, stdcalories]
+                  EPISODE_TYPE:
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: [sedentary, lightlyactive, fairlyactive, veryactive, mvpa, lowmet, highmet]
+                  EPISODE_TIME_THRESHOLD: 
+                    type: integer
+                    minimum: 1
+                  EPISODE_MET_THRESHOLD: 
+                    type: integer
+                    minimum: 1
+                  EPISODE_MVPA_CATEGORIES: 
+                    uniqueItems: True
+                    items:
+                      type: string
+                      enum: [sedentary, lightlyactive, fairlyactive, veryactive]
+                  EPISODE_REFERENCE_TIME:
+                    type: string
+                    enum: [MIDNIGHT, START_OF_THE_SEGMENT]
+        additionalProperties: 
+          $ref: "#/definitions/FEATURES_PROVIDER"
+
+  HISTOGRAM_PHONE_DATA_YIELD:
+    type: object
+    required: [PLOT]
+    properties:
+      PLOT:
+        type: boolean
+  
+  HEATMAP_PHONE_DATA_YIELD_PER_PARTICIPANT_PER_TIME_SEGMENT:
+    type: object
+    required: [PLOT, TIME]
+    properties:
+      PLOT:
+        type: boolean
+      TIME:
+        type: string
+        enum: [ABSOLUTE_TIME, RELATIVE_TIME]
+  
+  HEATMAP_SENSORS_PER_MINUTE_PER_TIME_SEGMENT:
+    type: object
+    required: [PLOT]
+    properties:
+      PLOT:
+        type: boolean
+  
+  HEATMAP_SENSOR_ROW_COUNT_PER_TIME_SEGMENT:
+    type: object
+    required: [PLOT, SENSORS]
+    properties:
+      PLOT:
+        type: boolean
+      SENSORS:
+        type: array
+        uniqueItems: True
+        items:
+          type: string
+          enum: ["PHONE_ACCELEROMETER", "PHONE_ACTIVITY_RECOGNITION", "PHONE_APPLICATIONS_FOREGROUND", "PHONE_BATTERY", "PHONE_BLUETOOTH", "PHONE_CALLS", "PHONE_CONVERSATION", "PHONE_LIGHT", "PHONE_LOCATIONS", "PHONE_MESSAGES", "PHONE_SCREEN", "PHONE_WIFI_CONNECTED", "PHONE_WIFI_VISIBLE"]
+
+  HEATMAP_FEATURE_CORRELATION_MATRIX:
+    type: object
+    required: [PLOT, MIN_ROWS_RATIO, CORR_THRESHOLD, CORR_METHOD]
+    properties:
+      PLOT: 
+        type: boolean
+      MIN_ROWS_RATIO:
+        type: number
+        minimum: 0
+        maximum: 1
+      CORR_THRESHOLD: 
+        type: number
+        minimum: 0
+        maximum: 1
+      CORR_METHOD:
+        type: string
+        enum: ["pearson", "kendall", "spearman"]
+
+  ALL_CLEANING_INDIVIDUAL:
+    type: object
+    required: [PROVIDERS]
+    properties:
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+                - $ref: "#/definitions/CLEANING_PROVIDER"
+                - properties:
+                    IMPUTE_SELECTED_EVENT_FEATURES:
+                      type: object
+                      required: [COMPUTE, MIN_DATA_YIELDED_MINUTES_TO_IMPUTE]
+                      properties:
+                        COMPUTE: 
+                          type: boolean
+                        MIN_DATA_YIELDED_MINUTES_TO_IMPUTE:
+                          type: number
+                          minimum: 0
+                          maximum: 1
+                    COLS_NAN_THRESHOLD:
+                      type: number
+                      minimum: 0
+                      maximum: 1
+                    COLS_VAR_THRESHOLD:
+                      type: boolean
+                    ROWS_NAN_THRESHOLD:
+                      type: number
+                      minimum: 0
+                      maximum: 1
+                    DATA_YIELD_FEATURE:
+                      type: string
+                      enum: [RATIO_VALID_YIELDED_HOURS, RATIO_VALID_YIELDED_MINUTES]
+                    DATA_YIELD_RATIO_THRESHOLD:
+                      type: number
+                      minimum: 0
+                      maximum: 1
+                    DROP_HIGHLY_CORRELATED_FEATURES:
+                      type: object
+                      required: [COMPUTE, MIN_OVERLAP_FOR_CORR_THRESHOLD, CORR_THRESHOLD]
+                      properties:
+                        COMPUTE: 
+                          type: boolean
+                        MIN_OVERLAP_FOR_CORR_THRESHOLD:
+                          type: number
+                          minimum: 0
+                          maximum: 1
+                        CORR_THRESHOLD:
+                          type: number
+                          minimum: 0
+                          maximum: 1
+        additionalProperties: 
+          $ref: "#/definitions/CLEANING_PROVIDER"
+  
+  ALL_CLEANING_OVERALL:
+    type: object
+    required: [PROVIDERS]
+    properties:
+      PROVIDERS:
+        type: ["null", object]
+        properties:
+          RAPIDS:
+            allOf:
+                - $ref: "#/definitions/CLEANING_PROVIDER"
+                - properties:
+                    IMPUTE_SELECTED_EVENT_FEATURES:
+                      type: object
+                      required: [COMPUTE, MIN_DATA_YIELDED_MINUTES_TO_IMPUTE]
+                      properties:
+                        COMPUTE: 
+                          type: boolean
+                        MIN_DATA_YIELDED_MINUTES_TO_IMPUTE:
+                          type: number
+                          minimum: 0
+                          maximum: 1
+                    COLS_NAN_THRESHOLD:
+                      type: number
+                      minimum: 0
+                      maximum: 1
+                    COLS_VAR_THRESHOLD:
+                      type: boolean
+                    ROWS_NAN_THRESHOLD:
+                      type: number
+                      minimum: 0
+                      maximum: 1
+                    DATA_YIELD_FEATURE:
+                      type: string
+                      enum: [RATIO_VALID_YIELDED_HOURS, RATIO_VALID_YIELDED_MINUTES]
+                    DATA_YIELD_RATIO_THRESHOLD:
+                      type: number
+                      minimum: 0
+                      maximum: 1
+                    DROP_HIGHLY_CORRELATED_FEATURES:
+                      type: object
+                      required: [COMPUTE, MIN_OVERLAP_FOR_CORR_THRESHOLD, CORR_THRESHOLD]
+                      properties:
+                        COMPUTE: 
+                          type: boolean
+                        MIN_OVERLAP_FOR_CORR_THRESHOLD:
+                          type: number
+                          minimum: 0
+                          maximum: 1
+                        CORR_THRESHOLD:
+                          type: number
+                          minimum: 0
+                          maximum: 1
+        additionalProperties: 
+          $ref: "#/definitions/CLEANING_PROVIDER"
