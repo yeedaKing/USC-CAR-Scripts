@@ -11,6 +11,38 @@ PHONE_LOCATIONS:
       COMPUTE: true
     DORYAB:
       COMPUTE: true
+      FEATURES:
+        - locationvariance
+        - loglocationvariance
+        - totaldistance
+        - avgspeed
+        - varspeed
+        - numberofsignificantplaces
+        - numberlocationtransitions
+        - radiusgyration
+        - timeattop1location
+        - timeattop2location
+        - timeattop3location
+        - movingtostaticratio
+        - outlierstimepercent
+        - maxlengthstayatclusters
+        - minlengthstayatclusters
+        - avglengthstayatclusters
+        - stdlengthstayatclusters
+        - locationentropy
+        - normalizedlocationentropy
+        - timeathome
+        - homelabel
+      INFER_HOME_LOCATION_STRATEGY: SUN_LI_VEGA_STRATEGY
+      MINIMUM_DAYS_TO_DETECT_HOME_CHANGES: 3   # can be adjusted
+      CLUSTERING_ALGORITHM: DBSCAN
+      DBSCAN_EPS: 100                 # meters
+      DBSCAN_MINSAMPLES: 3
+      THRESHOLD_STATIC: 1.0           # km/h — below this = “static”
+      MAXIMUM_ROW_GAP: 600            # seconds
+      RADIUS_FOR_HOME: 200            # meters
+      THRESHOLD_MAX_SPEED: 0          # 0 disables speed filtering
+      MINUTES_DATA_USED: true
 
 PHONE_DATA_STREAMS:
   USE: aware_csv
