@@ -1,7 +1,10 @@
 participant_id: c8524dee-8a13-45b9-85f8-9073f7a9177e
 timezone: America/Chicago
+
 PHONE:
   DEVICE_IDS:
     - c8524dee-8a13-45b9-85f8-9073f7a9177e
-  PLATFORMS: [android]
+  PLATFORMS: [android]     # [android] / [ios]
   LABEL: c8524dee
+  START_DATE: 2023-02-1 00:00:00
+  END_DATE:   2023-4-4 23:59:59

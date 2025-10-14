@@ -208,3 +208,14 @@ def main(file, filter):
 if __name__ == "__main__":
     args = parser.parse_args()
     main(args.file, args.filter)
+
+
+"""
+wc -l "$REPO/pipelines/rapids/data/interim/$PID/phone_locations_processed_with_datetime_with_doryab_columns_episodes.csv"
+wc -l "$REPO/pipelines/rapids/data/interim/$PID/phone_locations_processed_with_datetime_with_doryab_columns_episodes_resampled.csv"
+wc -l "$REPO/pipelines/rapids/data/interim/$PID/phone_locations_processed_with_datetime_with_doryab_columns_episodes_resampled_with_datetime.csv"
+
+wc -l "$REPO/pipelines/rapids/data/interim/time_segments/${PID}_time_segments.csv"
+wc -l "$REPO/pipelines/rapids/data/interim/time_segments/${PID}_time_segments_labels.csv"
+head -n 3 "$REPO/pipelines/rapids/data/interim/time_segments/${PID}_time_segments_labels.csv"
+"""

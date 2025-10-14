@@ -6,3 +6,5 @@ PHONE:
     - c8524dee-8a13-45b9-85f8-9073f7a9177e
   PLATFORMS: [android]     # [android] / [ios]
   LABEL: c8524dee
+  START_DATE: 2023-02-01 00:00:00
+  END_DATE:   2023-04-04 23:59:59
