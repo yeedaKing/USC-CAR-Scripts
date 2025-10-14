@@ -4,8 +4,8 @@ export PID="c8524dee-8a13-45b9-85f8-9073f7a9177e"
 
 python "$REPO/pipelines/rapids/scripts/summarize_weekly.py" \
   --pid "$PID" \
-  --barnett "$REPO/pipelines/rapids/data/interim/$PID/phone_locations_barnett_daily.csv" \
-  --doryab  "$REPO/pipelines/rapids/data/interim/$PID/phone_locations_features/phone_locations_python_doryab.csv" \
+  --barnett "$REPO/pipelines/rapids/data/processed/$PID/phone_locations_barnett_daily.csv" \
+  --doryab  "$REPO/pipelines/rapids/data/processed/$PID/phone_locations_python_doryab_MERGED_daily.csv" \
   --outdir  "$REPO/pipelines/rapids/data/processed/$PID" \
   --week_anchor MON
 """

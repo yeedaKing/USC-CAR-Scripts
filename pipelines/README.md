@@ -4,7 +4,7 @@ PID="c8524dee-8a13-45b9-85f8-9073f7a9177e"
 REPO="/Users/dkyee/Desktop/CSCI/USC Digital Phenotype Lab/USC-CAR-Scripts"
 IMG="moshiresearch/rapids:latest"
 
-# Run rapids Barnett:
+# Run rapids:
 
 docker run -it --rm \
   -v "$REPO":/work \
@@ -19,7 +19,7 @@ docker run -it --rm \
 rm -f "$REPO/pipelines/rapids/data/interim/$PID/"phone_locations_* \
       "$REPO/pipelines/rapids/data/interim/time_segments/${PID}_time_segments"*.csv 2>/dev/null || true
 
-# Force run Barnett:
+# Force run:
 
 docker run -it --rm \
   -v "$REPO":/work \
@@ -36,11 +36,33 @@ docker run -it --rm \
     data/interim/'"$PID"'/phone_locations_features/phone_locations_python_doryab.csv \
     data/interim/'"$PID"'/phone_locations_barnett_daily.csv'
 
-# Build doryab:
+# DORYAB_STRATEGY
 
-docker run -it --rm \
-  -v "$REPO":/work \
-  -w /work/pipelines/rapids \
-  "$IMG" \
-  bash -lc 'snakemake --configfile rapids.yaml -j 4 -R phone_locations_python_features \
+docker run -it --rm -v "$REPO":/work -w /work/pipelines/rapids "$IMG" \
+  bash -lc 'snakemake --configfile rapids_dor.yaml -j 4 \
     data/interim/'"$PID"'/phone_locations_features/phone_locations_python_doryab.csv'
+
+# YUN_STRATEGY
+
+docker run -it --rm -v "$REPO":/work -w /work/pipelines/rapids "$IMG" \
+  bash -lc 'snakemake --configfile rapids_yun.yaml -j 4 \
+    data/interim/'"$PID"'/phone_locations_features/phone_locations_python_doryab.csv'
+
+# Rename doryab output csv:
+
+mv "$REPO/pipelines/rapids/data/interim/$PID/phone_locations_features/phone_locations_python_doryab.csv" \
+   "$REPO/pipelines/rapids/data/interim/$PID/phone_locations_features/phone_locations_python_doryab_DOR.csv"
+
+mv "$REPO/pipelines/rapids/data/interim/$PID/phone_locations_features/phone_locations_python_doryab.csv" \
+   "$REPO/pipelines/rapids/data/interim/$PID/phone_locations_features/phone_locations_python_doryab_YUN.csv"
+
+# Move output csv files to data/processed/$PID:
+
+mv "$REPO/pipelines/rapids/data/interim/$PID/phone_locations_features/phone_locations_python_doryab_DOR.csv" \
+   "$REPO/pipelines/rapids/data/processed/$PID/phone_locations_doryab_DOR_daily.csv"
+
+mv "$REPO/pipelines/rapids/data/interim/$PID/phone_locations_features/phone_locations_python_doryab_YUN.csv" \
+   "$REPO/pipelines/rapids/data/processed/$PID/phone_locations_doryab_YUN_daily.csv"
+
+mv "$REPO/pipelines/rapids/data/interim/$PID/phone_locations_barnett_daily.csv" \
+   "$REPO/pipelines/rapids/data/processed/$PID/phone_locations_barnett_daily.csv"

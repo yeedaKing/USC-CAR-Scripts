@@ -1,0 +1,62 @@
+INPUT_ROOT: data/raw_rapids
+OUTPUT_ROOT: data
+PIDS: [c8524dee-8a13-45b9-85f8-9073f7a9177e]
+
+PHONE_LOCATIONS:
+  CONTAINER: locations.csv
+  LOCATIONS_TO_USE: ALL_RESAMPLED     # must be one of: ALL, GPS, ALL_RESAMPLED, FUSED_RESAMPLED
+  ACCURACY_LIMIT: 100
+  PROVIDERS:
+    BARNETT:
+      COMPUTE: true
+    DORYAB:
+      COMPUTE: true
+      FEATURES:
+        - locationvariance
+        - loglocationvariance
+        - totaldistance
+        - avgspeed
+        - varspeed
+        - numberofsignificantplaces
+        - numberlocationtransitions
+        - radiusgyration
+        - timeattop1location
+        - timeattop2location
+        - timeattop3location
+        - movingtostaticratio
+        - outlierstimepercent
+        - maxlengthstayatclusters
+        - minlengthstayatclusters
+        - avglengthstayatclusters
+        - stdlengthstayatclusters
+        - locationentropy
+        - normalizedlocationentropy
+        - timeathome
+        - homelabel
+      INFER_HOME_LOCATION_STRATEGY: DORYAB_STRATEGY
+      MINIMUM_DAYS_TO_DETECT_HOME_CHANGES: 3   # can be adjusted
+      CLUSTERING_ALGORITHM: DBSCAN
+      DBSCAN_EPS: 100                 # meters
+      DBSCAN_MINSAMPLES: 3
+      THRESHOLD_STATIC: 1.0           # km/h — below this = “static”
+      MAXIMUM_ROW_GAP: 600            # seconds
+      RADIUS_FOR_HOME: 200            # meters
+      THRESHOLD_MAX_SPEED: 0          # 0 disables speed filtering
+      MINUTES_DATA_USED: true
+
+PHONE_DATA_STREAMS:
+  USE: aware_csv
+  aware_csv:
+    FOLDER: data/external/aware_csv
+
+PHONE_DATA_YIELD:
+  SENSORS:
+    - PHONE_LOCATIONS         # REQUIRED for resampling
+  USE: aware_csv
+  aware_csv:
+    FOLDER: data/external/aware_csv
+
+TIME_SEGMENTS:
+  TYPE: PERIODIC
+  FILE: data/external/timesegments_default.csv
+  INCLUDE_PAST_PERIODIC_SEGMENTS: false
