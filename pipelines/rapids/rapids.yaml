@@ -33,7 +33,7 @@ PHONE_LOCATIONS:
         - normalizedlocationentropy
         - timeathome
         - homelabel
-      INFER_HOME_LOCATION_STRATEGY: SUN_LI_VEGA_STRATEGY
+      INFER_HOME_LOCATION_STRATEGY: DORYAB_STRATEGY   # or SUN_LI_VEGA_STRATEGY
       MINIMUM_DAYS_TO_DETECT_HOME_CHANGES: 3   # can be adjusted
       CLUSTERING_ALGORITHM: DBSCAN
       DBSCAN_EPS: 100                 # meters
