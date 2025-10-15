@@ -57,5 +57,5 @@ PHONE_DATA_YIELD:
 
 TIME_SEGMENTS:
   TYPE: PERIODIC
-  FILE: data/external/timesegments_default.csv
+  FILE: data/external/timesegments_hourly.csv     # data/external/timesegments_default.csv
   INCLUDE_PAST_PERIODIC_SEGMENTS: false

@@ -1,2 +1,25 @@
 label,start_time,length,repeats_on,repeats_value,overlap_duration,overlap_id,original_label
-daily_RR0SS,00:00:00,23H 59M 59S,every_day,0,0D,0,daily
+hour_00_RR0SS,00:00:00,1H,every_day,0,0D,0,hour_00
+hour_01_RR0SS,01:00:00,1H,every_day,0,0D,0,hour_01
+hour_02_RR0SS,02:00:00,1H,every_day,0,0D,0,hour_02
+hour_03_RR0SS,03:00:00,1H,every_day,0,0D,0,hour_03
+hour_04_RR0SS,04:00:00,1H,every_day,0,0D,0,hour_04
+hour_05_RR0SS,05:00:00,1H,every_day,0,0D,0,hour_05
+hour_06_RR0SS,06:00:00,1H,every_day,0,0D,0,hour_06
+hour_07_RR0SS,07:00:00,1H,every_day,0,0D,0,hour_07
+hour_08_RR0SS,08:00:00,1H,every_day,0,0D,0,hour_08
+hour_09_RR0SS,09:00:00,1H,every_day,0,0D,0,hour_09
+hour_10_RR0SS,10:00:00,1H,every_day,0,0D,0,hour_10
+hour_11_RR0SS,11:00:00,1H,every_day,0,0D,0,hour_11
+hour_12_RR0SS,12:00:00,1H,every_day,0,0D,0,hour_12
+hour_13_RR0SS,13:00:00,1H,every_day,0,0D,0,hour_13
+hour_14_RR0SS,14:00:00,1H,every_day,0,0D,0,hour_14
+hour_15_RR0SS,15:00:00,1H,every_day,0,0D,0,hour_15
+hour_16_RR0SS,16:00:00,1H,every_day,0,0D,0,hour_16
+hour_17_RR0SS,17:00:00,1H,every_day,0,0D,0,hour_17
+hour_18_RR0SS,18:00:00,1H,every_day,0,0D,0,hour_18
+hour_19_RR0SS,19:00:00,1H,every_day,0,0D,0,hour_19
+hour_20_RR0SS,20:00:00,1H,every_day,0,0D,0,hour_20
+hour_21_RR0SS,21:00:00,1H,every_day,0,0D,0,hour_21
+hour_22_RR0SS,22:00:00,1H,every_day,0,0D,0,hour_22
+hour_23_RR0SS,23:00:00,1H,every_day,0,0D,0,hour_23
